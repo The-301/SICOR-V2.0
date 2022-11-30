@@ -1,0 +1,121 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="SICOR.UI2.PAGS.Site1" %>
+
+<!DOCTYPE html>
+
+<html lang="es">
+<head runat="server">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SICOR - Control de Correspondencia - MINEC</title>
+    <link rel="icon" type="image/png" href="../images/favicon.ico" />
+
+    <%-- CSS --%>
+    <link href="../JS/Metro/build/css/metro.min.css" rel="stylesheet" type="text/css" />
+    <link href="../JS/Metro/build/css/metro-icons.min.css" rel="stylesheet">
+
+    <link href="../CSS/ui-custom-theme/jquery-ui-1.8.21.custom.css" rel="stylesheet" type="text/css" />
+    <!--<link href="../JS/LightBox/evolution/jquery.lightbox.css" rel="stylesheet" type="text/css" />-->
+
+    <link href="../JS/Select3.2/select2.css" rel="stylesheet" type="text/css" />
+    
+    <link href="../CSS/ui-custom-theme/jquery.ui.timepicker.css" rel="stylesheet" type="text/css" />
+    <link href="../CSS/dataTable/dataTable.css" rel="stylesheet" type="text/css" />
+
+    <!--<link href="UPFILE/MultipleFileUploadControl/css/bootstrap-image-gallery.min.css" rel="stylesheet" type="text/css" />-->
+    <!--<link rel="stylesheet" href="UPFILE/MultipleFileUploadControl/css/jquery.fileupload-ui.css" />-->
+
+    <link href="../CSS/sicorv2.css" rel="stylesheet" type="text/css" />
+
+   <%-- JAVASCRIPT --%>
+    <script src="../JS/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <script src="../JS/jquery-ui-1.8.21.custom.min.js" type="text/javascript"></script>
+
+    <script src="../JS/underscore-min.js" type="text/javascript"></script>
+    <script src="../JS/jcookies.js" type="text/javascript"></script>
+ 
+    <script src="../JS/SETUPAJAX-SIS.js" type="text/javascript"></script>
+    <script src="../JS/SETUPAJAX-PAG.js" type="text/javascript"></script>
+    <script src="../JS/SETUP.js" type="text/javascript"></script>
+    <script src="../JS/CLASES/WS.js" type="text/javascript"></script>
+    <script src="../JS/CLASES/MAIN.js" type="text/javascript"></script>
+
+    <script src="../JS/CLASES/CONTACTOS.js" type="text/javascript"></script>
+    <script src="../JS/CLASES/USUARIOS.js" type="text/javascript"></script>
+    <script src="../JS/CLASES/ENVIADO.js" type="text/javascript"></script>
+    <script src="../JS/CLASES/MENSAJE.js" type="text/javascript"></script>
+    <script src="../JS/CLASES/NOTIFICACION.js" type="text/javascript"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <script type="text/javascript">        
+        $(document).ready(function () {
+            INITmain();
+        });
+    </script>
+</head>
+<body class="bg-grayLighter">
+    <div id='div_load' class='div_load'>
+        <div>
+            <img src="../IMAS/ajax-loader.gif" alt="Cargando..." />
+        </div>
+    </div>
+
+    <div id='cssmenu' class="">
+        <ul>            
+            <li id="meOculto">
+                <a href="#"><span class="fg-white mif-mail mif-2x text-shadow">SICOR MINEC</span></a>
+            </li>
+            <li class="divisor"></li>
+            <li id="home">
+                <a href="#" class="fg-white "><span class="mif-envelop"></span>&nbsp;Correspondencia</a>
+            </li>
+            <li id="buscarCorres">
+                <a href="#" class="fg-white "><span class="mif-search"></span>&nbsp;Buscar</a>
+            </li>
+            <li id="contactos">
+                <a href="#" class="fg-white "><span class="mif-users"></span>&nbsp;Contactos</a>
+            </li>
+            <li id="imprimirReps">
+                <a href="#" class="fg-white "><span class="mif-files-empty"></span>&nbsp;Reportes</a>
+            </li>
+            <li id="manualAyuda">
+                <a href="#" class="fg-white "><span class="mif-question"></span>&nbsp;Ayuda</a>
+            </li>
+            <li id="salir" class="place-right">
+                <a href="#" class="fg-white "><span class="mif-exit"></span>&nbsp;Salir</a>
+            </li>
+            <li class="place-right divisor"></li>
+            <li class="place-right">
+                <a href="#" id="dat_cuenta_modContrasena" class="fg-white ">
+                    <span class="mif-user-plus"></span>&nbsp;<span class="" id="dat_cuenta_nombre"></span>
+                </a>
+            </li>            
+        </ul>
+    </div>
+    <div id="dialog-modal" class="dialogoWindow" style="display:none";></div>
+    <div id="dialog-modal2" class="dialogoWindow" style="display:none";></div>
+    <div id="dialogWin" class="dialogWin" style="display:none";>
+        <div class="window ventana bg-white">
+            <div class="window-caption bg-cyan fg-white">
+                <span class="window-caption-icon"><span id="logoTitulo"></span></span>
+                <span class="window-caption-title" id="textoTitulo"></span>
+                <span class="btn-close"><span class="icon mif-cross"></span></span>
+            </div>
+            <div class="window-content"></div>
+        </div>        
+    </div>
+    <div class="mensajes"></div>
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">    
+    </asp:ContentPlaceHolder>    
+
+    <!--<script src="../JS/LightBox/jquery.lightbox.js" type="text/javascript"></script>-->
+    <script src="../JS/Select3.2/select2.js" type="text/javascript"></script>
+    <script src="../JS/ui-minified/jquery.ui.timepicker.js" type="text/javascript"></script>
+    <script src="../JS/Notification/notify.js" type="text/javascript"></script>
+    <script src="../JS/Msgbox/jquery.msgbox.min.js" type="text/javascript"></script>
+    <script src="../JS/DataTables/jquery.dataTables.js" type="text/javascript"></script>
+    <script src="../JS/jQuery.print.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\NUEVO DESARROLLO\PUBLICACIONES\SICOR</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="bin/AYUDA/SICOR-ManualDeUsuario.pdf">
+      <publishTime>07/11/2012 11:06:14</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/26/2011 09:35:34</publishTime>
+    </File>
+    <File Include="bin/images/chosen-sprite.png">
+      <publishTime>04/23/2013 08:46:12</publishTime>
+    </File>
+    <File Include="bin/JS/CLASES/CONTACTOS.js">
+      <publishTime>09/10/2021 15:36:06</publishTime>
+    </File>
+    <File Include="bin/JS/CLASES/CORRESDETALLE.js">
+      <publishTime>09/10/2021 15:40:03</publishTime>
+    </File>
+    <File Include="bin/JS/CLASES/CORRESLISTA.js">
+      <publishTime>09/10/2021 15:42:57</publishTime>
+    </File>
+    <File Include="bin/JS/CLASES/CORRESPONDENCIA.js">
+      <publishTime>09/13/2021 07:58:32</publishTime>
+    </File>
+    <File Include="bin/JS/CLASES/INIT.js">
+      <publishTime>09/13/2021 08:14:14</publishTime>
+    </File>
+    <File Include="bin/JS/CLASES/MARGINADO.js">
+      <publishTime>09/13/2021 08:19:46</publishTime>
+    </File>
+    <File Include="bin/JS/CLASES/REMITIR.js">
+      <publishTime>09/13/2021 08:23:32</publishTime>
+    </File>
+    <File Include="bin/JS/CLASES/USUARIOS.js">
+      <publishTime>09/17/2021 15:09:19</publishTime>
+    </File>
+    <File Include="bin/JS/CLASES/WS.js">
+      <publishTime>09/09/2021 10:14:51</publishTime>
+    </File>
+    <File Include="bin/JS/CLASES/x_CORRESLISTA.js">
+      <publishTime>07/16/2019 13:31:13</publishTime>
+    </File>
+    <File Include="bin/JS/images/chosen-sprite.png">
+      <publishTime>03/10/2012 07:52:27</publishTime>
+    </File>
+    <File Include="bin/JS/LightBox/evolution/images/jquery-lightbox-theme.gif">
+      <publishTime>03/10/2012 07:52:27</publishTime>
+    </File>
+    <File Include="bin/JS/LightBox/evolution/images/jquery-lightbox-theme.png">
+      <publishTime>08/25/2015 13:54:46</publishTime>
+    </File>
+    <File Include="bin/JS/LightBox/evolution/images/loading.gif">
+      <publishTime>03/10/2012 07:52:27</publishTime>
+    </File>
+    <File Include="bin/JS/LightBox/evolution/jquery.lightbox.css">
+      <publishTime>08/13/2015 15:48:50</publishTime>
+    </File>
+    <File Include="bin/JS/LightBox/evolution/jquery.lightbox.ie6.css">
+      <publishTime>03/10/2012 07:52:27</publishTime>
+    </File>
+    <File Include="bin/JS/LightBox/jquery.lightbox.js">
+      <publishTime>10/13/2015 15:12:20</publishTime>
+    </File>
+    <File Include="bin/JS/LightBox/jquery.lightbox.min.js">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="bin/JS/Metro/build/fonts/metro.eot">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="bin/JS/Metro/build/fonts/metro.svg">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="bin/JS/Metro/build/fonts/metro.ttf">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="bin/JS/Metro/build/fonts/metro.woff">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="bin/JS/Metro/build/fonts/selection.json">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="bin/JS/Metro/fonts/metro.ttf">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="bin/JS/Metro/fonts/metro.woff">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="bin/JS/Msgbox/images/alert.png">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="bin/JS/Msgbox/images/background.png">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="bin/JS/Msgbox/images/confirm.png">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="bin/JS/Msgbox/images/error.png">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="bin/JS/Msgbox/images/info.png">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="bin/JS/Msgbox/images/question.png">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="bin/JS/Msgbox/jquery.msgbox.css">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="bin/JS/Msgbox/jquery.msgbox.js">
+      <publishTime>07/23/2015 11:01:01</publishTime>
+    </File>
+    <File Include="bin/JS/Msgbox/jquery.msgbox.min.js">
+      <publishTime>07/23/2015 11:01:57</publishTime>
+    </File>
+    <File Include="bin/JS/Notification/images/close.png">
+      <publishTime>05/10/2012 09:26:44</publishTime>
+    </File>
+    <File Include="bin/JS/Notification/images/download.png">
+      <publishTime>05/10/2012 09:26:44</publishTime>
+    </File>
+    <File Include="bin/JS/Notification/images/error.png">
+      <publishTime>05/10/2012 09:26:44</publishTime>
+    </File>
+    <File Include="bin/JS/Notification/images/info.png">
+      <publishTime>05/10/2012 09:26:44</publishTime>
+    </File>
+    <File Include="bin/JS/Notification/images/message.png">
+      <publishTime>05/10/2012 09:26:44</publishTime>
+    </File>
+    <File Include="bin/JS/Notification/images/print.png">
+      <publishTime>05/10/2012 09:26:44</publishTime>
+    </File>
+    <File Include="bin/JS/Notification/images/purchase.png">
+      <publishTime>05/10/2012 09:26:44</publishTime>
+    </File>
+    <File Include="bin/JS/Notification/images/secure.png">
+      <publishTime>05/10/2012 09:26:44</publishTime>
+    </File>
+    <File Include="bin/JS/Notification/images/success.png">
+      <publishTime>05/10/2012 09:26:44</publishTime>
+    </File>
+    <File Include="bin/JS/Notification/images/tip.png">
+      <publishTime>05/10/2012 09:26:44</publishTime>
+    </File>
+    <File Include="bin/JS/Notification/images/warning.png">
+      <publishTime>05/10/2012 09:26:44</publishTime>
+    </File>
+    <File Include="bin/JS/Notification/script.js">
+      <publishTime>10/16/2015 10:36:28</publishTime>
+    </File>
+    <File Include="bin/JS/Notification/style.css">
+      <publishTime>02/10/2015 09:30:04</publishTime>
+    </File>
+    <File Include="bin/JS/Select3.2/select2.css">
+      <publishTime>10/12/2015 11:52:27</publishTime>
+    </File>
+    <File Include="bin/JS/Select3.2/select2.js">
+      <publishTime>08/14/2015 10:19:23</publishTime>
+    </File>
+    <File Include="bin/JS/Select3.2/select2.min.js">
+      <publishTime>12/08/2015 09:14:13</publishTime>
+    </File>
+    <File Include="bin/JS/Select3.2/select2.png">
+      <publishTime>03/10/2012 10:05:05</publishTime>
+    </File>
+    <File Include="bin/JS/Select3.2/select2x2.png">
+      <publishTime>03/10/2012 10:05:05</publishTime>
+    </File>
+    <File Include="bin/JS/Select3.2/spinner.gif">
+      <publishTime>03/10/2012 10:05:05</publishTime>
+    </File>
+    <File Include="bin/JS/SETUP.js">
+      <publishTime>11/27/2015 10:47:01</publishTime>
+    </File>
+    <File Include="bin/JS/SETUPAJAX-SIS.js">
+      <publishTime>04/15/2021 12:56:20</publishTime>
+    </File>
+    <File Include="bin/PAGS/FRMS/archivoSV.aspx">
+      <publishTime>09/11/2015 13:38:37</publishTime>
+    </File>
+    <File Include="bin/PAGS/FRMS/archivoSV.aspx.cs">
+      <publishTime>10/15/2012 09:33:27</publishTime>
+    </File>
+    <File Include="bin/PAGS/FRMS/archivoSV.aspx.designer.cs">
+      <publishTime>10/15/2012 09:34:22</publishTime>
+    </File>
+    <File Include="bin/PAGS/FRMS/corresSV.aspx">
+      <publishTime>09/10/2021 15:31:29</publishTime>
+    </File>
+    <File Include="bin/PAGS/FRMS/corresSV.aspx.cs">
+      <publishTime>03/10/2012 07:52:30</publishTime>
+    </File>
+    <File Include="bin/PAGS/FRMS/marginadoPosSV.aspx">
+      <publishTime>08/19/2019 15:32:06</publishTime>
+    </File>
+    <File Include="bin/PAGS/FRMS/marginadoPosSV.aspx.cs">
+      <publishTime>04/17/2013 10:59:42</publishTime>
+    </File>
+    <File Include="bin/PAGS/FRMS/marginadoPosSV.aspx.designer.cs">
+      <publishTime>08/19/2019 15:32:04</publishTime>
+    </File>
+    <File Include="bin/PAGS/FRMS/marginadoSV.aspx">
+      <publishTime>08/19/2019 15:31:40</publishTime>
+    </File>
+    <File Include="bin/PAGS/FRMS/marginadoSV.aspx.cs">
+      <publishTime>03/10/2012 15:15:04</publishTime>
+    </File>
+    <File Include="bin/PAGS/FRMS/marginadoSV.aspx.designer.cs">
+      <publishTime>08/19/2019 15:31:41</publishTime>
+    </File>
+    <File Include="bin/PAGS/FRMS/notasSV.aspx">
+      <publishTime>08/20/2019 08:29:12</publishTime>
+    </File>
+    <File Include="bin/PAGS/FRMS/notasSV.aspx.cs">
+      <publishTime>07/31/2015 10:41:39</publishTime>
+    </File>
+    <File Include="bin/PAGS/FRMS/notasSV.aspx.designer.cs">
+      <publishTime>08/19/2019 15:15:14</publishTime>
+    </File>
+    <File Include="bin/PAGS/FRMS/remitirConfirSV.aspx">
+      <publishTime>04/11/2015 08:57:14</publishTime>
+    </File>
+    <File Include="bin/PAGS/FRMS/remitirConfirSV.aspx.cs">
+      <publishTime>01/04/2013 15:04:35</publishTime>
+    </File>
+    <File Include="bin/PAGS/FRMS/remitirConfirSV.aspx.designer.cs">
+      <publishTime>07/29/2015 15:42:36</publishTime>
+    </File>
+    <File Include="bin/PAGS/FRMS/remitirSV.aspx">
+      <publishTime>09/11/2015 14:21:01</publishTime>
+    </File>
+    <File Include="bin/PAGS/FRMS/remitirSV.aspx.cs">
+      <publishTime>05/10/2012 10:54:43</publishTime>
+    </File>
+    <File Include="bin/PAGS/FRMS/remitirSV.aspx.designer.cs">
+      <publishTime>07/30/2015 08:13:42</publishTime>
+    </File>
+    <File Include="bin/PAGS/FRMS/respuestaMargiSV.aspx">
+      <publishTime>08/19/2019 15:33:34</publishTime>
+    </File>
+    <File Include="bin/PAGS/FRMS/respuestaMargiSV.aspx.cs">
+      <publishTime>09/10/2012 11:33:15</publishTime>
+    </File>
+    <File Include="bin/PAGS/FRMS/respuestaMargiSV.aspx.designer.cs">
+      <publishTime>08/19/2019 15:33:26</publishTime>
+    </File>
+    <File Include="bin/PAGS/UPFILE/MultipleFileUploadControl/cors/postmessage.html">
+      <publishTime>10/16/2012 09:12:56</publishTime>
+    </File>
+    <File Include="bin/PAGS/UPFILE/MultipleFileUploadControl/cors/result.html">
+      <publishTime>10/16/2012 09:12:56</publishTime>
+    </File>
+    <File Include="bin/PAGS/UPFILE/MultipleFileUploadControl/css/jquery.fileupload-ui.css">
+      <publishTime>07/22/2015 14:18:16</publishTime>
+    </File>
+    <File Include="bin/PAGS/UPFILE/storage2/TESTER.pdf">
+      <publishTime>05/29/2015 14:34:14</publishTime>
+    </File>
+    <File Include="bin/SICOR.BL.dll">
+      <publishTime>09/13/2021 09:57:23</publishTime>
+    </File>
+    <File Include="bin/SICOR.BL.pdb">
+      <publishTime>09/13/2021 09:57:23</publishTime>
+    </File>
+    <File Include="bin/SICOR.DL.dll">
+      <publishTime>09/13/2021 09:57:22</publishTime>
+    </File>
+    <File Include="bin/SICOR.DL.dll.config">
+      <publishTime>04/15/2021 11:51:08</publishTime>
+    </File>
+    <File Include="bin/SICOR.DL.pdb">
+      <publishTime>09/13/2021 09:57:22</publishTime>
+    </File>
+    <File Include="bin/SICOR.EL.dll">
+      <publishTime>09/13/2021 09:57:22</publishTime>
+    </File>
+    <File Include="bin/SICOR.EL.pdb">
+      <publishTime>09/13/2021 09:57:22</publishTime>
+    </File>
+    <File Include="bin/SICOR.UI2.dll">
+      <publishTime>09/13/2021 09:57:23</publishTime>
+    </File>
+    <File Include="bin/SICOR.UI2.pdb">
+      <publishTime>09/13/2021 09:57:23</publishTime>
+    </File>
+    <File Include="bin/WS/ADJUNTOws.asmx">
+      <publishTime>10/17/2012 11:36:04</publishTime>
+    </File>
+    <File Include="bin/WS/ADJUNTOws.asmx.cs">
+      <publishTime>05/27/2016 08:53:40</publishTime>
+    </File>
+    <File Include="bin/WS/ARCHIVOws.asmx">
+      <publishTime>10/15/2012 09:19:09</publishTime>
+    </File>
+    <File Include="bin/WS/ARCHIVOws.asmx.cs">
+      <publishTime>05/30/2016 09:26:43</publishTime>
+    </File>
+    <File Include="bin/WS/CATALOGOSws.asmx">
+      <publishTime>03/10/2012 07:52:30</publishTime>
+    </File>
+    <File Include="bin/WS/CATALOGOSws.asmx.cs">
+      <publishTime>05/27/2016 14:55:58</publishTime>
+    </File>
+    <File Include="bin/WS/CONTACTOSws.asmx">
+      <publishTime>03/10/2012 11:40:16</publishTime>
+    </File>
+    <File Include="bin/WS/CONTACTOSws.asmx.cs">
+      <publishTime>05/27/2016 09:49:39</publishTime>
+    </File>
+    <File Include="bin/WS/CORRESPONDENCIAws.asmx">
+      <publishTime>03/10/2012 16:10:21</publishTime>
+    </File>
+    <File Include="bin/WS/CORRESPONDENCIAws.asmx.cs">
+      <publishTime>07/16/2019 11:10:02</publishTime>
+    </File>
+    <File Include="bin/WS/MARGINADOws.asmx">
+      <publishTime>03/10/2012 15:12:19</publishTime>
+    </File>
+    <File Include="bin/WS/MARGINADOws.asmx.cs">
+      <publishTime>11/24/2015 15:27:49</publishTime>
+    </File>
+    <File Include="bin/WS/REMITIDOws.asmx">
+      <publishTime>03/10/2012 15:51:35</publishTime>
+    </File>
+    <File Include="bin/WS/REMITIDOws.asmx.cs">
+      <publishTime>05/27/2016 09:57:41</publishTime>
+    </File>
+    <File Include="bin/WS/USUARIOSws.asmx">
+      <publishTime>05/10/2012 13:39:47</publishTime>
+    </File>
+    <File Include="bin/WS/USUARIOSws.asmx.cs">
+      <publishTime>05/27/2016 08:53:12</publishTime>
+    </File>
+    <File Include="CSS/960.gs.fluid.css">
+      <publishTime>02/09/2015 14:14:40</publishTime>
+    </File>
+    <File Include="CSS/buttons.css">
+      <publishTime>03/10/2012 07:52:26</publishTime>
+    </File>
+    <File Include="CSS/dataTable/dataTable.css">
+      <publishTime>02/11/2015 08:31:26</publishTime>
+    </File>
+    <File Include="CSS/dataTable/mainTable.css">
+      <publishTime>03/10/2012 09:54:07</publishTime>
+    </File>
+    <File Include="CSS/dataTable/ui_custom.css">
+      <publishTime>03/10/2012 09:54:07</publishTime>
+    </File>
+    <File Include="CSS/demo.css">
+      <publishTime>08/10/2015 11:08:13</publishTime>
+    </File>
+    <File Include="CSS/images/back_disabled.png">
+      <publishTime>10/25/2012 15:07:08</publishTime>
+    </File>
+    <File Include="CSS/images/back_enabled.png">
+      <publishTime>10/25/2012 15:07:08</publishTime>
+    </File>
+    <File Include="CSS/images/back_enabled_hover.png">
+      <publishTime>10/25/2012 15:07:08</publishTime>
+    </File>
+    <File Include="CSS/images/forward_disabled.png">
+      <publishTime>10/25/2012 15:07:08</publishTime>
+    </File>
+    <File Include="CSS/images/forward_enabled.png">
+      <publishTime>10/25/2012 15:07:08</publishTime>
+    </File>
+    <File Include="CSS/images/forward_enabled_hover.png">
+      <publishTime>10/25/2012 15:07:08</publishTime>
+    </File>
+    <File Include="CSS/images/sort_asc.png">
+      <publishTime>10/25/2012 15:07:08</publishTime>
+    </File>
+    <File Include="CSS/images/sort_asc_disabled.png">
+      <publishTime>10/25/2012 15:07:08</publishTime>
+    </File>
+    <File Include="CSS/images/sort_both.png">
+      <publishTime>10/25/2012 15:07:08</publishTime>
+    </File>
+    <File Include="CSS/images/sort_desc.png">
+      <publishTime>10/25/2012 15:07:08</publishTime>
+    </File>
+    <File Include="CSS/images/sort_desc_disabled.png">
+      <publishTime>10/25/2012 15:07:08</publishTime>
+    </File>
+    <File Include="CSS/reset.css">
+      <publishTime>10/25/2012 14:54:37</publishTime>
+    </File>
+    <File Include="CSS/sicorv2.css">
+      <publishTime>04/15/2021 15:38:18</publishTime>
+    </File>
+    <File Include="CSS/styles.css">
+      <publishTime>09/08/2021 12:00:34</publishTime>
+    </File>
+    <File Include="CSS/ui-custom-theme/images/ui-bg_flat_0_403b3b_40x100.png">
+      <publishTime>03/10/2012 07:52:26</publishTime>
+    </File>
+    <File Include="CSS/ui-custom-theme/images/ui-bg_flat_0_ffffff_40x100.png">
+      <publishTime>03/10/2012 07:52:26</publishTime>
+    </File>
+    <File Include="CSS/ui-custom-theme/images/ui-bg_flat_75_eff3f6_40x100.png">
+      <publishTime>03/10/2012 07:52:26</publishTime>
+    </File>
+    <File Include="CSS/ui-custom-theme/images/ui-bg_highlight-hard_150_9bc1df_1x100.png">
+      <publishTime>03/10/2012 07:52:27</publishTime>
+    </File>
+    <File Include="CSS/ui-custom-theme/images/ui-bg_highlight-hard_150_e5e5f5_1x100.png">
+      <publishTime>03/10/2012 07:52:27</publishTime>
+    </File>
+    <File Include="CSS/ui-custom-theme/images/ui-bg_highlight-hard_150_eff3f6_1x100.png">
+      <publishTime>03/10/2012 07:52:27</publishTime>
+    </File>
+    <File Include="CSS/ui-custom-theme/images/ui-bg_highlight-hard_55_fbf9ee_1x100.png">
+      <publishTime>03/10/2012 07:52:27</publishTime>
+    </File>
+    <File Include="CSS/ui-custom-theme/images/ui-bg_highlight-soft_150_abc7de_1x100.png">
+      <publishTime>03/10/2012 07:52:27</publishTime>
+    </File>
+    <File Include="CSS/ui-custom-theme/images/ui-bg_inset-soft_95_fef1ec_1x100.png">
+      <publishTime>03/10/2012 07:52:27</publishTime>
+    </File>
+    <File Include="CSS/ui-custom-theme/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>03/10/2012 07:52:27</publishTime>
+    </File>
+    <File Include="CSS/ui-custom-theme/images/ui-icons_454545_256x240.png">
+      <publishTime>03/10/2012 07:52:27</publishTime>
+    </File>
+    <File Include="CSS/ui-custom-theme/images/ui-icons_4a4b49_256x240.png">
+      <publishTime>03/10/2012 07:52:27</publishTime>
+    </File>
+    <File Include="CSS/ui-custom-theme/images/ui-icons_766b6b_256x240.png">
+      <publishTime>03/10/2012 07:52:27</publishTime>
+    </File>
+    <File Include="CSS/ui-custom-theme/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>03/10/2012 07:52:27</publishTime>
+    </File>
+    <File Include="CSS/ui-custom-theme/jquery-ui-1.8.21.custom.css">
+      <publishTime>07/24/2015 14:22:56</publishTime>
+    </File>
+    <File Include="CSS/ui-custom-theme/jquery.ui.timepicker.css">
+      <publishTime>03/10/2012 13:03:18</publishTime>
+    </File>
+    <File Include="images/buttons.gif">
+      <publishTime>04/23/2013 08:46:10</publishTime>
+    </File>
+    <File Include="images/chosen-sprite%402x.png">
+      <publishTime>04/23/2013 08:46:12</publishTime>
+    </File>
+    <File Include="images/chosen-sprite.png">
+      <publishTime>04/23/2013 08:46:12</publishTime>
+    </File>
+    <File Include="images/favicon.ico">
+      <publishTime>07/22/2015 14:59:09</publishTime>
+    </File>
+    <File Include="images/select2-spinner.gif">
+      <publishTime>04/23/2013 08:46:13</publishTime>
+    </File>
+    <File Include="images/select2.png">
+      <publishTime>04/23/2013 08:46:13</publishTime>
+    </File>
+    <File Include="images/select2x2.png">
+      <publishTime>04/23/2013 08:46:13</publishTime>
+    </File>
+    <File Include="images/toolbar.gif">
+      <publishTime>04/23/2013 08:46:03</publishTime>
+    </File>
+    <File Include="IMAS/ajax-loader.gif">
+      <publishTime>10/16/2015 08:37:42</publishTime>
+    </File>
+    <File Include="IMAS/background.png">
+      <publishTime>03/10/2012 07:52:27</publishTime>
+    </File>
+    <File Include="IMAS/escudo.jpg">
+      <publishTime>10/25/2012 15:13:15</publishTime>
+    </File>
+    <File Include="IMAS/header_minec.jpg">
+      <publishTime>07/17/2019 10:41:39</publishTime>
+    </File>
+    <File Include="IMAS/logoMINEC.jpg">
+      <publishTime>01/29/2015 09:59:13</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>09/13/2021 09:54:33</publishTime>
+    </File>
+    <File Include="JS/CLASES/BUSCAR.js">
+      <publishTime>05/27/2016 09:59:05</publishTime>
+    </File>
+    <File Include="JS/CLASES/CONTACTOS.js">
+      <publishTime>09/10/2021 15:36:06</publishTime>
+    </File>
+    <File Include="JS/CLASES/CONTACTOS2.js">
+      <publishTime>09/10/2021 15:37:16</publishTime>
+    </File>
+    <File Include="JS/CLASES/CORRESDETALLE.js">
+      <publishTime>09/10/2021 15:40:03</publishTime>
+    </File>
+    <File Include="JS/CLASES/CORRESLISTA.js">
+      <publishTime>09/10/2021 15:42:57</publishTime>
+    </File>
+    <File Include="JS/CLASES/CORRESPONDENCIA.js">
+      <publishTime>09/13/2021 07:58:32</publishTime>
+    </File>
+    <File Include="JS/CLASES/ENVIADO.js">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="JS/CLASES/IMPRIMIR.js">
+      <publishTime>09/13/2021 08:13:14</publishTime>
+    </File>
+    <File Include="JS/CLASES/INIT.js">
+      <publishTime>09/13/2021 08:14:14</publishTime>
+    </File>
+    <File Include="JS/CLASES/INITBUSCAR.js">
+      <publishTime>09/13/2021 08:15:02</publishTime>
+    </File>
+    <File Include="JS/CLASES/MAIN.js">
+      <publishTime>09/13/2021 08:15:56</publishTime>
+    </File>
+    <File Include="JS/CLASES/MARGINADO.js">
+      <publishTime>09/13/2021 08:19:46</publishTime>
+    </File>
+    <File Include="JS/CLASES/MENSAJE.js">
+      <publishTime>09/13/2021 08:21:47</publishTime>
+    </File>
+    <File Include="JS/CLASES/NOTIFICACION.js">
+      <publishTime>10/20/2015 14:23:53</publishTime>
+    </File>
+    <File Include="JS/CLASES/REMITIR.js">
+      <publishTime>09/13/2021 08:23:32</publishTime>
+    </File>
+    <File Include="JS/CLASES/USUARIOS.js">
+      <publishTime>09/17/2021 15:09:19</publishTime>
+    </File>
+    <File Include="JS/CLASES/WS.js">
+      <publishTime>09/09/2021 10:14:51</publishTime>
+    </File>
+    <File Include="JS/CLASES/x_CORRESLISTA.js">
+      <publishTime>07/16/2019 13:31:13</publishTime>
+    </File>
+    <File Include="JS/DataTables/jquery.dataTables-min.js">
+      <publishTime>02/08/2013 11:11:37</publishTime>
+    </File>
+    <File Include="JS/DataTables/jquery.dataTables.js">
+      <publishTime>07/23/2015 15:18:26</publishTime>
+    </File>
+    <File Include="JS/exportarExcel/tableexport-xls-bold-headers.js">
+      <publishTime>07/03/2018 05:02:06</publishTime>
+    </File>
+    <File Include="JS/images/chosen-sprite.png">
+      <publishTime>03/10/2012 07:52:27</publishTime>
+    </File>
+    <File Include="JS/jcookies.js">
+      <publishTime>03/10/2012 07:52:27</publishTime>
+    </File>
+    <File Include="JS/jquery-1.7.2.min.js">
+      <publishTime>03/10/2012 07:52:27</publishTime>
+    </File>
+    <File Include="JS/jquery-2.1.4.min.js">
+      <publishTime>07/20/2015 08:57:01</publishTime>
+    </File>
+    <File Include="JS/jquery-ui-1.8.21.custom.min.js">
+      <publishTime>07/24/2015 15:44:11</publishTime>
+    </File>
+    <File Include="JS/jQuery.print.js">
+      <publishTime>01/08/2015 08:35:12</publishTime>
+    </File>
+    <File Include="JS/LightBox/evolution-dark/images/jquery-lightbox-theme.gif">
+      <publishTime>03/10/2012 07:52:27</publishTime>
+    </File>
+    <File Include="JS/LightBox/evolution-dark/images/jquery-lightbox-theme.png">
+      <publishTime>03/10/2012 07:52:27</publishTime>
+    </File>
+    <File Include="JS/LightBox/evolution-dark/images/loading.gif">
+      <publishTime>03/10/2012 07:52:27</publishTime>
+    </File>
+    <File Include="JS/LightBox/evolution-dark/jquery.lightbox.css">
+      <publishTime>08/13/2015 15:49:06</publishTime>
+    </File>
+    <File Include="JS/LightBox/evolution-dark/jquery.lightbox.ie6.css">
+      <publishTime>03/10/2012 07:52:27</publishTime>
+    </File>
+    <File Include="JS/LightBox/evolution/images/jquery-lightbox-theme.gif">
+      <publishTime>03/10/2012 07:52:27</publishTime>
+    </File>
+    <File Include="JS/LightBox/evolution/images/jquery-lightbox-theme.png">
+      <publishTime>08/25/2015 13:54:46</publishTime>
+    </File>
+    <File Include="JS/LightBox/evolution/images/loading.gif">
+      <publishTime>03/10/2012 07:52:27</publishTime>
+    </File>
+    <File Include="JS/LightBox/evolution/jquery.lightbox.css">
+      <publishTime>08/13/2015 15:48:50</publishTime>
+    </File>
+    <File Include="JS/LightBox/evolution/jquery.lightbox.ie6.css">
+      <publishTime>03/10/2012 07:52:27</publishTime>
+    </File>
+    <File Include="JS/LightBox/jquery.lightbox.js">
+      <publishTime>10/13/2015 15:12:20</publishTime>
+    </File>
+    <File Include="JS/LightBox/jquery.lightbox.min.js">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="JS/Metro/build/css/metro-icons.css">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/build/css/metro-icons.min.css">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/build/css/metro.css">
+      <publishTime>07/31/2015 08:37:47</publishTime>
+    </File>
+    <File Include="JS/Metro/build/css/metro.min.css">
+      <publishTime>10/13/2015 14:40:03</publishTime>
+    </File>
+    <File Include="JS/Metro/build/fonts/metro.eot">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/build/fonts/metro.svg">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/build/fonts/metro.ttf">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/build/fonts/metro.woff">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/build/fonts/selection.json">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/build/js/metro.js">
+      <publishTime>08/10/2015 11:30:51</publishTime>
+    </File>
+    <File Include="JS/Metro/build/js/metro.min.js">
+      <publishTime>07/23/2015 09:14:46</publishTime>
+    </File>
+    <File Include="JS/Metro/fonts/metro.ttf">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/fonts/metro.woff">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/global.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/requirements.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/utils/easing.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/utils/mousewheel.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/utils/pre-code.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/utils/touch-handler.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widget.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/accordion.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/appbar.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/button-groups.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/calendar.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/carousel.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/countdown.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/datatable.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/datepicker.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/dialog.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/dropdown.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/fit-image.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/grid.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/hint.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/inputs.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/keypad.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/listview.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/notify.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/panel.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/plugin.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/popovers.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/preloaders.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/presenter.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/progressbar.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/rating.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/select.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/slider.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/stepper.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/streamer.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/tabcontrol.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/tile.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/treeview.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/validator.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/window.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/wizard.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Metro/js/widgets/wizard2.js">
+      <publishTime>06/28/2015 03:21:54</publishTime>
+    </File>
+    <File Include="JS/Msgbox/images/alert.png">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="JS/Msgbox/images/background.png">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="JS/Msgbox/images/confirm.png">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="JS/Msgbox/images/error.png">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="JS/Msgbox/images/info.png">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="JS/Msgbox/images/question.png">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="JS/Msgbox/jquery.msgbox.css">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="JS/Msgbox/jquery.msgbox.js">
+      <publishTime>07/23/2015 11:01:01</publishTime>
+    </File>
+    <File Include="JS/Msgbox/jquery.msgbox.min.js">
+      <publishTime>07/23/2015 11:01:57</publishTime>
+    </File>
+    <File Include="JS/Notification/images/close.png">
+      <publishTime>05/10/2012 09:26:44</publishTime>
+    </File>
+    <File Include="JS/Notification/images/download.png">
+      <publishTime>05/10/2012 09:26:44</publishTime>
+    </File>
+    <File Include="JS/Notification/images/error.png">
+      <publishTime>05/10/2012 09:26:44</publishTime>
+    </File>
+    <File Include="JS/Notification/images/info.png">
+      <publishTime>05/10/2012 09:26:44</publishTime>
+    </File>
+    <File Include="JS/Notification/images/message.png">
+      <publishTime>05/10/2012 09:26:44</publishTime>
+    </File>
+    <File Include="JS/Notification/images/print.png">
+      <publishTime>05/10/2012 09:26:44</publishTime>
+    </File>
+    <File Include="JS/Notification/images/purchase.png">
+      <publishTime>05/10/2012 09:26:44</publishTime>
+    </File>
+    <File Include="JS/Notification/images/secure.png">
+      <publishTime>05/10/2012 09:26:44</publishTime>
+    </File>
+    <File Include="JS/Notification/images/success.png">
+      <publishTime>05/10/2012 09:26:44</publishTime>
+    </File>
+    <File Include="JS/Notification/images/tip.png">
+      <publishTime>05/10/2012 09:26:44</publishTime>
+    </File>
+    <File Include="JS/Notification/images/warning.png">
+      <publishTime>05/10/2012 09:26:44</publishTime>
+    </File>
+    <File Include="JS/Notification/notify.js">
+      <publishTime>10/16/2015 10:48:12</publishTime>
+    </File>
+    <File Include="JS/Notification/script.js">
+      <publishTime>10/16/2015 10:36:28</publishTime>
+    </File>
+    <File Include="JS/Notification/style.css">
+      <publishTime>02/10/2015 09:30:04</publishTime>
+    </File>
+    <File Include="JS/Select3.2/select2.css">
+      <publishTime>10/12/2015 11:52:27</publishTime>
+    </File>
+    <File Include="JS/Select3.2/select2.js">
+      <publishTime>08/14/2015 10:19:23</publishTime>
+    </File>
+    <File Include="JS/Select3.2/select2.min.js">
+      <publishTime>12/08/2015 09:14:13</publishTime>
+    </File>
+    <File Include="JS/Select3.2/select2.png">
+      <publishTime>03/10/2012 10:05:05</publishTime>
+    </File>
+    <File Include="JS/Select3.2/select2x2.png">
+      <publishTime>03/10/2012 10:05:05</publishTime>
+    </File>
+    <File Include="JS/Select3.2/select2_3.4.0.min.js">
+      <publishTime>08/12/2015 09:14:28</publishTime>
+    </File>
+    <File Include="JS/Select3.2/spinner.gif">
+      <publishTime>03/10/2012 10:05:05</publishTime>
+    </File>
+    <File Include="JS/SETUP.js">
+      <publishTime>11/27/2015 10:47:01</publishTime>
+    </File>
+    <File Include="JS/SETUPAJAX-PAG.js">
+      <publishTime>04/15/2021 12:55:55</publishTime>
+    </File>
+    <File Include="JS/SETUPAJAX-SIS.js">
+      <publishTime>04/15/2021 12:56:20</publishTime>
+    </File>
+    <File Include="JS/ToXlsx/Blob.js">
+      <publishTime>04/09/2018 16:28:56</publishTime>
+    </File>
+    <File Include="JS/ToXlsx/Export2Excel.js">
+      <publishTime>07/19/2018 14:40:58</publishTime>
+    </File>
+    <File Include="JS/ToXlsx/FileSaver.js">
+      <publishTime>04/09/2018 16:28:56</publishTime>
+    </File>
+    <File Include="JS/ToXlsx/xlsx.js">
+      <publishTime>04/09/2018 16:28:56</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.effects.blind.min.js">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.effects.bounce.min.js">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.effects.clip.min.js">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.effects.core.min.js">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.effects.drop.min.js">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.effects.explode.min.js">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.effects.fade.min.js">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.effects.fold.min.js">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.effects.highlight.min.js">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.effects.pulsate.min.js">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.effects.scale.min.js">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.effects.shake.min.js">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.effects.slide.min.js">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.effects.transfer.min.js">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.ui.accordion.min.js">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.ui.autocomplete.min.js">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.ui.button.min.js">
+      <publishTime>03/10/2012 07:52:28</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.ui.core.min.js">
+      <publishTime>03/10/2012 07:52:29</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.ui.datepicker.min.js">
+      <publishTime>03/10/2012 07:52:29</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.ui.dialog.min.js">
+      <publishTime>03/10/2012 07:52:29</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.ui.draggable.min.js">
+      <publishTime>03/10/2012 07:52:29</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.ui.droppable.min.js">
+      <publishTime>03/10/2012 07:52:29</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.ui.mouse.min.js">
+      <publishTime>03/10/2012 07:52:29</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.ui.position.min.js">
+      <publishTime>03/10/2012 07:52:29</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.ui.progressbar.min.js">
+      <publishTime>03/10/2012 07:52:29</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.ui.resizable.min.js">
+      <publishTime>03/10/2012 07:52:29</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.ui.selectable.min.js">
+      <publishTime>03/10/2012 07:52:29</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.ui.slider.min.js">
+      <publishTime>03/10/2012 07:52:29</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.ui.sortable.min.js">
+      <publishTime>03/10/2012 07:52:29</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.ui.tabs.min.js">
+      <publishTime>03/10/2012 07:52:30</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.ui.timepicker.js">
+      <publishTime>07/24/2015 15:35:52</publishTime>
+    </File>
+    <File Include="JS/ui-minified/jquery.ui.widget.min.js">
+      <publishTime>03/10/2012 07:52:30</publishTime>
+    </File>
+    <File Include="JS/underscore-min.js">
+      <publishTime>03/04/2013 15:00:22</publishTime>
+    </File>
+    <File Include="PAGS/bandejaMensajes_in.aspx">
+      <publishTime>09/13/2021 09:08:57</publishTime>
+    </File>
+    <File Include="PAGS/busquedav2.aspx">
+      <publishTime>09/13/2021 09:07:43</publishTime>
+    </File>
+    <File Include="PAGS/contactosv2.aspx">
+      <publishTime>11/12/2015 11:14:33</publishTime>
+    </File>
+    <File Include="PAGS/correspondenciav2.aspx">
+      <publishTime>09/13/2021 09:07:13</publishTime>
+    </File>
+    <File Include="PAGS/FRMS/archivoSV.aspx">
+      <publishTime>09/11/2015 13:38:37</publishTime>
+    </File>
+    <File Include="PAGS/FRMS/contactos2SV.aspx">
+      <publishTime>05/27/2016 09:18:34</publishTime>
+    </File>
+    <File Include="PAGS/FRMS/contactosSV.aspx">
+      <publishTime>05/27/2016 09:16:55</publishTime>
+    </File>
+    <File Include="PAGS/FRMS/corresDevSV.aspx">
+      <publishTime>09/11/2015 13:49:39</publishTime>
+    </File>
+    <File Include="PAGS/FRMS/corresDevUpSV.aspx">
+      <publishTime>10/14/2015 14:15:28</publishTime>
+    </File>
+    <File Include="PAGS/FRMS/corresSV.aspx">
+      <publishTime>09/10/2021 15:31:29</publishTime>
+    </File>
+    <File Include="PAGS/FRMS/enviadoRecibUpSV.aspx">
+      <publishTime>10/14/2015 15:16:36</publishTime>
+    </File>
+    <File Include="PAGS/FRMS/enviadoSV.aspx">
+      <publishTime>05/27/2016 13:56:41</publishTime>
+    </File>
+    <File Include="PAGS/FRMS/marginadoPosSV.aspx">
+      <publishTime>08/19/2019 15:32:06</publishTime>
+    </File>
+    <File Include="PAGS/FRMS/marginadoSV.aspx">
+      <publishTime>08/19/2019 15:31:40</publishTime>
+    </File>
+    <File Include="PAGS/FRMS/margRecibUpSV.aspx">
+      <publishTime>10/14/2015 14:51:53</publishTime>
+    </File>
+    <File Include="PAGS/FRMS/mensajesInternosSV.aspx">
+      <publishTime>08/26/2015 10:13:35</publishTime>
+    </File>
+    <File Include="PAGS/FRMS/notasSV.aspx">
+      <publishTime>08/20/2019 08:29:12</publishTime>
+    </File>
+    <File Include="PAGS/FRMS/notificacionUp.aspx">
+      <publishTime>10/14/2015 14:11:31</publishTime>
+    </File>
+    <File Include="PAGS/FRMS/remitirConfirSV.aspx">
+      <publishTime>04/11/2015 08:57:14</publishTime>
+    </File>
+    <File Include="PAGS/FRMS/remitirSV.aspx">
+      <publishTime>09/11/2015 14:21:01</publishTime>
+    </File>
+    <File Include="PAGS/FRMS/respuestaMargiSV.aspx">
+      <publishTime>08/19/2019 15:33:34</publishTime>
+    </File>
+    <File Include="PAGS/FRMS/usuariosUpPassSV.aspx">
+      <publishTime>10/20/2015 14:05:08</publishTime>
+    </File>
+    <File Include="PAGS/imprimirv2.aspx">
+      <publishTime>12/18/2018 11:00:10</publishTime>
+    </File>
+    <File Include="PAGS/Site1.Master">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="PAGS/UPFILE/Default.html">
+      <publishTime>04/15/2021 14:52:14</publishTime>
+    </File>
+    <File Include="PAGS/UPFILE/FileUpload.ashx">
+      <publishTime>04/15/2021 10:06:03</publishTime>
+    </File>
+    <File Include="PAGS/UPFILE/MultipleFileUploadControl/cors/postmessage.html">
+      <publishTime>10/16/2012 09:12:56</publishTime>
+    </File>
+    <File Include="PAGS/UPFILE/MultipleFileUploadControl/cors/result.html">
+      <publishTime>10/16/2012 09:12:56</publishTime>
+    </File>
+    <File Include="PAGS/UPFILE/MultipleFileUploadControl/css/jquery.fileupload-ui.css">
+      <publishTime>07/22/2015 14:18:16</publishTime>
+    </File>
+    <File Include="PAGS/UPFILE/MultipleFileUploadControl/img/file-complete-icon.png">
+      <publishTime>10/16/2012 09:12:56</publishTime>
+    </File>
+    <File Include="PAGS/UPFILE/MultipleFileUploadControl/img/file-error-icon.png">
+      <publishTime>10/16/2012 09:12:56</publishTime>
+    </File>
+    <File Include="PAGS/UPFILE/MultipleFileUploadControl/img/glyphicons-halflings-white.png">
+      <publishTime>10/16/2012 09:12:56</publishTime>
+    </File>
+    <File Include="PAGS/UPFILE/MultipleFileUploadControl/img/glyphicons-halflings.png">
+      <publishTime>10/16/2012 09:12:56</publishTime>
+    </File>
+    <File Include="PAGS/UPFILE/MultipleFileUploadControl/img/glyphicons_030_pencil.png">
+      <publishTime>10/16/2012 09:12:56</publishTime>
+    </File>
+    <File Include="PAGS/UPFILE/MultipleFileUploadControl/img/loading.gif">
+      <publishTime>10/16/2012 09:12:56</publishTime>
+    </File>
+    <File Include="PAGS/UPFILE/MultipleFileUploadControl/js/bootstrap-image-gallery.min.js">
+      <publishTime>10/16/2012 09:12:56</publishTime>
+    </File>
+    <File Include="PAGS/UPFILE/MultipleFileUploadControl/js/bootstrap.min.js">
+      <publishTime>10/16/2012 09:12:56</publishTime>
+    </File>
+    <File Include="PAGS/UPFILE/MultipleFileUploadControl/js/canvas-to-blob.min.js">
+      <publishTime>10/16/2012 09:12:56</publishTime>
+    </File>
+    <File Include="PAGS/UPFILE/MultipleFileUploadControl/js/cors/jquery.postmessage-transport.js">
+      <publishTime>10/16/2012 09:12:56</publishTime>
+    </File>
+    <File Include="PAGS/UPFILE/MultipleFileUploadControl/js/cors/jquery.xdr-transport.js">
+      <publishTime>10/16/2012 09:12:56</publishTime>
+    </File>
+    <File Include="PAGS/UPFILE/MultipleFileUploadControl/js/easy-editable-text.js">
+      <publishTime>10/16/2012 09:12:56</publishTime>
+    </File>
+    <File Include="PAGS/UPFILE/MultipleFileUploadControl/js/html5.js">
+      <publishTime>10/16/2012 09:12:56</publishTime>
+    </File>
+    <File Include="PAGS/UPFILE/MultipleFileUploadControl/js/jquery.fileupload-fp.js">
+      <publishTime>10/16/2012 09:12:56</publishTime>
+    </File>
+    <File Include="PAGS/UPFILE/MultipleFileUploadControl/js/jquery.fileupload-ui.js">
+      <publishTime>07/27/2015 11:49:34</publishTime>
+    </File>
+    <File Include="PAGS/UPFILE/MultipleFileUploadControl/js/jquery.fileupload.js">
+      <publishTime>05/30/2016 08:48:31</publishTime>
+    </File>
+    <File Include="PAGS/UPFILE/MultipleFileUploadControl/js/jquery.iframe-transport.js">
+      <publishTime>10/16/2012 09:12:56</publishTime>
+    </File>
+    <File Include="PAGS/UPFILE/MultipleFileUploadControl/js/jquery.min.js">
+      <publishTime>10/16/2012 09:12:56</publishTime>
+    </File>
+    <File Include="PAGS/UPFILE/MultipleFileUploadControl/js/load-image.min.js">
+      <publishTime>10/16/2012 09:12:56</publishTime>
+    </File>
+    <File Include="PAGS/UPFILE/MultipleFileUploadControl/js/locale.js">
+      <publishTime>02/17/2015 11:27:16</publishTime>
+    </File>
+    <File Include="PAGS/UPFILE/MultipleFileUploadControl/js/tmpl.min.js">
+      <publishTime>10/16/2012 09:12:56</publishTime>
+    </File>
+    <File Include="PAGS/UPFILE/MultipleFileUploadControl/js/vendor/jquery.ui.widget.js">
+      <publishTime>10/16/2012 09:12:56</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/13/2021 09:57:44</publishTime>
+    </File>
+    <File Include="WS/ADJUNTOws.asmx">
+      <publishTime>10/17/2012 11:36:04</publishTime>
+    </File>
+    <File Include="WS/ARCHIVOws.asmx">
+      <publishTime>10/15/2012 09:19:09</publishTime>
+    </File>
+    <File Include="WS/BUSCARws.asmx">
+      <publishTime>10/23/2012 08:18:39</publishTime>
+    </File>
+    <File Include="WS/CATALOGOSws.asmx">
+      <publishTime>03/10/2012 07:52:30</publishTime>
+    </File>
+    <File Include="WS/CONTACTOSws.asmx">
+      <publishTime>03/10/2012 11:40:16</publishTime>
+    </File>
+    <File Include="WS/CORRESPONDENCIAws.asmx">
+      <publishTime>03/10/2012 16:10:21</publishTime>
+    </File>
+    <File Include="WS/ENVIADOws.asmx">
+      <publishTime>10/19/2012 10:09:54</publishTime>
+    </File>
+    <File Include="WS/IMPRIMIRws.asmx">
+      <publishTime>10/25/2012 09:18:35</publishTime>
+    </File>
+    <File Include="WS/MARGINADOws.asmx">
+      <publishTime>03/10/2012 15:12:19</publishTime>
+    </File>
+    <File Include="WS/MENSAJE_EXws.asmx">
+      <publishTime>10/29/2012 16:28:53</publishTime>
+    </File>
+    <File Include="WS/MENSAJE_INws.asmx">
+      <publishTime>10/26/2012 11:41:24</publishTime>
+    </File>
+    <File Include="WS/NOTIFICACIONws.asmx">
+      <publishTime>02/12/2015 13:54:21</publishTime>
+    </File>
+    <File Include="WS/REMITIDOws.asmx">
+      <publishTime>03/10/2012 15:51:35</publishTime>
+    </File>
+    <File Include="WS/USUARIOSws.asmx">
+      <publishTime>05/10/2012 13:39:47</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

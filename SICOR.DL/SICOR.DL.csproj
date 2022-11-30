@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9B9A55C8-9C29-4D1E-A126-7490C69EEF12}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SICOR.DL</RootNamespace>
+    <AssemblyName>SICOR.DL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.4.2.0.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SICOR_DB.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SICOR_DB.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SICOR_DB.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="SICOR_DB.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SICOR_DB.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="sp_adjuntoDL_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_adjuntoDL_Result1.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_adjuntoDL_Result2.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_adjuntoGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_adjuntoSV_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_archivoGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_archivosGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_archivoSV_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_cat_categoriaGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_cat_claseGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_cat_estadoGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_cat_tipoGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_contactoDL_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_contactosByIdGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_contactosByInstGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_contactosGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_contactosInternosGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_contactosSV_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_contactosUpMailSV_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_contByNomGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_contInstGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_contUnidadGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_corresActivoSV_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_corresDebByCorresIdGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_corresDebSV_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_corresDebUpSV_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_corresElimSV_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_corresFimaSV_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_corresFull2GT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_correspondenciaSV_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_detallefullByAsuntoGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_detallefullByCodGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_detallefullByContestaIdGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_detallefullByContIdPadreGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_detallefullByContNombrePadreGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_detallefullByContTIPOGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_detallefullByFechaContIDGTV2_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_detallefullByFechaContIDGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_detallefullByFechaGTV2_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_detallefullByFechaGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_detallefullByIdGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_detallefullByIdsGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_detallefullGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_detallefullGT_Result1.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_detallefullGT_Result2.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_detallefullSV_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_enviadoGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_enviadoMDL_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_enviadoRecibeUpdateSV_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_enviadoSinResByFechaGTV2_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_enviadoSinResByFechaGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_enviadoSV_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_estadoGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_estadoSV_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_margiActiveRepGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_margiContGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_margiContSV_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_marginadoByIdGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_marginadoDL_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_marginadoGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_marginadoMarcaDL_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_marginadoPendientesByFechaGTV2_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_marginadoPendientesByFechaGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_marginadoSV_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_marginaRecibeUpdateSV_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_margiPendienteUpdate_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_margiRepGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_margiResByContestaIdGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_mensajeByIdFech_inGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_mensajeEnvi_inGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_mensajeRecibNum_inGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_mensajeRecib_inGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_mensajeUpLeido_inGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_mensaje_exSV_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_mensaje_inGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_mensaje_inSV_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_notificacionGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_notificacionGT_Result1.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_remiConfirByUsridGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_remiConfirSV_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_remitidoGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_remitidoSV_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_usuariosGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_usuariosUpPassSV_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+    <Compile Include="sp_usuariosVerifGT_Result.cs">
+      <DependentUpon>SICOR_DB.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="SICOR_DB.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>SICOR_DB.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SICOR_DB.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>SICOR_DB.Context.cs</LastGenOutput>
+      <DependentUpon>SICOR_DB.edmx</DependentUpon>
+    </Content>
+    <Content Include="SICOR_DB.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>SICOR_DB.cs</LastGenOutput>
+      <DependentUpon>SICOR_DB.edmx</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

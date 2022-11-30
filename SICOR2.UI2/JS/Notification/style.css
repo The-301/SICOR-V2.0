@@ -1,0 +1,284 @@
+/* -----------------------------------------------------------------------
+
+ NOTIFICATION BOXES v 3.0 - NO DESCRIPTION
+ http://evographics.net
+
+   * Copyright (c) 2010
+   * Created by Michele Ivani - EvoGraphics.
+
+----------------------------------------------------------------------- */
+
+.mensajes{
+	z-index: 1000000000;
+	position: fixed;
+	margin: 10px auto 0 auto;
+	top: 5px;
+	left: 10px;
+}
+
+
+
+#new {
+	margin-bottom: 20px;	
+}
+
+
+
+
+/*NOTIFICATION BOX - NO DESCRIPTION */
+
+.notification {
+	min-height: 70px;
+	width: 580px;
+	display: block;
+	
+	/*Border Radius*/
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	
+	/*Box Shadow*/
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.75);	
+	
+	margin-bottom: 30px;
+	float: right !important;
+}
+
+.notification span {
+	background: url(images/close.png) no-repeat right top;
+	display: block;
+	width: 19px;
+	height: 19px;
+	position: absolute;
+	top:-9px;
+	right: -8px;
+}
+
+.notification .text {
+	overflow: hidden;
+	vertical-align: middle;
+	padding-top: 10PX;
+}
+
+.notification p {
+	width: 500px;	
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 16px;
+	line-height: 21px;
+	text-align: justify;
+	vertical-align: middle;
+	float: right;
+	margin-right: 15px;
+	*margin-top: 15px; /*for lt IE8*/
+	
+	
+	/* TEXT SHADOW */
+	 text-shadow: 0px 0px 1px #6ECFF5;
+}
+
+
+/*SUCCESS BOX*/
+
+.success {
+	/*Background Gradients*/
+	background: #60a917;
+}
+
+.success:before {
+	content: url(images/success.png);
+	float: left;
+	margin: 23px 15px 0px 15px;
+}
+
+.success strong {
+	color: #FFFFFF;
+	margin-right: 15px;
+}
+
+
+/*WARNING BOX*/
+
+.warning {
+	/*Background Gradients*/
+	background: #f0a30a;
+}
+
+.warning:before {
+	content: url(images/warning.png);
+	float: left;
+	margin: 15px 15px 0px 25px;
+}
+
+.warning strong {
+	color: #FFFFFF;
+	margin-right: 15px;
+}
+
+
+/*QUICK TIP BOX*/
+
+.tip {
+	/*Background Gradients*/
+	background: #f9d9a1;
+}
+
+.tip:before {
+	content: url(../images/tip.png);
+	float: left;
+	margin: 20px 15px 0px 15px;
+}
+
+.tip strong {
+	color: #FFFFFF;
+	margin-right: 15px;
+}
+
+
+/*ERROR BOX*/
+
+.error {
+	/*Background Gradients*/
+	background: #9a1616;
+}
+
+.error:before {
+	content: url(images/error.png);
+	float: left;
+	margin: 20px 15px 0px 15px;
+}
+
+.error strong {
+	color: #FFFFFF;
+	margin-right: 15px;
+}
+
+
+/*SECURE AREA BOX*/
+
+.secure {
+	/*Background Gradients*/
+	background: #dc4fad;
+}
+
+.secure:before {
+	content: url(images/secure.png);
+	float: left;
+	margin: 18px 15px 0px 15px;
+}
+
+.secure strong {
+	color: #FFFFFF;
+	margin-right: 15px;
+}
+
+/*INFO BOX*/
+
+.info {
+	/*Background Gradients*/
+	background: #4390df;
+}
+
+.info:before {
+	content: url(images/info.png);
+	float: left;
+	margin: 18px 15px 0px 21px;
+}
+
+.info strong {
+	color: #FFFFFF;
+	margin-right: 15px;
+}
+
+/*MESSAGE BOX*/
+
+.message {
+	/*Background Gradients*/
+	background: #f0f0f0;
+}
+
+.message:before {
+	content: url(images/message.png);
+	float: left;
+	margin: 25px 15px 0px 15px;
+}
+
+.message strong {
+	color: #323232;
+	margin-right: 15px;
+}
+
+/*DONWLOAD BOX*/
+
+.download {
+	border-top: 1px solid #ffffff;
+	border-bottom: 1px solid #eeeeee;
+	
+	/*Background Gradients*/
+	background: #f7f7f7;
+	background: -moz-linear-gradient(top,#f7f7f7,#f0f0f0);
+	background: -webkit-gradient(linear, left top, left bottom, from(#f7f7f7), to(#f0f0f0));
+}
+
+.download:before {
+	content: url(images/download.png);
+	float: left;
+	margin: 16px 15px 0px 18px;
+}
+
+.download strong {
+	color: #037cda;
+	margin-right: 15px;
+}
+
+/*PURCHASE BOX*/
+
+.purchase {
+	border-top: 1px solid #d1f7f8;
+	border-bottom: 1px solid #8eabb1;
+	
+	/*Background Gradients*/
+	background: #c4e4e4;
+	background: -moz-linear-gradient(top,#c4e4e4,#97b8bf);
+	background: -webkit-gradient(linear, left top, left bottom, from(#c4e4e4), to(#97b8bf));
+}
+
+.purchase:before {
+	content: url(images/purchase.png);
+	float: left;
+	margin: 19px 15px 0px 15px;
+}
+
+.purchase strong {
+	color: #426065;
+	margin-right: 15px;
+}
+
+/*PRINT BOX*/
+
+.print {
+	border-top: 1px solid #dde9f3;
+	border-bottom: 1px solid #8fa6b2;
+	
+	/*Background Gradients*/
+	background: #cfdde8;
+	background: -moz-linear-gradient(top,#cfdde8,#9eb3bd);
+	background: -webkit-gradient(linear, left top, left bottom, from(#cfdde8), to(#9eb3bd));
+}
+
+.print:before {
+	content: url(images/print.png);
+	float: left;
+	margin: 19px 15px 0px 15px;
+}
+
+.print strong {
+	color: #3f4c6b;
+	margin-right: 15px;
+}
+
+
+
+

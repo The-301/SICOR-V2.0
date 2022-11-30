@@ -1,0 +1,30 @@
+D:\NUEVO DESARROLLO\SICOR\SICOR.DL\bin\Release\SICOR.DL.dll.config
+D:\NUEVO DESARROLLO\SICOR\SICOR.DL\bin\Release\SICOR.DL.dll
+D:\NUEVO DESARROLLO\SICOR\SICOR.DL\bin\Release\SICOR.DL.pdb
+D:\NUEVO DESARROLLO\SICOR\SICOR.DL\bin\Release\EntityFramework.dll
+D:\NUEVO DESARROLLO\SICOR\SICOR.DL\bin\Release\EntityFramework.xml
+D:\NUEVO DESARROLLO\SICOR\SICOR.DL\obj\Release\SICOR.DL.csprojAssemblyReference.cache
+D:\NUEVO DESARROLLO\SICOR\SICOR.DL\obj\Release\SICOR.DL.csproj.CoreCompileInputs.cache
+D:\NUEVO DESARROLLO\SICOR\SICOR.DL\obj\Release\SICOR.DL.csproj.CopyComplete
+D:\NUEVO DESARROLLO\SICOR\SICOR.DL\obj\Release\SICOR.DL.dll
+D:\NUEVO DESARROLLO\SICOR\SICOR.DL\obj\Release\SICOR.DL.pdb
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.DL\bin\Release\SICOR.DL.dll.config
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.DL\bin\Release\SICOR.DL.dll
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.DL\bin\Release\SICOR.DL.pdb
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.DL\bin\Release\EntityFramework.dll
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.DL\bin\Release\EntityFramework.xml
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.DL\obj\Release\SICOR.DL.csproj.AssemblyReference.cache
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.DL\obj\Release\SICOR.DL.csproj.CoreCompileInputs.cache
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.DL\obj\Release\SICOR.DL.csproj.CopyComplete
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.DL\obj\Release\SICOR.DL.dll
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.DL\obj\Release\SICOR.DL.pdb
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.DL\bin\Release\SICOR.DL.dll.config
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.DL\bin\Release\SICOR.DL.dll
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.DL\bin\Release\SICOR.DL.pdb
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.DL\bin\Release\EntityFramework.dll
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.DL\bin\Release\EntityFramework.xml
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.DL\obj\Release\SICOR.DL.csproj.AssemblyReference.cache
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.DL\obj\Release\SICOR.DL.csproj.CoreCompileInputs.cache
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.DL\obj\Release\SICOR.DL.csproj.CopyComplete
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.DL\obj\Release\SICOR.DL.dll
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.DL\obj\Release\SICOR.DL.pdb

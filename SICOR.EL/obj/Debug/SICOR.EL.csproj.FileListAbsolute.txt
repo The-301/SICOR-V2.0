@@ -1,0 +1,9 @@
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.EL\bin\Debug\SICOR.EL.dll
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.EL\bin\Debug\SICOR.EL.pdb
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.EL\bin\Debug\EntityFramework.dll
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.EL\bin\Debug\EntityFramework.xml
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.EL\obj\Debug\SICOR.EL.csproj.AssemblyReference.cache
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.EL\obj\Debug\SICOR.EL.csproj.CoreCompileInputs.cache
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.EL\obj\Debug\SICOR.EL.csproj.CopyComplete
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.EL\obj\Debug\SICOR.EL.dll
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.EL\obj\Debug\SICOR.EL.pdb

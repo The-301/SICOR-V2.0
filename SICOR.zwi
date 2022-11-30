@@ -1,0 +1,9 @@
+<!-- Workspace file for the Zeus IDE - http://www.zeusedit.com -->
+<Workspace name="SICOR" sorted="Yes" autosynch="Yes" type="C#" filename="SICOR.sln" st_mtime="1439301786">
+    <Mode>Debug</Mode>
+    <Active>SICOR.BL</Active>
+    <Project name="SICOR.BL">SICOR.BL\SICOR.BL.zpi</Project>
+    <Project name="SICOR.DL">SICOR.DL\SICOR.DL.zpi</Project>
+    <Project name="SICOR.EL">SICOR.EL\SICOR.EL.zpi</Project>
+    <Project name="SICOR.UI2">SICOR.UI2\SICOR.UI2.zpi</Project>
+</Workspace>

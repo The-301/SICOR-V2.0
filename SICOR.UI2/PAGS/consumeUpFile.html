@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript" src="../JS/jquery-1.8.2.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).on("ready",function(){
+			$.ajax({
+				type: "GET",
+			    contentType: "application/json; charset=utf-8",
+			    dataType: "jsonp",
+			    cache : false,
+		        url: "http://localhost:10742/PAGS/Upload.axd?"
+		        	+"storageFolder=C:/Users/leonardo.martinez/Documents/Visual+Studio+2010/Projects/SICOR(20130115)/SICOR/SICOR.UI2/PAGS/UPFILE/storage"
+		        	+"&maxChunkSize=15000000"
+		        	+"&resume=false",
+		        success:function(r){
+		        	alert(r[0].name)
+		        }
+		        
+		    });
+		})
+	</script>
+</head>
+<body>
+
+</body>
+</html>

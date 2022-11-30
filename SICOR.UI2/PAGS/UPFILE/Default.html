@@ -1,0 +1,15 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div class="documentosdiv">
+        <!--<input type="file" id="fileupload" name="files[]" data-role="file" data-prepend="Adjuntar archivo:" data-button-title="<span class=\'mif-folder\'></span>" class="uploadFile" accept=".xls,.xlsx,.doc,.docx,.ppt,.pptx,.pdf,.jpg,.png,.jpeg" />-->
+        <input type="file" id="fileupload" name="files[]" data-role="file" data-mode="drop" data-prepend="Adjuntar archivo:" data-button-title="<span class=\'mif-folder\'></span>" class="uploadFile" accept=".xls,.xlsx,.doc,.docx,.ppt,.pptx,.pdf,.jpg,.png,.jpeg" />
+        <button id="btnAdjuntar" onclick="javascript:addAdjuntoProceso()" class="button success" type="button">Adjuntar documento</button>
+        <div id="listaArchivos"></div>
+    </div>
+</body>
+</html>

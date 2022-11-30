@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E2A4208B-335B-46DE-895C-844B39FE311F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SICOR.BL</RootNamespace>
+    <AssemblyName>SICOR.BL</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.4.2.0.0\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADJUNTObl.cs" />
+    <Compile Include="ARCHIVObl.cs" />
+    <Compile Include="BUSCARbl.cs" />
+    <Compile Include="CATALOGOSbl.cs" />
+    <Compile Include="CONTACTOSbl.cs" />
+    <Compile Include="CORRESPONDENCIAbl.cs" />
+    <Compile Include="ENVIADObl.cs" />
+    <Compile Include="Funciones.cs" />
+    <Compile Include="IMPRIMIRbl.cs" />
+    <Compile Include="MARGINADObl.cs" />
+    <Compile Include="MENSAJE_EXbl.cs" />
+    <Compile Include="MENSAJE_INbl.cs" />
+    <Compile Include="NOTIFICACIONbl.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="REMITIDObl.cs" />
+    <Compile Include="USUARIOSbl.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SICOR.DL\SICOR.DL.csproj">
+      <Project>{9B9A55C8-9C29-4D1E-A126-7490C69EEF12}</Project>
+      <Name>SICOR.DL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SICOR.EL\SICOR.EL.csproj">
+      <Project>{70065C3E-580A-4B9E-A7BC-BD253ACCD42A}</Project>
+      <Name>SICOR.EL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

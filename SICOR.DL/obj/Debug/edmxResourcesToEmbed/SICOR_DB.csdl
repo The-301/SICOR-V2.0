@@ -1,0 +1,1613 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SICOR_DBModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="SICOR_DBEntities" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="sp_cat_categoriaGT" ReturnType="Collection(SICOR_DBModel.sp_cat_categoriaGT_Result)" />
+    <FunctionImport Name="sp_cat_claseGT" ReturnType="Collection(SICOR_DBModel.sp_cat_claseGT_Result)" />
+    <FunctionImport Name="sp_cat_estadoGT" ReturnType="Collection(SICOR_DBModel.sp_cat_estadoGT_Result)" />
+    <FunctionImport Name="sp_cat_tipoGT" ReturnType="Collection(SICOR_DBModel.sp_cat_tipoGT_Result)">
+      <Parameter Name="grupo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_remitidoGT" ReturnType="Collection(SICOR_DBModel.sp_remitidoGT_Result)">
+      <Parameter Name="CORRESID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_remitidoSV" ReturnType="Collection(SICOR_DBModel.sp_remitidoSV_Result)">
+      <Parameter Name="REMID" Mode="In" Type="Int32" />
+      <Parameter Name="CLM_USRS_ID" Mode="In" Type="Int32" />
+      <Parameter Name="CORRESID" Mode="In" Type="Int32" />
+      <Parameter Name="REMFEC" Mode="In" Type="DateTime" />
+      <Parameter Name="UPDATEUSRID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_estadoGT" ReturnType="Collection(SICOR_DBModel.sp_estadoGT_Result)">
+      <Parameter Name="CORRESID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_estadoSV" ReturnType="Collection(SICOR_DBModel.sp_estadoSV_Result)">
+      <Parameter Name="ESTCORRID" Mode="In" Type="Int32" />
+      <Parameter Name="CORRESID" Mode="In" Type="Int32" />
+      <Parameter Name="ESTADOID" Mode="In" Type="Int32" />
+      <Parameter Name="ESTADOACTIVO" Mode="In" Type="Byte" />
+      <Parameter Name="UPDATEUSRID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_usuariosGT" ReturnType="Collection(SICOR_DBModel.sp_usuariosGT_Result)">
+      <Parameter Name="grupo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_usuariosVerifGT" ReturnType="Collection(SICOR_DBModel.sp_usuariosVerifGT_Result)">
+      <Parameter Name="USRS_NMB" Mode="In" Type="String" />
+      <Parameter Name="USRS_PASS" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_margiPendienteUpdate" ReturnType="Collection(SICOR_DBModel.sp_margiPendienteUpdate_Result)">
+      <Parameter Name="MARGID" Mode="In" Type="Int32" />
+      <Parameter Name="MARGPENDIENTE" Mode="In" Type="Byte" />
+      <Parameter Name="UPDATEUSRID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_archivoGT" ReturnType="Collection(SICOR_DBModel.sp_archivoGT_Result)">
+      <Parameter Name="CORRESID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_archivoSV" ReturnType="Collection(SICOR_DBModel.sp_archivoSV_Result)">
+      <Parameter Name="ARCHID" Mode="In" Type="Int32" />
+      <Parameter Name="CORRESID" Mode="In" Type="Int32" />
+      <Parameter Name="ARCHIVO" Mode="In" Type="Int32" />
+      <Parameter Name="ARCHVOCOD" Mode="In" Type="String" />
+      <Parameter Name="ARCHVODSC" Mode="In" Type="String" />
+      <Parameter Name="TIPOID" Mode="In" Type="Int32" />
+      <Parameter Name="UPDATEUSRID" Mode="In" Type="Int32" />
+      <Parameter Name="grupo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_adjuntoGT" ReturnType="Collection(SICOR_DBModel.sp_adjuntoGT_Result)">
+      <Parameter Name="CORRESID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_adjuntoSV" ReturnType="Collection(SICOR_DBModel.sp_adjuntoSV_Result)">
+      <Parameter Name="ADJUNTOID" Mode="In" Type="Int32" />
+      <Parameter Name="CORRESID" Mode="In" Type="Int32" />
+      <Parameter Name="ADJUNTO_NAME" Mode="In" Type="String" />
+      <Parameter Name="ADJUNTO_SIZE" Mode="In" Type="String" />
+      <Parameter Name="ADJUNTO_TYPE" Mode="In" Type="String" />
+      <Parameter Name="ADJUNTO_URLDOWN" Mode="In" Type="String" />
+      <Parameter Name="ADJUNTO_URLDEL" Mode="In" Type="String" />
+      <Parameter Name="ADJUNTO_TIPO" Mode="In" Type="Byte" />
+      <Parameter Name="UPDATEUSRID" Mode="In" Type="Int32" />
+      <Parameter Name="grupo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_mensaje_inGT" ReturnType="Collection(SICOR_DBModel.sp_mensaje_inGT_Result)">
+      <Parameter Name="CLM_USRS_ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_mensaje_inSV" ReturnType="Collection(SICOR_DBModel.sp_mensaje_inSV_Result)">
+      <Parameter Name="MSJINID" Mode="In" Type="Int32" />
+      <Parameter Name="CORRESID" Mode="In" Type="Int32" />
+      <Parameter Name="CLM_USRS_ID" Mode="In" Type="Int32" />
+      <Parameter Name="TIPOID" Mode="In" Type="Int32" />
+      <Parameter Name="MSJINMENSAJE" Mode="In" Type="String" />
+      <Parameter Name="UPDATEUSRID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_mensajeEnvi_inGT" ReturnType="Collection(SICOR_DBModel.sp_mensajeEnvi_inGT_Result)">
+      <Parameter Name="CLM_USRS_ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_mensajeRecib_inGT" ReturnType="Collection(SICOR_DBModel.sp_mensajeRecib_inGT_Result)">
+      <Parameter Name="CLM_USRS_ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_mensajeRecibNum_inGT" ReturnType="Collection(SICOR_DBModel.sp_mensajeRecibNum_inGT_Result)">
+      <Parameter Name="CLM_USRS_ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_mensajeUpLeido_inGT" ReturnType="Collection(SICOR_DBModel.sp_mensajeUpLeido_inGT_Result)">
+      <Parameter Name="CLM_USRS_ID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_mensajeByIdFech_inGT" ReturnType="Collection(SICOR_DBModel.sp_mensajeByIdFech_inGT_Result)">
+      <Parameter Name="CLM_USRS_ID" Mode="In" Type="Int32" />
+      <Parameter Name="FECH01" Mode="In" Type="DateTime" />
+      <Parameter Name="FECH02" Mode="In" Type="DateTime" />
+    </FunctionImport>
+    <FunctionImport Name="sp_mensaje_exSV" ReturnType="Collection(SICOR_DBModel.sp_mensaje_exSV_Result)">
+      <Parameter Name="MSJEXID" Mode="In" Type="Int32" />
+      <Parameter Name="CORRESID" Mode="In" Type="Int32" />
+      <Parameter Name="CONTID" Mode="In" Type="Int32" />
+      <Parameter Name="TIPOID" Mode="In" Type="Int32" />
+      <Parameter Name="MSJEXMENSAJE" Mode="In" Type="String" />
+      <Parameter Name="UPDATEUSRID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_remiConfirByUsridGT" ReturnType="Collection(SICOR_DBModel.sp_remiConfirByUsridGT_Result)">
+      <Parameter Name="USRID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_remiConfirSV" ReturnType="Collection(SICOR_DBModel.sp_remiConfirSV_Result)">
+      <Parameter Name="REMID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_usuariosUpPassSV" ReturnType="Collection(SICOR_DBModel.sp_usuariosUpPassSV_Result)">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+      <Parameter Name="PSS" Mode="In" Type="String" />
+      <Parameter Name="NPSS" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_contactosByInstGT" ReturnType="Collection(SICOR_DBModel.sp_contactosByInstGT_Result)">
+      <Parameter Name="CONTINST" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_contactosGT" ReturnType="Collection(SICOR_DBModel.sp_contactosGT_Result)">
+      <Parameter Name="grupo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_contactosInternosGT" ReturnType="Collection(SICOR_DBModel.sp_contactosInternosGT_Result)">
+      <Parameter Name="grupo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_contactosSV" ReturnType="Collection(SICOR_DBModel.sp_contactosSV_Result)">
+      <Parameter Name="CONTID" Mode="In" Type="Int32" />
+      <Parameter Name="CONTNOMBRE" Mode="In" Type="String" />
+      <Parameter Name="CONTCARGO" Mode="In" Type="String" />
+      <Parameter Name="CONTINST" Mode="In" Type="String" />
+      <Parameter Name="CONTUNIDAD" Mode="In" Type="String" />
+      <Parameter Name="CONTDSC" Mode="In" Type="String" />
+      <Parameter Name="TIPOID" Mode="In" Type="Int32" />
+      <Parameter Name="CONTEMAIL" Mode="In" Type="String" />
+      <Parameter Name="CONTTELS" Mode="In" Type="String" />
+      <Parameter Name="UPDATEUSRID" Mode="In" Type="Int32" />
+      <Parameter Name="GRUPO" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_contInstGT" ReturnType="Collection(SICOR_DBModel.sp_contInstGT_Result)">
+      <Parameter Name="grupo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_contUnidadGT" ReturnType="Collection(SICOR_DBModel.sp_contUnidadGT_Result)">
+      <Parameter Name="grupo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_detallefullSV" ReturnType="Collection(SICOR_DBModel.sp_detallefullSV_Result)">
+      <Parameter Name="CORRESID" Mode="In" Type="Int32" />
+      <Parameter Name="CORRESCOD" Mode="In" Type="String" />
+      <Parameter Name="CLASEID" Mode="In" Type="Int32" />
+      <Parameter Name="TIPOID" Mode="In" Type="Int32" />
+      <Parameter Name="PRIOID" Mode="In" Type="Int32" />
+      <Parameter Name="CONTID_REMITE" Mode="In" Type="Int32" />
+      <Parameter Name="CATEGOID" Mode="In" Type="Int32" />
+      <Parameter Name="ASUNTO" Mode="In" Type="String" />
+      <Parameter Name="NOTAELABFEC" Mode="In" Type="DateTime" />
+      <Parameter Name="NOTARECIBFEC" Mode="In" Type="DateTime" />
+      <Parameter Name="NOTARECIBHORA" Mode="In" Type="Time" />
+      <Parameter Name="REQFIRMA" Mode="In" Type="Byte" />
+      <Parameter Name="ADJUNTO" Mode="In" Type="String" />
+      <Parameter Name="CONTID_DIRIGIDO" Mode="In" Type="Int32" />
+      <Parameter Name="CONTID_ELABORO" Mode="In" Type="Int32" />
+      <Parameter Name="CORRESID_CONTESTA" Mode="In" Type="Int32" />
+      <Parameter Name="MARGINAID" Mode="In" Type="Int32" />
+      <Parameter Name="MARGINAFORMARES" Mode="In" Type="String" />
+      <Parameter Name="ELIMINADO" Mode="In" Type="Byte" />
+      <Parameter Name="UPDATEUSRID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_detallefullGT" ReturnType="Collection(SICOR_DBModel.sp_detallefullGT_Result2)">
+      <Parameter Name="tipo" Mode="In" Type="Int32" />
+      <Parameter Name="grupo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_detallefullByIdGT" ReturnType="Collection(SICOR_DBModel.sp_detallefullByIdGT_Result)">
+      <Parameter Name="CORRESID" Mode="In" Type="Int32" />
+      <Parameter Name="grupo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_detallefullByFechaGT" ReturnType="Collection(SICOR_DBModel.sp_detallefullByFechaGT_Result)">
+      <Parameter Name="FECH01" Mode="In" Type="DateTime" />
+      <Parameter Name="FECH02" Mode="In" Type="DateTime" />
+      <Parameter Name="grupo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_detallefullByContNombrePadreGT" ReturnType="Collection(SICOR_DBModel.sp_detallefullByContNombrePadreGT_Result)">
+      <Parameter Name="CONT" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_detallefullByContIdPadreGT" ReturnType="Collection(SICOR_DBModel.sp_detallefullByContIdPadreGT_Result)">
+      <Parameter Name="CONTID" Mode="In" Type="Int32" />
+      <Parameter Name="grupo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_detallefullByContestaIdGT" ReturnType="Collection(SICOR_DBModel.sp_detallefullByContestaIdGT_Result)">
+      <Parameter Name="CORRESID_CONTESTA" Mode="In" Type="Int32" />
+      <Parameter Name="grupo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_detallefullByCodGT" ReturnType="Collection(SICOR_DBModel.sp_detallefullByCodGT_Result)">
+      <Parameter Name="CORRESCOD" Mode="In" Type="String" />
+      <Parameter Name="grupo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_detallefullByAsuntoGT" ReturnType="Collection(SICOR_DBModel.sp_detallefullByAsuntoGT_Result)">
+      <Parameter Name="ASUNTO" Mode="In" Type="String" />
+      <Parameter Name="grupo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_corresFimaSV" ReturnType="Collection(SICOR_DBModel.sp_corresFimaSV_Result)">
+      <Parameter Name="CORRESID" Mode="In" Type="Int32" />
+      <Parameter Name="REQFIRMA" Mode="In" Type="Byte" />
+      <Parameter Name="UPDATEUSRID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_corresElimSV" ReturnType="Collection(SICOR_DBModel.sp_corresElimSV_Result)">
+      <Parameter Name="CORRESID" Mode="In" Type="Int32" />
+      <Parameter Name="MARGINAID" Mode="In" Type="Int32" />
+      <Parameter Name="ELIMINADO" Mode="In" Type="Byte" />
+      <Parameter Name="UPDATEUSRID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_corresDebUpSV" ReturnType="Collection(SICOR_DBModel.sp_corresDebUpSV_Result)">
+      <Parameter Name="CORRESDEBID" Mode="In" Type="Int32" />
+      <Parameter Name="CORRESID" Mode="In" Type="Int32" />
+      <Parameter Name="CORRESDEB_RECIBFEC" Mode="In" Type="DateTime" />
+      <Parameter Name="CORRESDEB_RECIBHORA" Mode="In" Type="String" />
+      <Parameter Name="UPDATEUSRID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_corresDebSV" ReturnType="Collection(SICOR_DBModel.sp_corresDebSV_Result)">
+      <Parameter Name="CORRESDEBID" Mode="In" Type="Int32" />
+      <Parameter Name="CORRESID" Mode="In" Type="Int32" />
+      <Parameter Name="CORRESDEBDSC" Mode="In" Type="String" />
+      <Parameter Name="CORRESDEBFEC" Mode="In" Type="DateTime" />
+      <Parameter Name="UPDATEUSRID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_corresDebByCorresIdGT" ReturnType="Collection(SICOR_DBModel.sp_corresDebByCorresIdGT_Result)">
+      <Parameter Name="CORRESID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_corresActivoSV" ReturnType="Collection(SICOR_DBModel.sp_corresActivoSV_Result)">
+      <Parameter Name="CORRESID" Mode="In" Type="Int32" />
+      <Parameter Name="ACTIVO" Mode="In" Type="Byte" />
+      <Parameter Name="UPDATEUSRID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_margiContSV" ReturnType="Collection(SICOR_DBModel.sp_margiContSV_Result)">
+      <Parameter Name="MARGICONTID" Mode="In" Type="Int32" />
+      <Parameter Name="MARGID" Mode="In" Type="Int32" />
+      <Parameter Name="CONTID" Mode="In" Type="Int32" />
+      <Parameter Name="TIPOID" Mode="In" Type="Int32" />
+      <Parameter Name="MARGRECIBFEC" Mode="In" Type="DateTime" />
+      <Parameter Name="MARGRECIBHORA" Mode="In" Type="String" />
+      <Parameter Name="MARGRECIBNOMBRE" Mode="In" Type="String" />
+      <Parameter Name="ENVIOFISICO" Mode="In" Type="Byte" />
+      <Parameter Name="ENVIODIGITAL" Mode="In" Type="Byte" />
+      <Parameter Name="UPDATEUSRID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_marginadoDL" ReturnType="Collection(SICOR_DBModel.sp_marginadoDL_Result)">
+      <Parameter Name="MARGID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_marginaRecibeUpdateSV" ReturnType="Collection(SICOR_DBModel.sp_marginaRecibeUpdateSV_Result)">
+      <Parameter Name="MARGICONTID" Mode="In" Type="Int32" />
+      <Parameter Name="MARGRECIBFEC" Mode="In" Type="DateTime" />
+      <Parameter Name="MARGRECIBHORA" Mode="In" Type="String" />
+      <Parameter Name="MARGRECIBNOMBRE" Mode="In" Type="String" />
+      <Parameter Name="UPDATEUSRID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_margiContGT" ReturnType="Collection(SICOR_DBModel.sp_margiContGT_Result)">
+      <Parameter Name="MARGID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_correspondenciaSV" ReturnType="Collection(SICOR_DBModel.sp_correspondenciaSV_Result)">
+      <Parameter Name="CORRESID" Mode="In" Type="Int32" />
+      <Parameter Name="CORRESCOD" Mode="In" Type="String" />
+      <Parameter Name="CLASEID" Mode="In" Type="Int32" />
+      <Parameter Name="TIPOID" Mode="In" Type="Int32" />
+      <Parameter Name="PRIOID" Mode="In" Type="Int32" />
+      <Parameter Name="CONTID_REMITE" Mode="In" Type="Int32" />
+      <Parameter Name="CATEGOID" Mode="In" Type="Int32" />
+      <Parameter Name="ASUNTO" Mode="In" Type="String" />
+      <Parameter Name="NOTAELABFEC" Mode="In" Type="DateTime" />
+      <Parameter Name="NOTARECIBFEC" Mode="In" Type="DateTime" />
+      <Parameter Name="NOTARECIBHORA" Mode="In" Type="String" />
+      <Parameter Name="REQFIRMA" Mode="In" Type="Byte" />
+      <Parameter Name="CONTID_DIRIGIDO" Mode="In" Type="Int32" />
+      <Parameter Name="CONTID_ELABORO" Mode="In" Type="Int32" />
+      <Parameter Name="CORRESID_CONTESTA" Mode="In" Type="Int32" />
+      <Parameter Name="MARGINAID" Mode="In" Type="Int32" />
+      <Parameter Name="MARGINAFORMARES" Mode="In" Type="String" />
+      <Parameter Name="ELIMINADO" Mode="In" Type="Byte" />
+      <Parameter Name="UPDATEUSRID" Mode="In" Type="Int32" />
+      <Parameter Name="RESPONSABLEID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_margiActiveRepGT" ReturnType="Collection(SICOR_DBModel.sp_margiActiveRepGT_Result)">
+      <Parameter Name="FECHMARGI01" Mode="In" Type="DateTime" />
+      <Parameter Name="FECHMARGI02" Mode="In" Type="DateTime" />
+      <Parameter Name="grupo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_marginadoByIdGT" ReturnType="Collection(SICOR_DBModel.sp_marginadoByIdGT_Result)">
+      <Parameter Name="MARGID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_marginadoGT" ReturnType="Collection(SICOR_DBModel.sp_marginadoGT_Result)">
+      <Parameter Name="CORRESID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_marginadoPendientesByFechaGT" ReturnType="Collection(SICOR_DBModel.sp_marginadoPendientesByFechaGT_Result)">
+      <Parameter Name="FECHMARGI01" Mode="In" Type="DateTime" />
+      <Parameter Name="FECHMARGI02" Mode="In" Type="DateTime" />
+      <Parameter Name="grupo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_marginadoSV" ReturnType="Collection(SICOR_DBModel.sp_marginadoSV_Result)">
+      <Parameter Name="MARGID" Mode="In" Type="Int32" />
+      <Parameter Name="CORRESID" Mode="In" Type="Int32" />
+      <Parameter Name="MARGFEC" Mode="In" Type="DateTime" />
+      <Parameter Name="MARGTIEMPO" Mode="In" Type="DateTime" />
+      <Parameter Name="MARGMOTIVO" Mode="In" Type="String" />
+      <Parameter Name="MARGPENDIENTE" Mode="In" Type="Byte" />
+      <Parameter Name="MARGINSTRUC" Mode="In" Type="Int32" />
+      <Parameter Name="UPDATEUSRID" Mode="In" Type="Int32" />
+      <Parameter Name="MARGINADOPOR" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_margiRepGT" ReturnType="Collection(SICOR_DBModel.sp_margiRepGT_Result)">
+      <Parameter Name="FECHMARGI01" Mode="In" Type="DateTime" />
+      <Parameter Name="FECHMARGI02" Mode="In" Type="DateTime" />
+      <Parameter Name="grupo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_marginadoMarcaDL" ReturnType="Collection(SICOR_DBModel.sp_marginadoMarcaDL_Result)">
+      <Parameter Name="MARGID" Mode="In" Type="Int32" />
+      <Parameter Name="UPDATEUSRID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_enviadoGT" ReturnType="Collection(SICOR_DBModel.sp_enviadoGT_Result)">
+      <Parameter Name="CORRESID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_enviadoSinResByFechaGT" ReturnType="Collection(SICOR_DBModel.sp_enviadoSinResByFechaGT_Result)">
+      <Parameter Name="FECH01" Mode="In" Type="DateTime" />
+      <Parameter Name="FECH02" Mode="In" Type="DateTime" />
+      <Parameter Name="grupo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_enviadoSV" ReturnType="Collection(SICOR_DBModel.sp_enviadoSV_Result)">
+      <Parameter Name="ENVIAID" Mode="In" Type="Int32" />
+      <Parameter Name="CONTID" Mode="In" Type="Int32" />
+      <Parameter Name="CORRESID" Mode="In" Type="Int32" />
+      <Parameter Name="ENVIOFEC" Mode="In" Type="DateTime" />
+      <Parameter Name="ENVIORECIBFEC" Mode="In" Type="DateTime" />
+      <Parameter Name="ENVIORECIBHORA" Mode="In" Type="String" />
+      <Parameter Name="ENVIORECIBNOMBRE" Mode="In" Type="String" />
+      <Parameter Name="ENVIOINSTRUC" Mode="In" Type="Int32" />
+      <Parameter Name="ENVIODIGITAL" Mode="In" Type="Byte" />
+      <Parameter Name="ENVIOFISICO" Mode="In" Type="Byte" />
+      <Parameter Name="UPDATEUSRID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_contactosUpMailSV" ReturnType="Collection(SICOR_DBModel.sp_contactosUpMailSV_Result)">
+      <Parameter Name="CONTID" Mode="In" Type="Int32" />
+      <Parameter Name="CONTEMAIL" Mode="In" Type="String" />
+      <Parameter Name="UPDATEUSRID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_enviadoRecibeUpdateSV" ReturnType="Collection(SICOR_DBModel.sp_enviadoRecibeUpdateSV_Result)">
+      <Parameter Name="ENVIAID" Mode="In" Type="Int32" />
+      <Parameter Name="ENVIORECIBFEC" Mode="In" Type="DateTime" />
+      <Parameter Name="ENVIORECIBHORA" Mode="In" Type="String" />
+      <Parameter Name="ENVIORECIBNOMBRE" Mode="In" Type="String" />
+      <Parameter Name="UPDATEUSRID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_enviadoMDL" ReturnType="Collection(SICOR_DBModel.sp_enviadoMDL_Result)">
+      <Parameter Name="ENVIAID" Mode="In" Type="Int32" />
+      <Parameter Name="UPDATEUSRID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_contByNomGT" ReturnType="Collection(SICOR_DBModel.sp_contByNomGT_Result)">
+      <Parameter Name="CONTNOMBRE" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_margiResByContestaIdGT" ReturnType="Collection(SICOR_DBModel.sp_margiResByContestaIdGT_Result)">
+      <Parameter Name="CORRESID_CONTESTA" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_detallefullByContTIPOGT" ReturnType="Collection(SICOR_DBModel.sp_detallefullByContTIPOGT_Result)">
+      <Parameter Name="TIPO" Mode="In" Type="Int32" />
+      <Parameter Name="CONT" Mode="In" Type="String" />
+      <Parameter Name="TEXTO" Mode="In" Type="String" />
+      <Parameter Name="grupo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_corresFull2GT" ReturnType="Collection(SICOR_DBModel.sp_corresFull2GT_Result)">
+      <Parameter Name="grupo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_notificacionGT" ReturnType="Collection(SICOR_DBModel.sp_notificacionGT_Result1)">
+      <Parameter Name="userid" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_notificacionUP">
+      <Parameter Name="mensajeid" Mode="In" Type="Int32" />
+      <Parameter Name="userid" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_adjuntoDL" ReturnType="Collection(SICOR_DBModel.sp_adjuntoDL_Result2)">
+      <Parameter Name="ADJUNTO_NAME" Mode="In" Type="String" />
+      <Parameter Name="usrs_id" Mode="In" Type="Int32" />
+      <Parameter Name="CorresId" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_archivosGT" ReturnType="Collection(SICOR_DBModel.sp_archivosGT_Result)">
+      <Parameter Name="CORRESID" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_contactoDL" ReturnType="Collection(SICOR_DBModel.sp_contactoDL_Result)">
+      <Parameter Name="contactoid" Mode="In" Type="Int32" />
+      <Parameter Name="usuarioid" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_detallefullByFechaContIDGT" ReturnType="Collection(SICOR_DBModel.sp_detallefullByFechaContIDGT_Result)">
+      <Parameter Name="FECH01" Mode="In" Type="DateTime" />
+      <Parameter Name="FECH02" Mode="In" Type="DateTime" />
+      <Parameter Name="CONTID" Mode="In" Type="Int32" />
+      <Parameter Name="grupo" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_enviadoSinResByFechaGTV2" ReturnType="Collection(SICOR_DBModel.sp_enviadoSinResByFechaGTV2_Result)">
+      <Parameter Name="FECH01" Mode="In" Type="DateTime" />
+      <Parameter Name="FECH02" Mode="In" Type="DateTime" />
+      <Parameter Name="grupo" Mode="In" Type="Int32" />
+      <Parameter Name="TipoC" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_marginadoPendientesByFechaGTV2" ReturnType="Collection(SICOR_DBModel.sp_marginadoPendientesByFechaGTV2_Result)">
+      <Parameter Name="FECHMARGI01" Mode="In" Type="DateTime" />
+      <Parameter Name="FECHMARGI02" Mode="In" Type="DateTime" />
+      <Parameter Name="grupo" Mode="In" Type="Int32" />
+      <Parameter Name="TipoC" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_detallefullByFechaGTV2" ReturnType="Collection(SICOR_DBModel.sp_detallefullByFechaGTV2_Result)">
+      <Parameter Name="FECH01" Mode="In" Type="DateTime" />
+      <Parameter Name="FECH02" Mode="In" Type="DateTime" />
+      <Parameter Name="grupo" Mode="In" Type="Int32" />
+      <Parameter Name="TipoC" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_detallefullByFechaContIDGTV2" ReturnType="Collection(SICOR_DBModel.sp_detallefullByFechaContIDGTV2_Result)">
+      <Parameter Name="FECH01" Mode="In" Type="DateTime" />
+      <Parameter Name="FECH02" Mode="In" Type="DateTime" />
+      <Parameter Name="CONTID" Mode="In" Type="Int32" />
+      <Parameter Name="grupo" Mode="In" Type="Int32" />
+      <Parameter Name="TipoC" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_detallefullByIdsGT" ReturnType="Collection(SICOR_DBModel.sp_detallefullByIdsGT_Result)">
+      <Parameter Name="CORRESID" Mode="In" Type="String" />
+      <Parameter Name="grupo" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="sp_cat_categoriaGT_Result">
+    <Property Type="Int32" Name="CATEGOID" Nullable="false" />
+    <Property Type="String" Name="CATEGONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="CATEGODSC" Nullable="false" MaxLength="1024" />
+  </ComplexType>
+  <ComplexType Name="sp_cat_claseGT_Result">
+    <Property Type="Int32" Name="CLASEID" Nullable="false" />
+    <Property Type="String" Name="CLASENOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="CLASEDSC" Nullable="false" MaxLength="1024" />
+  </ComplexType>
+  <ComplexType Name="sp_cat_estadoGT_Result">
+    <Property Type="Int32" Name="ESTADOID" Nullable="false" />
+    <Property Type="String" Name="ESTADONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ESTADODSC" Nullable="false" MaxLength="1024" />
+  </ComplexType>
+  <ComplexType Name="sp_cat_tipoGT_Result">
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="TIPONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="TIPODSC" Nullable="false" MaxLength="1024" />
+  </ComplexType>
+  <ComplexType Name="sp_remitidoSV_Result">
+    <Property Type="Int32" Name="REMID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_estadoGT_Result">
+    <Property Type="Int32" Name="ESTCORRID" Nullable="false" />
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="Int32" Name="ESTADOID" Nullable="false" />
+    <Property Type="String" Name="ESTADONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Byte" Name="ESTADOACTIVO" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_estadoSV_Result">
+    <Property Type="Int32" Name="ESTCORRID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_usuariosGT_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="NOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="APE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="EMEIL" Nullable="false" MaxLength="128" />
+  </ComplexType>
+  <ComplexType Name="sp_usuariosVerifGT_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="NOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="APE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="EMAIL" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="GRUPO" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_margiPendienteUpdate_Result">
+    <Property Type="Int32" Name="MARGID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_archivoSV_Result">
+    <Property Type="Int32" Name="ARCHID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_archivoGT_Result">
+    <Property Type="Int32" Name="ARCHID" Nullable="false" />
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="Int32" Name="ARCHIVO" Nullable="false" />
+    <Property Type="String" Name="ARCHIVONOMBRE" Nullable="true" MaxLength="64" />
+    <Property Type="String" Name="ARCHVOCOD" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="ARCHVODSC" Nullable="false" MaxLength="1024" />
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="TIPONOMBRE" Nullable="false" MaxLength="64" />
+  </ComplexType>
+  <ComplexType Name="sp_adjuntoGT_Result">
+    <Property Type="Int32" Name="ADJUNTOID" Nullable="false" />
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="ADJUNTO_NAME" Nullable="false" MaxLength="128" />
+    <Property Type="String" Name="ADJUNTO_SIZE" Nullable="false" MaxLength="128" />
+    <Property Type="String" Name="ADJUNTO_TYPE" Nullable="false" MaxLength="128" />
+    <Property Type="String" Name="ADJUNTO_URLDOWN" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="ADJUNTO_URLDEL" Nullable="false" MaxLength="256" />
+    <Property Type="Byte" Name="ADJUNTO_TIPO" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_adjuntoSV_Result">
+    <Property Type="Int32" Name="ADJUNTOID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_mensaje_inGT_Result">
+    <Property Type="Int32" Name="MSJINID" Nullable="false" />
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="Int32" Name="CLM_USRS_ID" Nullable="false" />
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="MSJINMENSAJE" Nullable="false" MaxLength="1024" />
+  </ComplexType>
+  <ComplexType Name="sp_mensaje_inSV_Result">
+    <Property Type="Int32" Name="MSJINID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_mensajeRecibNum_inGT_Result">
+    <Property Type="Int32" Name="MSJNOLEIDO_NUM" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_mensajeUpLeido_inGT_Result">
+    <Property Type="Int32" Name="CLM_USRS_ID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_mensajeEnvi_inGT_Result">
+    <Property Type="Int32" Name="MSJINID" Nullable="false" />
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="Int32" Name="CLM_USRS_ID" Nullable="false" />
+    <Property Type="String" Name="USRRECIBE_NOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="USRRECIBE_APE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="MSJINMENSAJE" Nullable="false" MaxLength="1024" />
+    <Property Type="String" Name="USRENVIA_NOM" Nullable="true" MaxLength="64" />
+    <Property Type="String" Name="USRENVIA_APE" Nullable="true" MaxLength="64" />
+    <Property Type="String" Name="INSERTFEC" Nullable="true" MaxLength="10" />
+  </ComplexType>
+  <ComplexType Name="sp_mensajeRecib_inGT_Result">
+    <Property Type="Int32" Name="MSJINID" Nullable="false" />
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="Int32" Name="CLM_USRS_ID" Nullable="false" />
+    <Property Type="String" Name="USRRECIBE_NOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="USRRECIBE_APE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="MSJINMENSAJE" Nullable="false" MaxLength="1024" />
+    <Property Type="Byte" Name="MSJINLEIDO" Nullable="true" />
+    <Property Type="String" Name="USRENVIA_NOM" Nullable="true" MaxLength="64" />
+    <Property Type="String" Name="USRENVIA_APE" Nullable="true" MaxLength="64" />
+    <Property Type="String" Name="INSERTFEC" Nullable="true" MaxLength="10" />
+  </ComplexType>
+  <ComplexType Name="sp_mensajeByIdFech_inGT_Result">
+    <Property Type="Int32" Name="MSJINID" Nullable="false" />
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="Int32" Name="CLM_USRS_ID" Nullable="false" />
+    <Property Type="String" Name="USRRECIBE_NOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="USRRECIBE_APE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="MSJINMENSAJE" Nullable="false" MaxLength="1024" />
+    <Property Type="Byte" Name="MSJINLEIDO" Nullable="true" />
+    <Property Type="String" Name="USRENVIA_NOM" Nullable="true" MaxLength="64" />
+    <Property Type="String" Name="USRENVIA_APE" Nullable="true" MaxLength="64" />
+    <Property Type="String" Name="INSERTFEC" Nullable="true" MaxLength="10" />
+  </ComplexType>
+  <ComplexType Name="sp_mensaje_exSV_Result">
+    <Property Type="Int32" Name="MSJEXID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_remiConfirByUsridGT_Result">
+    <Property Type="Int32" Name="REMID" Nullable="false" />
+    <Property Type="Int32" Name="CLM_USRS_ID" Nullable="false" />
+    <Property Type="String" Name="USRNOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="USRAPE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="REMFEC" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+    <Property Type="String" Name="INSERTUSRNOM" Nullable="true" MaxLength="64" />
+    <Property Type="String" Name="INSERTUSRAPE" Nullable="true" MaxLength="64" />
+  </ComplexType>
+  <ComplexType Name="sp_remiConfirSV_Result">
+    <Property Type="Int32" Name="REMID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_remitidoGT_Result">
+    <Property Type="Int32" Name="REMID" Nullable="false" />
+    <Property Type="Int32" Name="CLM_USRS_ID" Nullable="false" />
+    <Property Type="String" Name="USRNOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="USRAPE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="Byte" Name="REMCFR_RCBD" Nullable="true" />
+    <Property Type="String" Name="REMFEC" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+    <Property Type="String" Name="INSERTUSRNOM" Nullable="true" MaxLength="64" />
+    <Property Type="String" Name="INSERTUSRAPE" Nullable="true" MaxLength="64" />
+  </ComplexType>
+  <ComplexType Name="sp_usuariosUpPassSV_Result">
+    <Property Type="Int32" Name="ID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_contactosByIdGT_Result">
+    <Property Type="Int32" Name="CONTID" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTCARGO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTDSC" Nullable="false" MaxLength="1024" />
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="TIPONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="CONTEMAIL" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTTELS" Nullable="false" MaxLength="128" />
+  </ComplexType>
+  <ComplexType Name="sp_contactosByInstGT_Result">
+    <Property Type="Int32" Name="CONTID" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTCARGO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTDSC" Nullable="false" MaxLength="1024" />
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="TIPONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="CONTEMAIL" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTTELS" Nullable="false" MaxLength="128" />
+  </ComplexType>
+  <ComplexType Name="sp_contactosGT_Result">
+    <Property Type="Int32" Name="CONTID" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTCARGO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTDSC" Nullable="false" MaxLength="1024" />
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="TIPONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="CONTEMAIL" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTTELS" Nullable="false" MaxLength="128" />
+  </ComplexType>
+  <ComplexType Name="sp_contactosInternosGT_Result">
+    <Property Type="Int32" Name="CONTID" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTCARGO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTDSC" Nullable="false" MaxLength="1024" />
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="TIPONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="CONTEMAIL" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTTELS" Nullable="false" MaxLength="128" />
+  </ComplexType>
+  <ComplexType Name="sp_contactosSV_Result">
+    <Property Type="Int32" Name="CONTID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_contInstGT_Result">
+    <Property Type="String" Name="CONTINST" Nullable="false" MaxLength="256" />
+  </ComplexType>
+  <ComplexType Name="sp_contUnidadGT_Result">
+    <Property Type="String" Name="CONTUNIDAD" Nullable="false" MaxLength="256" />
+  </ComplexType>
+  <ComplexType Name="sp_detallefullSV_Result">
+    <Property Type="Int32" Name="CORRESID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_detallefullGT_Result">
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="CORRESCOD" Nullable="false" MaxLength="256" />
+    <Property Type="Int32" Name="CLASEID" Nullable="false" />
+    <Property Type="String" Name="CLASENOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="TIPONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="PRIOID" Nullable="false" />
+    <Property Type="String" Name="PRIONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="CONTID_REMITE" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CATEGOID" Nullable="false" />
+    <Property Type="String" Name="CATEGONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ASUNTO" Nullable="false" MaxLength="1024" />
+    <Property Type="String" Name="NOTAELABFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBHORA" Nullable="false" MaxLength="50" />
+    <Property Type="Byte" Name="REQFIRMA" Nullable="false" />
+    <Property Type="Byte" Name="ADJUNTO" Nullable="false" />
+    <Property Type="Int32" Name="CONTID_DIRIGIDO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CONTID_ELABORO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CORRESID_CONTESTA" Nullable="false" />
+    <Property Type="Int32" Name="MARGINAID" Nullable="false" />
+    <Property Type="String" Name="MARGINAFORMARES" Nullable="false" MaxLength="1024" />
+    <Property Type="Byte" Name="ACTIVO" Nullable="false" />
+    <Property Type="Byte" Name="ELIMINADO" Nullable="false" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+    <Property Type="Byte" Name="CORRESDEB" Nullable="true" />
+    <Property Type="String" Name="INSERTUSRNOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="INSERTUSRAPE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ESTADONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="ESTADOID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_detallefullByIdGT_Result">
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="CORRESCOD" Nullable="false" MaxLength="256" />
+    <Property Type="Int32" Name="CLASEID" Nullable="false" />
+    <Property Type="String" Name="CLASENOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="TIPONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="PRIOID" Nullable="false" />
+    <Property Type="String" Name="PRIONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="CONTID_REMITE" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CATEGOID" Nullable="false" />
+    <Property Type="String" Name="CATEGONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ASUNTO" Nullable="false" MaxLength="1024" />
+    <Property Type="String" Name="NOTAELABFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBHORA" Nullable="false" MaxLength="50" />
+    <Property Type="Byte" Name="REQFIRMA" Nullable="false" />
+    <Property Type="Byte" Name="ADJUNTO" Nullable="false" />
+    <Property Type="Int32" Name="CONTID_DIRIGIDO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CONTID_ELABORO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CORRESID_CONTESTA" Nullable="false" />
+    <Property Type="Int32" Name="MARGINAID" Nullable="false" />
+    <Property Type="String" Name="MARGINAFORMARES" Nullable="false" MaxLength="1024" />
+    <Property Type="Byte" Name="ACTIVO" Nullable="false" />
+    <Property Type="Byte" Name="ELIMINADO" Nullable="false" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+    <Property Type="Byte" Name="CORRESDEB" Nullable="true" />
+    <Property Type="String" Name="INSERTUSRNOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="INSERTUSRAPE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ESTADONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="ESTADOID" Nullable="false" />
+    <Property Type="String" Name="NOTAINSERT" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="RESPONSABLEID" Nullable="true" />
+    <Property Type="String" Name="RESPONSABLE" Nullable="true" MaxLength="129" />
+  </ComplexType>
+  <ComplexType Name="sp_detallefullByFechaGT_Result">
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="CORRESCOD" Nullable="false" MaxLength="256" />
+    <Property Type="Int32" Name="CLASEID" Nullable="false" />
+    <Property Type="String" Name="CLASENOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="TIPONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="PRIOID" Nullable="false" />
+    <Property Type="String" Name="PRIONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="CONTID_REMITE" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CATEGOID" Nullable="false" />
+    <Property Type="String" Name="CATEGONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ASUNTO" Nullable="false" MaxLength="1024" />
+    <Property Type="String" Name="NOTAELABFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBHORA" Nullable="false" MaxLength="50" />
+    <Property Type="Byte" Name="REQFIRMA" Nullable="false" />
+    <Property Type="Byte" Name="ADJUNTO" Nullable="false" />
+    <Property Type="Int32" Name="CONTID_DIRIGIDO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CONTID_ELABORO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CORRESID_CONTESTA" Nullable="false" />
+    <Property Type="Int32" Name="MARGINAID" Nullable="false" />
+    <Property Type="String" Name="MARGINAFORMARES" Nullable="false" MaxLength="1024" />
+    <Property Type="Byte" Name="ACTIVO" Nullable="false" />
+    <Property Type="Byte" Name="ELIMINADO" Nullable="false" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+    <Property Type="Byte" Name="CORRESDEB" Nullable="true" />
+    <Property Type="String" Name="INSERTUSRNOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="INSERTUSRAPE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ESTADONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="ESTADOID" Nullable="false" />
+    <Property Type="String" Name="NOTAINSERT" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="RESPONSABLEID" Nullable="true" />
+    <Property Type="String" Name="RESPONSABLE" Nullable="true" MaxLength="129" />
+  </ComplexType>
+  <ComplexType Name="sp_detallefullByContNombrePadreGT_Result">
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="CORRESCOD" Nullable="false" MaxLength="256" />
+    <Property Type="Int32" Name="CLASEID" Nullable="false" />
+    <Property Type="String" Name="CLASENOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="TIPONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="PRIOID" Nullable="false" />
+    <Property Type="String" Name="PRIONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="CONTID_REMITE" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CATEGOID" Nullable="false" />
+    <Property Type="String" Name="CATEGONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ASUNTO" Nullable="false" MaxLength="1024" />
+    <Property Type="String" Name="NOTAELABFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBHORA" Nullable="false" MaxLength="50" />
+    <Property Type="Byte" Name="REQFIRMA" Nullable="false" />
+    <Property Type="Byte" Name="ADJUNTO" Nullable="false" />
+    <Property Type="Int32" Name="CONTID_DIRIGIDO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CONTID_ELABORO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CORRESID_CONTESTA" Nullable="false" />
+    <Property Type="Int32" Name="MARGINAID" Nullable="false" />
+    <Property Type="String" Name="MARGINAFORMARES" Nullable="false" MaxLength="1024" />
+    <Property Type="Byte" Name="ACTIVO" Nullable="false" />
+    <Property Type="Byte" Name="ELIMINADO" Nullable="false" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+    <Property Type="Byte" Name="CORRESDEB" Nullable="true" />
+    <Property Type="String" Name="INSERTUSRNOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="INSERTUSRAPE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ESTADONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="ESTADOID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_detallefullByContIdPadreGT_Result">
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="CORRESCOD" Nullable="false" MaxLength="256" />
+    <Property Type="Int32" Name="CLASEID" Nullable="false" />
+    <Property Type="String" Name="CLASENOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="TIPONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="PRIOID" Nullable="false" />
+    <Property Type="String" Name="PRIONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="CONTID_REMITE" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CATEGOID" Nullable="false" />
+    <Property Type="String" Name="CATEGONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ASUNTO" Nullable="false" MaxLength="1024" />
+    <Property Type="String" Name="NOTAELABFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBHORA" Nullable="false" MaxLength="50" />
+    <Property Type="Byte" Name="REQFIRMA" Nullable="false" />
+    <Property Type="Byte" Name="ADJUNTO" Nullable="false" />
+    <Property Type="Int32" Name="CONTID_DIRIGIDO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CONTID_ELABORO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CORRESID_CONTESTA" Nullable="false" />
+    <Property Type="Int32" Name="MARGINAID" Nullable="false" />
+    <Property Type="String" Name="MARGINAFORMARES" Nullable="false" MaxLength="1024" />
+    <Property Type="Byte" Name="ACTIVO" Nullable="false" />
+    <Property Type="Byte" Name="ELIMINADO" Nullable="false" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+    <Property Type="Byte" Name="CORRESDEB" Nullable="true" />
+    <Property Type="String" Name="INSERTUSRNOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="INSERTUSRAPE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ESTADONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="ESTADOID" Nullable="false" />
+    <Property Type="String" Name="NOTAINSERT" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="RESPONSABLEID" Nullable="true" />
+    <Property Type="String" Name="RESPONSABLE" Nullable="true" MaxLength="129" />
+  </ComplexType>
+  <ComplexType Name="sp_detallefullByContestaIdGT_Result">
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="CORRESCOD" Nullable="false" MaxLength="256" />
+    <Property Type="Int32" Name="CLASEID" Nullable="false" />
+    <Property Type="String" Name="CLASENOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="TIPONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="PRIOID" Nullable="false" />
+    <Property Type="String" Name="PRIONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="CONTID_REMITE" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CATEGOID" Nullable="false" />
+    <Property Type="String" Name="CATEGONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ASUNTO" Nullable="false" MaxLength="1024" />
+    <Property Type="String" Name="NOTAELABFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBHORA" Nullable="false" MaxLength="50" />
+    <Property Type="Byte" Name="REQFIRMA" Nullable="false" />
+    <Property Type="Byte" Name="ADJUNTO" Nullable="false" />
+    <Property Type="Int32" Name="CONTID_DIRIGIDO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CONTID_ELABORO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CORRESID_CONTESTA" Nullable="false" />
+    <Property Type="Int32" Name="MARGINAID" Nullable="false" />
+    <Property Type="String" Name="MARGINAFORMARES" Nullable="false" MaxLength="1024" />
+    <Property Type="Byte" Name="ACTIVO" Nullable="false" />
+    <Property Type="Byte" Name="ELIMINADO" Nullable="false" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+    <Property Type="Byte" Name="CORRESDEB" Nullable="true" />
+    <Property Type="String" Name="INSERTUSRNOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="INSERTUSRAPE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ESTADONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="ESTADOID" Nullable="false" />
+    <Property Type="String" Name="NOTAINSERT" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="RESPONSABLEID" Nullable="true" />
+    <Property Type="String" Name="RESPONSABLE" Nullable="true" MaxLength="129" />
+  </ComplexType>
+  <ComplexType Name="sp_detallefullByCodGT_Result">
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="CORRESCOD" Nullable="false" MaxLength="256" />
+    <Property Type="Int32" Name="CLASEID" Nullable="false" />
+    <Property Type="String" Name="CLASENOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="TIPONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="PRIOID" Nullable="false" />
+    <Property Type="String" Name="PRIONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="CONTID_REMITE" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CATEGOID" Nullable="false" />
+    <Property Type="String" Name="CATEGONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ASUNTO" Nullable="false" MaxLength="1024" />
+    <Property Type="String" Name="NOTAELABFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBHORA" Nullable="false" MaxLength="50" />
+    <Property Type="Byte" Name="REQFIRMA" Nullable="false" />
+    <Property Type="Byte" Name="ADJUNTO" Nullable="false" />
+    <Property Type="Int32" Name="CONTID_DIRIGIDO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CONTID_ELABORO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CORRESID_CONTESTA" Nullable="false" />
+    <Property Type="Int32" Name="MARGINAID" Nullable="false" />
+    <Property Type="String" Name="MARGINAFORMARES" Nullable="false" MaxLength="1024" />
+    <Property Type="Byte" Name="ACTIVO" Nullable="false" />
+    <Property Type="Byte" Name="ELIMINADO" Nullable="false" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+    <Property Type="Byte" Name="CORRESDEB" Nullable="true" />
+    <Property Type="String" Name="INSERTUSRNOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="INSERTUSRAPE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ESTADONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="ESTADOID" Nullable="false" />
+    <Property Type="String" Name="NOTAINSERT" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="RESPONSABLEID" Nullable="true" />
+    <Property Type="String" Name="RESPONSABLE" Nullable="true" MaxLength="129" />
+  </ComplexType>
+  <ComplexType Name="sp_detallefullByAsuntoGT_Result">
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="CORRESCOD" Nullable="false" MaxLength="256" />
+    <Property Type="Int32" Name="CLASEID" Nullable="false" />
+    <Property Type="String" Name="CLASENOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="TIPONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="PRIOID" Nullable="false" />
+    <Property Type="String" Name="PRIONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="CONTID_REMITE" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CATEGOID" Nullable="false" />
+    <Property Type="String" Name="CATEGONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ASUNTO" Nullable="false" MaxLength="1024" />
+    <Property Type="String" Name="NOTAELABFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBHORA" Nullable="false" MaxLength="50" />
+    <Property Type="Byte" Name="REQFIRMA" Nullable="false" />
+    <Property Type="Byte" Name="ADJUNTO" Nullable="false" />
+    <Property Type="Int32" Name="CONTID_DIRIGIDO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CONTID_ELABORO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CORRESID_CONTESTA" Nullable="false" />
+    <Property Type="Int32" Name="MARGINAID" Nullable="false" />
+    <Property Type="String" Name="MARGINAFORMARES" Nullable="false" MaxLength="1024" />
+    <Property Type="Byte" Name="ACTIVO" Nullable="false" />
+    <Property Type="Byte" Name="ELIMINADO" Nullable="false" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+    <Property Type="Byte" Name="CORRESDEB" Nullable="true" />
+    <Property Type="String" Name="INSERTUSRNOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="INSERTUSRAPE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ESTADONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="ESTADOID" Nullable="false" />
+    <Property Type="String" Name="NOTAINSERT" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="RESPONSABLEID" Nullable="true" />
+    <Property Type="String" Name="RESPONSABLE" Nullable="true" MaxLength="129" />
+  </ComplexType>
+  <ComplexType Name="sp_corresFimaSV_Result">
+    <Property Type="Int32" Name="CORRESID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_corresElimSV_Result">
+    <Property Type="Int32" Name="CORRESID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_corresDebUpSV_Result">
+    <Property Type="Int32" Name="CORRESID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_corresDebSV_Result">
+    <Property Type="Int32" Name="CORRESDEBID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_corresDebByCorresIdGT_Result">
+    <Property Type="Int32" Name="CORRESDEBID" Nullable="false" />
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="CORRESDEBDSC" Nullable="false" MaxLength="1024" />
+    <Property Type="String" Name="CORRESDEB_RECIBFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="CORRESDEB_RECIBHORA" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="CORRESDEBFEC" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+    <Property Type="String" Name="INSERTUSRNOMFULL" Nullable="false" MaxLength="129" />
+    <Property Type="Int32" Name="UPDATEUSRID" Nullable="false" />
+    <Property Type="String" Name="UPDATEUSRNOMFULL" Nullable="true" MaxLength="129" />
+  </ComplexType>
+  <ComplexType Name="sp_corresActivoSV_Result">
+    <Property Type="Int32" Name="CORRESID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_margiContSV_Result">
+    <Property Type="Int32" Name="MARGICONTID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_marginadoDL_Result">
+    <Property Type="Int32" Name="MARGID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_marginaRecibeUpdateSV_Result">
+    <Property Type="Int32" Name="MARGICONTID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_margiContGT_Result">
+    <Property Type="Int32" Name="MARGICONTID" Nullable="false" />
+    <Property Type="Int32" Name="MARGID" Nullable="false" />
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="TIPONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="CONTID" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTINST" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTEMAIL" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="MARGRECIBFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="MARGRECIBHORA" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="MARGRECIBNOMBRE" Nullable="true" MaxLength="128" />
+    <Property Type="Byte" Name="ENVIOFISICO" Nullable="true" />
+    <Property Type="Byte" Name="ENVIODIGITAL" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_correspondenciaSV_Result">
+    <Property Type="Int32" Name="CORRESID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_marginadoSV_Result">
+    <Property Type="Int32" Name="MARGID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_margiActiveRepGT_Result">
+    <Property Type="Int32" Name="MARGID" Nullable="false" />
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="MARGFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="MARGTIEMPO" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="TIEMPO" Nullable="true" />
+    <Property Type="String" Name="MARGMOTIVO" Nullable="false" MaxLength="1024" />
+    <Property Type="Int32" Name="MARGINSTRUC" Nullable="true" />
+    <Property Type="String" Name="MARGINSTRUCDSC" Nullable="true" MaxLength="64" />
+    <Property Type="Byte" Name="MARGPENDIENTE" Nullable="false" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+    <Property Type="String" Name="INSERTUSRNOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="INSERTUSRAPE" Nullable="false" MaxLength="64" />
+  </ComplexType>
+  <ComplexType Name="sp_marginadoByIdGT_Result">
+    <Property Type="Int32" Name="MARGID" Nullable="false" />
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="MARGFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="MARGTIEMPO" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="TIEMPO" Nullable="true" />
+    <Property Type="String" Name="MARGMOTIVO" Nullable="false" MaxLength="1024" />
+    <Property Type="Int32" Name="MARGINSTRUC" Nullable="true" />
+    <Property Type="String" Name="MARGINSTRUCDSC" Nullable="true" MaxLength="64" />
+    <Property Type="Byte" Name="MARGPENDIENTE" Nullable="false" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+    <Property Type="String" Name="INSERTUSRNOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="INSERTUSRAPE" Nullable="false" MaxLength="64" />
+  </ComplexType>
+  <ComplexType Name="sp_marginadoGT_Result">
+    <Property Type="Int32" Name="MARGID" Nullable="false" />
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="MARGFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="MARGTIEMPO" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="TIEMPO" Nullable="true" />
+    <Property Type="String" Name="MARGMOTIVO" Nullable="false" MaxLength="1024" />
+    <Property Type="Int32" Name="MARGINSTRUC" Nullable="true" />
+    <Property Type="String" Name="MARGINSTRUCDSC" Nullable="true" MaxLength="64" />
+    <Property Type="Byte" Name="MARGPENDIENTE" Nullable="false" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+    <Property Type="String" Name="INSERTUSRNOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="INSERTUSRAPE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="MARGINADOPOR" Nullable="true" MaxLength="250" />
+  </ComplexType>
+  <ComplexType Name="sp_marginadoPendientesByFechaGT_Result">
+    <Property Type="Int32" Name="MARGID" Nullable="false" />
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="MARGFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="MARGTIEMPO" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="TIEMPO" Nullable="true" />
+    <Property Type="String" Name="MARGMOTIVO" Nullable="false" MaxLength="1024" />
+    <Property Type="Int32" Name="MARGINSTRUC" Nullable="true" />
+    <Property Type="String" Name="MARGINSTRUCDSC" Nullable="true" MaxLength="64" />
+    <Property Type="Byte" Name="MARGPENDIENTE" Nullable="false" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+    <Property Type="String" Name="INSERTUSRNOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="INSERTUSRAPE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="CONTNOMBRE" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTCARGO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST" Nullable="false" MaxLength="256" />
+    <Property Type="Int32" Name="CONTTIPOROLID" Nullable="false" />
+    <Property Type="String" Name="CONTROL" Nullable="true" MaxLength="64" />
+  </ComplexType>
+  <ComplexType Name="sp_margiRepGT_Result">
+    <Property Type="Int32" Name="MARGID" Nullable="false" />
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="MARGFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="MARGTIEMPO" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="TIEMPO" Nullable="true" />
+    <Property Type="String" Name="MARGMOTIVO" Nullable="false" MaxLength="1024" />
+    <Property Type="Int32" Name="MARGINSTRUC" Nullable="true" />
+    <Property Type="String" Name="MARGINSTRUCDSC" Nullable="true" MaxLength="64" />
+    <Property Type="Byte" Name="MARGPENDIENTE" Nullable="false" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+    <Property Type="String" Name="INSERTUSRNOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="INSERTUSRAPE" Nullable="false" MaxLength="64" />
+  </ComplexType>
+  <ComplexType Name="sp_marginadoMarcaDL_Result">
+    <Property Type="Int32" Name="MARGID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_enviadoSV_Result">
+    <Property Type="Int32" Name="ENVIAID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_contactosUpMailSV_Result">
+    <Property Type="Int32" Name="CONTID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_enviadoMDL_Result">
+    <Property Type="Int32" Name="ENVIAID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_enviadoRecibeUpdateSV_Result">
+    <Property Type="Int32" Name="ENVIAID" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_enviadoSinResByFechaGT_Result">
+    <Property Type="Int32" Name="ENVIAID" Nullable="false" />
+    <Property Type="Int32" Name="CONTID" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTINST" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD" Nullable="false" MaxLength="256" />
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="ENVIOFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="ENVIORECIBFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="ENVIORECIBHORA" Nullable="false" MaxLength="50" />
+    <Property Type="Int32" Name="ENVIOINSTRUC" Nullable="true" />
+    <Property Type="String" Name="ENVIOINSTRUCDSC" Nullable="true" MaxLength="64" />
+    <Property Type="Byte" Name="ENVIODIGITAL" Nullable="true" />
+    <Property Type="Byte" Name="ENVIOFISICO" Nullable="true" />
+    <Property Type="String" Name="INSERTUSRNOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="INSERTUSRAPE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_enviadoGT_Result">
+    <Property Type="Int32" Name="ENVIAID" Nullable="false" />
+    <Property Type="Int32" Name="CONTID" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTINST" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD" Nullable="false" MaxLength="256" />
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="ENVIOFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="ENVIORECIBFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="ENVIORECIBHORA" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="ENVIORECIBNOMBRE" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="ENVIOINSTRUC" Nullable="true" />
+    <Property Type="String" Name="ENVIOINSTRUCDSC" Nullable="true" MaxLength="64" />
+    <Property Type="Byte" Name="ENVIODIGITAL" Nullable="true" />
+    <Property Type="Byte" Name="ENVIOFISICO" Nullable="true" />
+    <Property Type="String" Name="INSERTUSRNOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="INSERTUSRAPE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_contByNomGT_Result">
+    <Property Type="Int32" Name="CONTID" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTCARGO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTDSC" Nullable="false" MaxLength="1024" />
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="TIPONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="CONTEMAIL" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTTELS" Nullable="false" MaxLength="128" />
+  </ComplexType>
+  <ComplexType Name="sp_margiResByContestaIdGT_Result">
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="CORRESCOD" Nullable="false" MaxLength="256" />
+    <Property Type="Int32" Name="CLASEID" Nullable="false" />
+    <Property Type="String" Name="CLASENOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="TIPONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="PRIOID" Nullable="false" />
+    <Property Type="String" Name="PRIONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="CONTID_REMITE" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CATEGOID" Nullable="false" />
+    <Property Type="String" Name="CATEGONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ASUNTO" Nullable="false" MaxLength="1024" />
+    <Property Type="String" Name="NOTAELABFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBHORA" Nullable="false" MaxLength="50" />
+    <Property Type="Byte" Name="REQFIRMA" Nullable="false" />
+    <Property Type="Byte" Name="ADJUNTO" Nullable="false" />
+    <Property Type="Int32" Name="CONTID_DIRIGIDO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CONTID_ELABORO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CORRESID_CONTESTA" Nullable="false" />
+    <Property Type="Int32" Name="MARGINAID" Nullable="false" />
+    <Property Type="String" Name="MARGINAFORMARES" Nullable="false" MaxLength="1024" />
+    <Property Type="Byte" Name="ACTIVO" Nullable="false" />
+    <Property Type="Byte" Name="ELIMINADO" Nullable="false" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+    <Property Type="Byte" Name="CORRESDEB" Nullable="true" />
+    <Property Type="String" Name="INSERTUSRNOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="INSERTUSRAPE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ESTADONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="ESTADOID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_detallefullByContTIPOGT_Result">
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="CORRESCOD" Nullable="false" MaxLength="256" />
+    <Property Type="Int32" Name="CLASEID" Nullable="false" />
+    <Property Type="String" Name="CLASENOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="TIPONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="PRIOID" Nullable="false" />
+    <Property Type="String" Name="PRIONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="CONTID_REMITE" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_REMITE" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_REMITE" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_REMITE" Nullable="false" MaxLength="256" />
+    <Property Type="Int32" Name="CATEGOID" Nullable="false" />
+    <Property Type="String" Name="CATEGONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ASUNTO" Nullable="false" MaxLength="1024" />
+    <Property Type="String" Name="NOTAELABFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBHORA" Nullable="false" MaxLength="50" />
+    <Property Type="Byte" Name="REQFIRMA" Nullable="false" />
+    <Property Type="Byte" Name="ADJUNTO" Nullable="false" />
+    <Property Type="Int32" Name="CONTID_DIRIGIDO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_DIRIGIDO" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_DIRIGIDO" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_DIRIGIDO" Nullable="false" MaxLength="256" />
+    <Property Type="Int32" Name="CONTID_ELABORO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_ELABORO" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_ELABORO" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_ELABORO" Nullable="false" MaxLength="256" />
+    <Property Type="Int32" Name="CORRESID_CONTESTA" Nullable="false" />
+    <Property Type="Int32" Name="MARGINAID" Nullable="false" />
+    <Property Type="String" Name="MARGINAFORMARES" Nullable="false" MaxLength="1024" />
+    <Property Type="Byte" Name="ACTIVO" Nullable="false" />
+    <Property Type="Byte" Name="ELIMINADO" Nullable="false" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+    <Property Type="Byte" Name="CORRESDEB" Nullable="true" />
+    <Property Type="String" Name="INSERTUSRNOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="INSERTUSRAPE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ESTADONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="ESTADOID" Nullable="false" />
+    <Property Type="String" Name="NOTAINSERT" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="RESPONSABLEID" Nullable="true" />
+    <Property Type="String" Name="RESPONSABLE" Nullable="true" MaxLength="129" />
+  </ComplexType>
+  <ComplexType Name="sp_corresFull2GT_Result">
+    <Property Type="Int32" Name="TIPO" Nullable="false" />
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="DETALLE" Nullable="true" MaxLength="1625" />
+    <Property Type="DateTime" Name="FECHA" Nullable="false" Precision="23" />
+  </ComplexType>
+  <ComplexType Name="sp_adjuntoDL_Result">
+    <Property Type="Int32" Name="res" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_adjuntoDL_Result1">
+    <Property Type="Int32" Name="res" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_notificacionGT_Result">
+    <Property Type="Int32" Name="MENSAJEID" Nullable="false" />
+    <Property Type="String" Name="MENSAJE" Nullable="false" />
+    <Property Type="DateTime" Name="UPDATEFECHA" Nullable="false" Precision="23" />
+    <Property Type="Int32" Name="USUARIOID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_notificacionGT_Result1">
+    <Property Type="Int32" Name="MENSAJEID" Nullable="false" />
+    <Property Type="String" Name="MENSAJE" Nullable="false" />
+    <Property Type="String" Name="UPDATEFECHA" Nullable="true" MaxLength="20" />
+    <Property Type="Int32" Name="USUARIOID" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="sp_adjuntoDL_Result2">
+    <Property Type="Int32" Name="res" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_archivosGT_Result">
+    <Property Type="Int32" Name="ADJUNTOID" Nullable="false" />
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="ADJUNTO_NAME" Nullable="false" MaxLength="128" />
+  </ComplexType>
+  <ComplexType Name="sp_contactoDL_Result">
+    <Property Type="Int32" Name="msg" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_detallefullByFechaContIDGT_Result">
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="CORRESCOD" Nullable="false" MaxLength="500" />
+    <Property Type="Int32" Name="CLASEID" Nullable="false" />
+    <Property Type="String" Name="CLASENOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="TIPONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="PRIOID" Nullable="false" />
+    <Property Type="String" Name="PRIONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="CONTID_REMITE" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CATEGOID" Nullable="false" />
+    <Property Type="String" Name="CATEGONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ASUNTO" Nullable="false" MaxLength="1024" />
+    <Property Type="String" Name="NOTAELABFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBHORA" Nullable="false" MaxLength="50" />
+    <Property Type="Byte" Name="REQFIRMA" Nullable="false" />
+    <Property Type="Byte" Name="ADJUNTO" Nullable="false" />
+    <Property Type="Int32" Name="CONTID_DIRIGIDO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CONTID_ELABORO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CORRESID_CONTESTA" Nullable="false" />
+    <Property Type="Int32" Name="MARGINAID" Nullable="false" />
+    <Property Type="String" Name="MARGINAFORMARES" Nullable="false" MaxLength="1024" />
+    <Property Type="Byte" Name="ACTIVO" Nullable="false" />
+    <Property Type="Byte" Name="ELIMINADO" Nullable="false" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+    <Property Type="Byte" Name="CORRESDEB" Nullable="true" />
+    <Property Type="String" Name="INSERTUSRNOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="INSERTUSRAPE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ESTADONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="ESTADOID" Nullable="false" />
+    <Property Type="String" Name="NOTAINSERT" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="RESPONSABLEID" Nullable="true" />
+    <Property Type="String" Name="RESPONSABLE" Nullable="true" MaxLength="129" />
+  </ComplexType>
+  <ComplexType Name="sp_detallefullGT_Result1">
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="CORRESCOD" Nullable="false" MaxLength="1024" />
+    <Property Type="Int32" Name="CLASEID" Nullable="false" />
+    <Property Type="String" Name="CLASENOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="TIPONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="PRIOID" Nullable="false" />
+    <Property Type="String" Name="PRIONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="CONTID_REMITE" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CATEGOID" Nullable="false" />
+    <Property Type="String" Name="CATEGONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ASUNTO" Nullable="false" MaxLength="1024" />
+    <Property Type="String" Name="NOTAELABFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBHORA" Nullable="false" MaxLength="50" />
+    <Property Type="Byte" Name="REQFIRMA" Nullable="false" />
+    <Property Type="Byte" Name="ADJUNTO" Nullable="false" />
+    <Property Type="Int32" Name="CONTID_DIRIGIDO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CONTID_ELABORO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CORRESID_CONTESTA" Nullable="false" />
+    <Property Type="Int32" Name="MARGINAID" Nullable="false" />
+    <Property Type="String" Name="MARGINAFORMARES" Nullable="false" MaxLength="1024" />
+    <Property Type="Byte" Name="ACTIVO" Nullable="false" />
+    <Property Type="Byte" Name="ELIMINADO" Nullable="false" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+    <Property Type="Byte" Name="CORRESDEB" Nullable="true" />
+    <Property Type="String" Name="INSERTUSRNOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="INSERTUSRAPE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ESTADONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="ESTADOID" Nullable="false" />
+    <Property Type="Int32" Name="RESPONSABLEID" Nullable="true" />
+    <Property Type="String" Name="NOTAINSERT" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="RESPONSABLEID1" Nullable="true" />
+    <Property Type="String" Name="RESPONSABLE" Nullable="true" MaxLength="129" />
+  </ComplexType>
+  <ComplexType Name="sp_detallefullGT_Result2">
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="CORRESCOD" Nullable="false" MaxLength="1024" />
+    <Property Type="Int32" Name="CLASEID" Nullable="false" />
+    <Property Type="String" Name="CLASENOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="TIPONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="PRIOID" Nullable="false" />
+    <Property Type="String" Name="PRIONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="CONTID_REMITE" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CATEGOID" Nullable="false" />
+    <Property Type="String" Name="CATEGONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ASUNTO" Nullable="false" MaxLength="1024" />
+    <Property Type="String" Name="NOTAELABFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBHORA" Nullable="false" MaxLength="50" />
+    <Property Type="Byte" Name="REQFIRMA" Nullable="false" />
+    <Property Type="Byte" Name="ADJUNTO" Nullable="false" />
+    <Property Type="Int32" Name="CONTID_DIRIGIDO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CONTID_ELABORO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CORRESID_CONTESTA" Nullable="false" />
+    <Property Type="Int32" Name="MARGINAID" Nullable="false" />
+    <Property Type="String" Name="MARGINAFORMARES" Nullable="false" MaxLength="1024" />
+    <Property Type="Byte" Name="ACTIVO" Nullable="false" />
+    <Property Type="Byte" Name="ELIMINADO" Nullable="false" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+    <Property Type="Byte" Name="CORRESDEB" Nullable="true" />
+    <Property Type="String" Name="INSERTUSRNOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="INSERTUSRAPE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ESTADONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="ESTADOID" Nullable="false" />
+    <Property Type="String" Name="NOTAINSERT" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="RESPONSABLEID" Nullable="true" />
+    <Property Type="String" Name="RESPONSABLE" Nullable="true" MaxLength="129" />
+  </ComplexType>
+  <ComplexType Name="sp_enviadoSinResByFechaGTV2_Result">
+    <Property Type="Int32" Name="ENVIAID" Nullable="false" />
+    <Property Type="Int32" Name="CONTID" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTINST" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD" Nullable="false" MaxLength="256" />
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="ENVIOFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="ENVIORECIBFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="ENVIORECIBHORA" Nullable="false" MaxLength="50" />
+    <Property Type="Int32" Name="ENVIOINSTRUC" Nullable="true" />
+    <Property Type="String" Name="ENVIOINSTRUCDSC" Nullable="true" MaxLength="64" />
+    <Property Type="Byte" Name="ENVIODIGITAL" Nullable="true" />
+    <Property Type="Byte" Name="ENVIOFISICO" Nullable="true" />
+    <Property Type="String" Name="INSERTUSRNOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="INSERTUSRAPE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+    <Property Type="String" Name="TIPO" Nullable="false" MaxLength="64" />
+  </ComplexType>
+  <ComplexType Name="sp_marginadoPendientesByFechaGTV2_Result">
+    <Property Type="Int32" Name="MARGID" Nullable="false" />
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="MARGFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="MARGTIEMPO" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="TIEMPO" Nullable="true" />
+    <Property Type="String" Name="MARGMOTIVO" Nullable="false" MaxLength="1024" />
+    <Property Type="Int32" Name="MARGINSTRUC" Nullable="true" />
+    <Property Type="String" Name="MARGINSTRUCDSC" Nullable="true" MaxLength="64" />
+    <Property Type="Byte" Name="MARGPENDIENTE" Nullable="false" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+    <Property Type="String" Name="INSERTUSRNOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="INSERTUSRAPE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="CONTNOMBRE" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD" Nullable="false" MaxLength="256" />
+    <Property Type="String" Name="CONTCARGO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST" Nullable="false" MaxLength="256" />
+    <Property Type="Int32" Name="CONTTIPOROLID" Nullable="false" />
+    <Property Type="String" Name="CONTROL" Nullable="true" MaxLength="64" />
+    <Property Type="String" Name="TIPO" Nullable="false" MaxLength="64" />
+  </ComplexType>
+  <ComplexType Name="sp_detallefullByFechaGTV2_Result">
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="CORRESCOD" Nullable="false" MaxLength="1024" />
+    <Property Type="Int32" Name="CLASEID" Nullable="false" />
+    <Property Type="String" Name="CLASENOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="TIPONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="PRIOID" Nullable="false" />
+    <Property Type="String" Name="PRIONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="CONTID_REMITE" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CATEGOID" Nullable="false" />
+    <Property Type="String" Name="CATEGONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ASUNTO" Nullable="false" MaxLength="1024" />
+    <Property Type="String" Name="NOTAELABFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBHORA" Nullable="false" MaxLength="50" />
+    <Property Type="Byte" Name="REQFIRMA" Nullable="false" />
+    <Property Type="Byte" Name="ADJUNTO" Nullable="false" />
+    <Property Type="Int32" Name="CONTID_DIRIGIDO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CONTID_ELABORO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CORRESID_CONTESTA" Nullable="false" />
+    <Property Type="Int32" Name="MARGINAID" Nullable="false" />
+    <Property Type="String" Name="MARGINAFORMARES" Nullable="false" MaxLength="1024" />
+    <Property Type="Byte" Name="ACTIVO" Nullable="false" />
+    <Property Type="Byte" Name="ELIMINADO" Nullable="false" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+    <Property Type="Byte" Name="CORRESDEB" Nullable="true" />
+    <Property Type="String" Name="INSERTUSRNOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="INSERTUSRAPE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ESTADONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="ESTADOID" Nullable="false" />
+    <Property Type="String" Name="NOTAINSERT" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="RESPONSABLEID" Nullable="true" />
+    <Property Type="String" Name="RESPONSABLE" Nullable="true" MaxLength="129" />
+  </ComplexType>
+  <ComplexType Name="sp_detallefullByFechaContIDGTV2_Result">
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="CORRESCOD" Nullable="false" MaxLength="1024" />
+    <Property Type="Int32" Name="CLASEID" Nullable="false" />
+    <Property Type="String" Name="CLASENOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="TIPONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="PRIOID" Nullable="false" />
+    <Property Type="String" Name="PRIONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="CONTID_REMITE" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CATEGOID" Nullable="false" />
+    <Property Type="String" Name="CATEGONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ASUNTO" Nullable="false" MaxLength="1024" />
+    <Property Type="String" Name="NOTAELABFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBHORA" Nullable="false" MaxLength="50" />
+    <Property Type="Byte" Name="REQFIRMA" Nullable="false" />
+    <Property Type="Byte" Name="ADJUNTO" Nullable="false" />
+    <Property Type="Int32" Name="CONTID_DIRIGIDO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CONTID_ELABORO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CORRESID_CONTESTA" Nullable="false" />
+    <Property Type="Int32" Name="MARGINAID" Nullable="false" />
+    <Property Type="String" Name="MARGINAFORMARES" Nullable="false" MaxLength="1024" />
+    <Property Type="Byte" Name="ACTIVO" Nullable="false" />
+    <Property Type="Byte" Name="ELIMINADO" Nullable="false" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+    <Property Type="Byte" Name="CORRESDEB" Nullable="true" />
+    <Property Type="String" Name="INSERTUSRNOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="INSERTUSRAPE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ESTADONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="ESTADOID" Nullable="false" />
+    <Property Type="String" Name="NOTAINSERT" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="RESPONSABLEID" Nullable="true" />
+    <Property Type="String" Name="RESPONSABLE" Nullable="true" MaxLength="129" />
+  </ComplexType>
+  <ComplexType Name="sp_detallefullByIdsGT_Result">
+    <Property Type="Int32" Name="CORRESID" Nullable="false" />
+    <Property Type="String" Name="CORRESCOD" Nullable="false" MaxLength="1024" />
+    <Property Type="Int32" Name="CLASEID" Nullable="false" />
+    <Property Type="String" Name="CLASENOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="TIPOID" Nullable="false" />
+    <Property Type="String" Name="TIPONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="PRIOID" Nullable="false" />
+    <Property Type="String" Name="PRIONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="CONTID_REMITE" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_REMITE" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CATEGOID" Nullable="false" />
+    <Property Type="String" Name="CATEGONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ASUNTO" Nullable="false" MaxLength="1024" />
+    <Property Type="String" Name="NOTAELABFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBFEC" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="NOTARECIBHORA" Nullable="false" MaxLength="50" />
+    <Property Type="Byte" Name="REQFIRMA" Nullable="false" />
+    <Property Type="Byte" Name="ADJUNTO" Nullable="false" />
+    <Property Type="Int32" Name="CONTID_DIRIGIDO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_DIRIGIDO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CONTID_ELABORO" Nullable="false" />
+    <Property Type="String" Name="CONTNOMBRE_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTINST_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="String" Name="CONTUNIDAD_ELABORO" Nullable="true" MaxLength="256" />
+    <Property Type="Int32" Name="CORRESID_CONTESTA" Nullable="false" />
+    <Property Type="Int32" Name="MARGINAID" Nullable="false" />
+    <Property Type="String" Name="MARGINAFORMARES" Nullable="false" MaxLength="1024" />
+    <Property Type="Byte" Name="ACTIVO" Nullable="false" />
+    <Property Type="Byte" Name="ELIMINADO" Nullable="false" />
+    <Property Type="Int32" Name="INSERTUSRID" Nullable="false" />
+    <Property Type="Byte" Name="CORRESDEB" Nullable="true" />
+    <Property Type="String" Name="INSERTUSRNOM" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="INSERTUSRAPE" Nullable="false" MaxLength="64" />
+    <Property Type="String" Name="ESTADONOMBRE" Nullable="false" MaxLength="64" />
+    <Property Type="Int32" Name="ESTADOID" Nullable="false" />
+    <Property Type="String" Name="NOTAINSERT" Nullable="true" MaxLength="10" />
+    <Property Type="Int32" Name="RESPONSABLEID" Nullable="true" />
+    <Property Type="String" Name="RESPONSABLE" Nullable="true" MaxLength="129" />
+  </ComplexType>
+</Schema>

@@ -1,0 +1,627 @@
+<!-- Project file for the Zeus IDE - http://www.zeusedit.com -->
+<Project name="SICOR.UI2" sorted="Yes" autosynch="Yes" type="" filename="SICOR.UI2.csproj" st_mtime="1441906342">
+    <SccEnable>On</SccEnable>
+    <SccUserID></SccUserID>
+    <SccComment></SccComment>
+    <SccProject></SccProject>
+    <SccAuxPath></SccAuxPath>
+    <SccLocalPath></SccLocalPath>
+    <TagEnable>On</TagEnable>
+    <TagNone>Off</TagNone>
+    <TagBuildNone>Off</TagBuildNone>
+    <TagBuildOnOpen>On</TagBuildOnOpen>
+    <TagBuildOnSave>On</TagBuildOnSave>
+    <TagNoIntellisense>Off</TagNoIntellisense>
+    <TagWorkspace>On</TagWorkspace>
+    <TagOutputDir>$zudzTags</TagOutputDir>
+    <TagInterval>20</TagInterval>
+    <TagBuildTimed></TagBuildTimed>
+    <Tags />
+    <Server></Server>
+    <UserID></UserID>
+    <Password></Password>
+    <LocalDir></LocalDir>
+    <RemoteDir></RemoteDir>
+    <Classes>Classes</Classes>
+    <Enumerations>Enumerations</Enumerations>
+    <Files>Project Files</Files>
+    <Functions>Functions</Functions>
+    <Imports>Imports</Imports>
+    <Interfaces>Interfaces</Interfaces>
+    <Macros>Macros</Macros>
+    <Packages>Packages</Packages>
+    <Prototypes>Prototypes</Prototypes>
+    <References>References</References>
+    <Structures>Structures</Structures>
+    <Typedefs>Typedefs</Typedefs>
+    <Variables>Variables</Variables>
+    <MakeFile>SICOR.UI2.csproj</MakeFile>
+    <SearchPath></SearchPath>
+    <RegexFile></RegexFile>
+    <RegexLine></RegexLine>
+    <RegexInfo></RegexInfo>
+    <RegexError></RegexError>
+    <RegexWarning></RegexWarning>
+    <EnvLib></EnvLib>
+    <EnvPath>$MsBuildPath</EnvPath>
+    <EnvInclude></EnvInclude>
+    <EnvClassPath></EnvClassPath>
+    <DoxygenAsJava>On</DoxygenAsJava>
+    <DebugCaptureStdOut>Off</DebugCaptureStdOut>
+    <DebugCaptureStdErr>Off</DebugCaptureStdErr>
+    <DebugExecutable>$pb.exe</DebugExecutable>
+    <DebugArguments></DebugArguments>
+    <DebugDirectory>$pdd\bin\Debug\</DebugDirectory>
+    <DebugDebugger></DebugDebugger>
+    <ReleaseCaptureStdOut>Off</ReleaseCaptureStdOut>
+    <ReleaseCaptureStdErr>Off</ReleaseCaptureStdErr>
+    <ReleaseExecutable>$pb.exe</ReleaseExecutable>
+    <ReleaseArguments></ReleaseArguments>
+    <ReleaseDirectory>$pdd\bin\Release\</ReleaseDirectory>
+    <ReleaseDebugger></ReleaseDebugger>
+    <DebugMake>MsBuild.exe &quot;$PDD$PF&quot; /t:Build /p:Configuration=Debug /p:OutputPath=./bin/Debug/ /v:m</DebugMake>
+    <DebugClean>MsBuild.exe &quot;$PDD$PF&quot; /t:Clean /p:Configuration=Debug /p:OutputPath=./bin/Debug/ /v:m</DebugClean>
+    <DebugCompile>MsBuild.exe &quot;$PDD$PF&quot; /p:SelectedFiles=&quot;$FR&quot; /t:Compile /p:Configuration=Debug /p:OutputPath=./bin/Debug/ /v:m</DebugCompile>
+    <DebugRebuild>MsBuild.exe &quot;$PDD$PF&quot; /t:Rebuild /p:Configuration=Debug /p:OutputPath=./bin/Debug/ /v:m</DebugRebuild>
+    <DebugProjectOutput>Warnings</DebugProjectOutput>
+    <DebugCompilerOutput>Warnings</DebugCompilerOutput>
+    <DebugCompilerStdOut>On</DebugCompilerStdOut>
+    <DebugCompilerStdErr>On</DebugCompilerStdErr>
+    <DebugCompilerSaveAll>Off</DebugCompilerSaveAll>
+    <DebugCompilerReload>Off</DebugCompilerReload>
+    <DebugProjectStdOut>On</DebugProjectStdOut>
+    <DebugProjectStdErr>On</DebugProjectStdErr>
+    <DebugProjectSaveAll>On</DebugProjectSaveAll>
+    <DebugProjectReload>Off</DebugProjectReload>
+    <ReleaseMake>MsBuild.exe &quot;$PDD$PF&quot; /t:Build /p:Configuration=Release /p:OutputPath=./bin/Release/ /v:m</ReleaseMake>
+    <ReleaseClean>MsBuild.exe &quot;$PDD$PF&quot; /t:Clean /p:Configuration=Release /p:OutputPath=./bin/Release/ /v:m</ReleaseClean>
+    <ReleaseCompile>MsBuild.exe &quot;$PDD$PF&quot; /p:SelectedFiles=&quot;$FR&quot; /t:Compile /p:Configuration=Release /p:OutputPath=./bin/Release/ /v:m</ReleaseCompile>
+    <ReleaseRebuild>MsBuild.exe &quot;$PDD$PF&quot; /t:Rebuild /p:Configuration=Release /p:OutputPath=./bin/Release/ /v:m</ReleaseRebuild>
+    <ReleaseProjectOutput>Warnings</ReleaseProjectOutput>
+    <ReleaseCompilerOutput>Warnings</ReleaseCompilerOutput>
+    <ReleaseCompilerStdOut>On</ReleaseCompilerStdOut>
+    <ReleaseCompilerStdErr>On</ReleaseCompilerStdErr>
+    <ReleaseCompilerSaveAll>Off</ReleaseCompilerSaveAll>
+    <ReleaseCompilerReload>Off</ReleaseCompilerReload>
+    <ReleaseProjectStdOut>On</ReleaseProjectStdOut>
+    <ReleaseProjectStdErr>On</ReleaseProjectStdErr>
+    <ReleaseProjectSaveAll>On</ReleaseProjectSaveAll>
+    <ReleaseProjectReload>Off</ReleaseProjectReload>
+    <Folder name="AYUDA" sorted="Yes">
+        <File>AYUDA\SICOR-ManualDeUsuario.pdf</File>
+    </Folder>
+    <Folder name="CSS" sorted="Yes">
+        <File>CSS\960.gs.fluid.css</File>
+        <File>CSS\buttons.css</File>
+        <File>CSS\demo.css</File>
+        <File>CSS\reset.css</File>
+        <File>CSS\sicorv2.css</File>
+        <File>CSS\styles.css</File>
+        <Folder name="dataTable" sorted="Yes">
+            <File>CSS\dataTable\dataTable.css</File>
+            <File>CSS\dataTable\mainTable.css</File>
+            <File>CSS\dataTable\ui_custom.css</File>
+        </Folder>
+        <Folder name="images" sorted="Yes">
+            <File>CSS\images\back_disabled.png</File>
+            <File>CSS\images\back_enabled.png</File>
+            <File>CSS\images\back_enabled_hover.png</File>
+            <File>CSS\images\forward_disabled.png</File>
+            <File>CSS\images\forward_enabled.png</File>
+            <File>CSS\images\forward_enabled_hover.png</File>
+            <File>CSS\images\sort_asc.png</File>
+            <File>CSS\images\sort_asc_disabled.png</File>
+            <File>CSS\images\sort_both.png</File>
+            <File>CSS\images\sort_desc.png</File>
+            <File>CSS\images\sort_desc_disabled.png</File>
+        </Folder>
+        <Folder name="ui-custom-theme" sorted="Yes">
+            <File>CSS\ui-custom-theme\jquery-ui-1.8.21.custom.css</File>
+            <File>CSS\ui-custom-theme\jquery.ui.timepicker.css</File>
+            <Folder name="images" sorted="Yes">
+                <File>CSS\ui-custom-theme\images\ui-bg_flat_0_403b3b_40x100.png</File>
+                <File>CSS\ui-custom-theme\images\ui-bg_flat_0_ffffff_40x100.png</File>
+                <File>CSS\ui-custom-theme\images\ui-bg_flat_75_eff3f6_40x100.png</File>
+                <File>CSS\ui-custom-theme\images\ui-bg_highlight-hard_150_9bc1df_1x100.png</File>
+                <File>CSS\ui-custom-theme\images\ui-bg_highlight-hard_150_e5e5f5_1x100.png</File>
+                <File>CSS\ui-custom-theme\images\ui-bg_highlight-hard_150_eff3f6_1x100.png</File>
+                <File>CSS\ui-custom-theme\images\ui-bg_highlight-hard_55_fbf9ee_1x100.png</File>
+                <File>CSS\ui-custom-theme\images\ui-bg_highlight-soft_150_abc7de_1x100.png</File>
+                <File>CSS\ui-custom-theme\images\ui-bg_inset-soft_95_fef1ec_1x100.png</File>
+                <File>CSS\ui-custom-theme\images\ui-icons_2e83ff_256x240.png</File>
+                <File>CSS\ui-custom-theme\images\ui-icons_454545_256x240.png</File>
+                <File>CSS\ui-custom-theme\images\ui-icons_4a4b49_256x240.png</File>
+                <File>CSS\ui-custom-theme\images\ui-icons_766b6b_256x240.png</File>
+                <File>CSS\ui-custom-theme\images\ui-icons_cd0a0a_256x240.png</File>
+            </Folder>
+        </Folder>
+    </Folder>
+    <Folder name="images" sorted="Yes">
+        <File>images\buttons.gif</File>
+        <File>images\chosen-sprite.png</File>
+        <File>images\chosen-sprite@2x.png</File>
+        <File>images\favicon.ico</File>
+        <File>images\select2-spinner.gif</File>
+        <File>images\select2.png</File>
+        <File>images\select2x2.png</File>
+        <File>images\toolbar.gif</File>
+    </Folder>
+    <Folder name="IMAS" sorted="Yes">
+        <File>IMAS\ajax-loader.gif</File>
+        <File>IMAS\background.png</File>
+        <File>IMAS\escudo.jpg</File>
+        <File>IMAS\logoMINEC.jpg</File>
+    </Folder>
+    <Folder name="JS" sorted="Yes">
+        <File>JS\jcookies.js</File>
+        <File>JS\jquery-1.7.2.min.js</File>
+        <File>JS\jquery-ui-1.8.21.custom.min.js</File>
+        <File>JS\jQuery.print.js</File>
+        <File>JS\SETUP.js</File>
+        <File>JS\SETUPAJAX-PAG.js</File>
+        <File>JS\SETUPAJAX-SIS.js</File>
+        <File>JS\underscore-min.js</File>
+        <Folder name="CLASES" sorted="Yes">
+            <File>JS\CLASES\BUSCAR.js</File>
+            <File>JS\CLASES\CONTACTOS.js</File>
+            <File>JS\CLASES\CONTACTOS2.js</File>
+            <File>JS\CLASES\CORRESDETALLE.js</File>
+            <File>JS\CLASES\CORRESLISTA.js</File>
+            <File>JS\CLASES\CORRESPONDENCIA.js</File>
+            <File>JS\CLASES\ENVIADO.js</File>
+            <File>JS\CLASES\IMPRIMIR.js</File>
+            <File>JS\CLASES\INIT.js</File>
+            <File>JS\CLASES\INITBUSCAR.js</File>
+            <File>JS\CLASES\MAIN.js</File>
+            <File>JS\CLASES\MARGINADO.js</File>
+            <File>JS\CLASES\MENSAJE.js</File>
+            <File>JS\CLASES\NOTIFICACION.js</File>
+            <File>JS\CLASES\REMITIR.js</File>
+            <File>JS\CLASES\USUARIOS.js</File>
+            <File>JS\CLASES\WS.js</File>
+        </Folder>
+        <Folder name="DataTables" sorted="Yes">
+            <File>JS\DataTables\jquery.dataTables-min.js</File>
+            <File>JS\DataTables\jquery.dataTables.js</File>
+        </Folder>
+        <Folder name="images" sorted="Yes">
+            <File>JS\images\chosen-sprite.png</File>
+        </Folder>
+        <Folder name="LightBox" sorted="Yes">
+            <File>JS\LightBox\jquery.lightbox.js</File>
+            <File>JS\LightBox\jquery.lightbox.min.js</File>
+            <Folder name="evolution" sorted="Yes">
+                <File>JS\LightBox\evolution\jquery.lightbox.css</File>
+                <File>JS\LightBox\evolution\jquery.lightbox.ie6.css</File>
+                <Folder name="images" sorted="Yes">
+                    <File>JS\LightBox\evolution\images\jquery-lightbox-theme.gif</File>
+                    <File>JS\LightBox\evolution\images\jquery-lightbox-theme.png</File>
+                    <File>JS\LightBox\evolution\images\loading.gif</File>
+                </Folder>
+            </Folder>
+            <Folder name="evolution-dark" sorted="Yes">
+                <File>JS\LightBox\evolution-dark\jquery.lightbox.css</File>
+                <File>JS\LightBox\evolution-dark\jquery.lightbox.ie6.css</File>
+                <Folder name="images" sorted="Yes">
+                    <File>JS\LightBox\evolution-dark\images\jquery-lightbox-theme.gif</File>
+                    <File>JS\LightBox\evolution-dark\images\jquery-lightbox-theme.png</File>
+                    <File>JS\LightBox\evolution-dark\images\loading.gif</File>
+                </Folder>
+            </Folder>
+        </Folder>
+        <Folder name="Metro" sorted="Yes">
+            <Folder name="build" sorted="Yes">
+                <Folder name="css" sorted="Yes">
+                    <File>JS\Metro\build\css\metro-icons.css</File>
+                    <File>JS\Metro\build\css\metro-icons.min.css</File>
+                    <File>JS\Metro\build\css\metro.css</File>
+                    <File>JS\Metro\build\css\metro.min.css</File>
+                </Folder>
+                <Folder name="fonts" sorted="Yes">
+                    <File>JS\Metro\build\fonts\metro.eot</File>
+                    <File>JS\Metro\build\fonts\metro.svg</File>
+                    <File>JS\Metro\build\fonts\metro.ttf</File>
+                    <File>JS\Metro\build\fonts\metro.woff</File>
+                    <File>JS\Metro\build\fonts\selection.json</File>
+                </Folder>
+                <Folder name="js" sorted="Yes">
+                    <File>JS\Metro\build\js\metro.js</File>
+                    <File>JS\Metro\build\js\metro.min.js</File>
+                </Folder>
+            </Folder>
+            <Folder name="fonts" sorted="Yes">
+                <File>JS\Metro\fonts\metro.eot</File>
+                <File>JS\Metro\fonts\metro.svg</File>
+                <File>JS\Metro\fonts\metro.ttf</File>
+                <File>JS\Metro\fonts\metro.woff</File>
+                <File>JS\Metro\fonts\selection.json</File>
+            </Folder>
+            <Folder name="js" sorted="Yes">
+                <File>JS\Metro\js\global.js</File>
+                <File>JS\Metro\js\requirements.js</File>
+                <File>JS\Metro\js\widget.js</File>
+                <Folder name="utils" sorted="Yes">
+                    <File>JS\Metro\js\utils\easing.js</File>
+                    <File>JS\Metro\js\utils\mousewheel.js</File>
+                    <File>JS\Metro\js\utils\pre-code.js</File>
+                    <File>JS\Metro\js\utils\touch-handler.js</File>
+                </Folder>
+                <Folder name="widgets" sorted="Yes">
+                    <File>JS\Metro\js\widgets\accordion.js</File>
+                    <File>JS\Metro\js\widgets\appbar.js</File>
+                    <File>JS\Metro\js\widgets\button-groups.js</File>
+                    <File>JS\Metro\js\widgets\calendar.js</File>
+                    <File>JS\Metro\js\widgets\carousel.js</File>
+                    <File>JS\Metro\js\widgets\countdown.js</File>
+                    <File>JS\Metro\js\widgets\datatable.js</File>
+                    <File>JS\Metro\js\widgets\datepicker.js</File>
+                    <File>JS\Metro\js\widgets\dialog.js</File>
+                    <File>JS\Metro\js\widgets\dropdown.js</File>
+                    <File>JS\Metro\js\widgets\fit-image.js</File>
+                    <File>JS\Metro\js\widgets\grid.js</File>
+                    <File>JS\Metro\js\widgets\hint.js</File>
+                    <File>JS\Metro\js\widgets\inputs.js</File>
+                    <File>JS\Metro\js\widgets\keypad.js</File>
+                    <File>JS\Metro\js\widgets\listview.js</File>
+                    <File>JS\Metro\js\widgets\notify.js</File>
+                    <File>JS\Metro\js\widgets\panel.js</File>
+                    <File>JS\Metro\js\widgets\plugin.js</File>
+                    <File>JS\Metro\js\widgets\popovers.js</File>
+                    <File>JS\Metro\js\widgets\preloaders.js</File>
+                    <File>JS\Metro\js\widgets\presenter.js</File>
+                    <File>JS\Metro\js\widgets\progressbar.js</File>
+                    <File>JS\Metro\js\widgets\rating.js</File>
+                    <File>JS\Metro\js\widgets\select.js</File>
+                    <File>JS\Metro\js\widgets\slider.js</File>
+                    <File>JS\Metro\js\widgets\stepper.js</File>
+                    <File>JS\Metro\js\widgets\streamer.js</File>
+                    <File>JS\Metro\js\widgets\tabcontrol.js</File>
+                    <File>JS\Metro\js\widgets\tile.js</File>
+                    <File>JS\Metro\js\widgets\treeview.js</File>
+                    <File>JS\Metro\js\widgets\validator.js</File>
+                    <File>JS\Metro\js\widgets\window.js</File>
+                    <File>JS\Metro\js\widgets\wizard.js</File>
+                    <File>JS\Metro\js\widgets\wizard2.js</File>
+                </Folder>
+            </Folder>
+        </Folder>
+        <Folder name="Msgbox" sorted="Yes">
+            <File>JS\Msgbox\jquery.msgbox.css</File>
+            <File>JS\Msgbox\jquery.msgbox.js</File>
+            <File>JS\Msgbox\jquery.msgbox.min.js</File>
+            <Folder name="images" sorted="Yes">
+                <File>JS\Msgbox\images\alert.png</File>
+                <File>JS\Msgbox\images\background.png</File>
+                <File>JS\Msgbox\images\confirm.png</File>
+                <File>JS\Msgbox\images\error.png</File>
+                <File>JS\Msgbox\images\info.png</File>
+                <File>JS\Msgbox\images\question.png</File>
+            </Folder>
+        </Folder>
+        <Folder name="Notification" sorted="Yes">
+            <File>JS\Notification\notify.js</File>
+            <File>JS\Notification\script.js</File>
+            <File>JS\Notification\style.css</File>
+            <Folder name="images" sorted="Yes">
+                <File>JS\Notification\images\close.png</File>
+                <File>JS\Notification\images\download.png</File>
+                <File>JS\Notification\images\error.png</File>
+                <File>JS\Notification\images\info.png</File>
+                <File>JS\Notification\images\message.png</File>
+                <File>JS\Notification\images\print.png</File>
+                <File>JS\Notification\images\purchase.png</File>
+                <File>JS\Notification\images\secure.png</File>
+                <File>JS\Notification\images\success.png</File>
+                <File>JS\Notification\images\Thumbs.db</File>
+                <File>JS\Notification\images\tip.png</File>
+                <File>JS\Notification\images\warning.png</File>
+            </Folder>
+        </Folder>
+        <Folder name="Select3.2" sorted="Yes">
+            <File>JS\Select3.2\select2.css</File>
+            <File>JS\Select3.2\select2.js</File>
+            <File>JS\Select3.2\select2.min.js</File>
+            <File>JS\Select3.2\select2.png</File>
+            <File>JS\Select3.2\select2_3.4.0.min.js</File>
+            <File>JS\Select3.2\select2x2.png</File>
+            <File>JS\Select3.2\spinner.gif</File>
+        </Folder>
+        <Folder name="ui-minified" sorted="Yes">
+            <File>JS\ui-minified\jquery.effects.blind.min.js</File>
+            <File>JS\ui-minified\jquery.effects.bounce.min.js</File>
+            <File>JS\ui-minified\jquery.effects.clip.min.js</File>
+            <File>JS\ui-minified\jquery.effects.core.min.js</File>
+            <File>JS\ui-minified\jquery.effects.drop.min.js</File>
+            <File>JS\ui-minified\jquery.effects.explode.min.js</File>
+            <File>JS\ui-minified\jquery.effects.fade.min.js</File>
+            <File>JS\ui-minified\jquery.effects.fold.min.js</File>
+            <File>JS\ui-minified\jquery.effects.highlight.min.js</File>
+            <File>JS\ui-minified\jquery.effects.pulsate.min.js</File>
+            <File>JS\ui-minified\jquery.effects.scale.min.js</File>
+            <File>JS\ui-minified\jquery.effects.shake.min.js</File>
+            <File>JS\ui-minified\jquery.effects.slide.min.js</File>
+            <File>JS\ui-minified\jquery.effects.transfer.min.js</File>
+            <File>JS\ui-minified\jquery.ui.accordion.min.js</File>
+            <File>JS\ui-minified\jquery.ui.autocomplete.min.js</File>
+            <File>JS\ui-minified\jquery.ui.button.min.js</File>
+            <File>JS\ui-minified\jquery.ui.core.min.js</File>
+            <File>JS\ui-minified\jquery.ui.datepicker.min.js</File>
+            <File>JS\ui-minified\jquery.ui.dialog.min.js</File>
+            <File>JS\ui-minified\jquery.ui.draggable.min.js</File>
+            <File>JS\ui-minified\jquery.ui.droppable.min.js</File>
+            <File>JS\ui-minified\jquery.ui.mouse.min.js</File>
+            <File>JS\ui-minified\jquery.ui.position.min.js</File>
+            <File>JS\ui-minified\jquery.ui.progressbar.min.js</File>
+            <File>JS\ui-minified\jquery.ui.resizable.min.js</File>
+            <File>JS\ui-minified\jquery.ui.selectable.min.js</File>
+            <File>JS\ui-minified\jquery.ui.slider.min.js</File>
+            <File>JS\ui-minified\jquery.ui.sortable.min.js</File>
+            <File>JS\ui-minified\jquery.ui.tabs.min.js</File>
+            <File>JS\ui-minified\jquery.ui.timepicker.js</File>
+            <File>JS\ui-minified\jquery.ui.widget.min.js</File>
+        </Folder>
+    </Folder>
+    <Folder name="PAGS" sorted="Yes">
+        <Folder name="FRMS" sorted="Yes">
+            <Folder name="{!*} archivoSV" sorted="Yes">
+                <File>PAGS\FRMS\archivoSV.aspx</File>
+                <File>PAGS\FRMS\archivoSV.aspx.cs</File>
+                <File>PAGS\FRMS\archivoSV.aspx.designer.cs</File>
+            </Folder>
+            <Folder name="{!*} contactos2SV" sorted="Yes">
+                <File>PAGS\FRMS\contactos2SV.aspx</File>
+                <File>PAGS\FRMS\contactos2SV.aspx.cs</File>
+                <File>PAGS\FRMS\contactos2SV.aspx.designer.cs</File>
+            </Folder>
+            <Folder name="{!*} contactosSV" sorted="Yes">
+                <File>PAGS\FRMS\contactosSV.aspx</File>
+                <File>PAGS\FRMS\contactosSV.aspx.cs</File>
+                <File>PAGS\FRMS\contactosSV.aspx.designer.cs</File>
+            </Folder>
+            <Folder name="{!*} corresDevSV" sorted="Yes">
+                <File>PAGS\FRMS\corresDevSV.aspx</File>
+                <File>PAGS\FRMS\corresDevSV.aspx.cs</File>
+                <File>PAGS\FRMS\corresDevSV.aspx.designer.cs</File>
+            </Folder>
+            <Folder name="{!*} corresDevUpSV" sorted="Yes">
+                <File>PAGS\FRMS\corresDevUpSV.aspx</File>
+                <File>PAGS\FRMS\corresDevUpSV.aspx.cs</File>
+                <File>PAGS\FRMS\corresDevUpSV.aspx.designer.cs</File>
+            </Folder>
+            <Folder name="{!*} corresSV" sorted="Yes">
+                <File>PAGS\FRMS\corresSV.aspx</File>
+                <File>PAGS\FRMS\corresSV.aspx.cs</File>
+            </Folder>
+            <Folder name="{!*} enviadoRecibUpSV" sorted="Yes">
+                <File>PAGS\FRMS\enviadoRecibUpSV.aspx</File>
+                <File>PAGS\FRMS\enviadoRecibUpSV.aspx.cs</File>
+                <File>PAGS\FRMS\enviadoRecibUpSV.aspx.designer.cs</File>
+            </Folder>
+            <Folder name="{!*} enviadoSV" sorted="Yes">
+                <File>PAGS\FRMS\enviadoSV.aspx</File>
+                <File>PAGS\FRMS\enviadoSV.aspx.cs</File>
+                <File>PAGS\FRMS\enviadoSV.aspx.designer.cs</File>
+            </Folder>
+            <Folder name="{!*} marginadoPosSV" sorted="Yes">
+                <File>PAGS\FRMS\marginadoPosSV.aspx</File>
+                <File>PAGS\FRMS\marginadoPosSV.aspx.cs</File>
+                <File>PAGS\FRMS\marginadoPosSV.aspx.designer.cs</File>
+            </Folder>
+            <Folder name="{!*} marginadoSV" sorted="Yes">
+                <File>PAGS\FRMS\marginadoSV.aspx</File>
+                <File>PAGS\FRMS\marginadoSV.aspx.cs</File>
+                <File>PAGS\FRMS\marginadoSV.aspx.designer.cs</File>
+            </Folder>
+            <Folder name="{!*} margRecibUpSV" sorted="Yes">
+                <File>PAGS\FRMS\margRecibUpSV.aspx</File>
+                <File>PAGS\FRMS\margRecibUpSV.aspx.cs</File>
+                <File>PAGS\FRMS\margRecibUpSV.aspx.designer.cs</File>
+            </Folder>
+            <Folder name="{!*} mensajesInternosSV" sorted="Yes">
+                <File>PAGS\FRMS\mensajesInternosSV.aspx</File>
+                <File>PAGS\FRMS\mensajesInternosSV.aspx.cs</File>
+                <File>PAGS\FRMS\mensajesInternosSV.aspx.designer.cs</File>
+            </Folder>
+            <Folder name="{!*} notasSV" sorted="Yes">
+                <File>PAGS\FRMS\notasSV.aspx</File>
+                <File>PAGS\FRMS\notasSV.aspx.cs</File>
+                <File>PAGS\FRMS\notasSV.aspx.designer.cs</File>
+            </Folder>
+            <Folder name="{!*} notificacionUp" sorted="Yes">
+                <File>PAGS\FRMS\notificacionUp.aspx</File>
+                <File>PAGS\FRMS\notificacionUp.aspx.cs</File>
+                <File>PAGS\FRMS\notificacionUp.aspx.designer.cs</File>
+            </Folder>
+            <Folder name="{!*} remitirConfirSV" sorted="Yes">
+                <File>PAGS\FRMS\remitirConfirSV.aspx</File>
+                <File>PAGS\FRMS\remitirConfirSV.aspx.cs</File>
+                <File>PAGS\FRMS\remitirConfirSV.aspx.designer.cs</File>
+            </Folder>
+            <Folder name="{!*} remitirSV" sorted="Yes">
+                <File>PAGS\FRMS\remitirSV.aspx</File>
+                <File>PAGS\FRMS\remitirSV.aspx.cs</File>
+                <File>PAGS\FRMS\remitirSV.aspx.designer.cs</File>
+            </Folder>
+            <Folder name="{!*} respuestaMargiSV" sorted="Yes">
+                <File>PAGS\FRMS\respuestaMargiSV.aspx</File>
+                <File>PAGS\FRMS\respuestaMargiSV.aspx.cs</File>
+                <File>PAGS\FRMS\respuestaMargiSV.aspx.designer.cs</File>
+            </Folder>
+            <Folder name="{!*} usuariosUpPassSV" sorted="Yes">
+                <File>PAGS\FRMS\usuariosUpPassSV.aspx</File>
+                <File>PAGS\FRMS\usuariosUpPassSV.aspx.cs</File>
+                <File>PAGS\FRMS\usuariosUpPassSV.aspx.designer.cs</File>
+            </Folder>
+        </Folder>
+        <Folder name="UPFILE" sorted="Yes">
+            <Folder name="MultipleFileUploadControl" sorted="Yes">
+                <Folder name="cors" sorted="Yes">
+                    <File>PAGS\UPFILE\MultipleFileUploadControl\cors\postmessage.html</File>
+                    <File>PAGS\UPFILE\MultipleFileUploadControl\cors\result.html</File>
+                </Folder>
+                <Folder name="css" sorted="Yes">
+                    <File>PAGS\UPFILE\MultipleFileUploadControl\css\jquery.fileupload-ui.css</File>
+                </Folder>
+                <Folder name="handlers" sorted="Yes">
+                    <File>PAGS\UPFILE\MultipleFileUploadControl\handlers\FileStatus.cs</File>
+                    <Folder name="{!*} FileComplete" sorted="Yes">
+                        <File>PAGS\UPFILE\MultipleFileUploadControl\handlers\FileComplete.ashx</File>
+                        <File>PAGS\UPFILE\MultipleFileUploadControl\handlers\FileComplete.ashx.cs</File>
+                    </Folder>
+                    <Folder name="{!*} FileError" sorted="Yes">
+                        <File>PAGS\UPFILE\MultipleFileUploadControl\handlers\FileError.ashx</File>
+                        <File>PAGS\UPFILE\MultipleFileUploadControl\handlers\FileError.ashx.cs</File>
+                    </Folder>
+                    <Folder name="{!*} Upload" sorted="Yes">
+                        <File>PAGS\UPFILE\MultipleFileUploadControl\handlers\Upload.ashx</File>
+                        <File>PAGS\UPFILE\MultipleFileUploadControl\handlers\Upload.ashx.cs</File>
+                    </Folder>
+                </Folder>
+                <Folder name="img" sorted="Yes">
+                    <File>PAGS\UPFILE\MultipleFileUploadControl\img\file-complete-icon.png</File>
+                    <File>PAGS\UPFILE\MultipleFileUploadControl\img\file-error-icon.png</File>
+                    <File>PAGS\UPFILE\MultipleFileUploadControl\img\glyphicons-halflings-white.png</File>
+                    <File>PAGS\UPFILE\MultipleFileUploadControl\img\glyphicons-halflings.png</File>
+                    <File>PAGS\UPFILE\MultipleFileUploadControl\img\glyphicons_030_pencil.png</File>
+                    <File>PAGS\UPFILE\MultipleFileUploadControl\img\loading.gif</File>
+                </Folder>
+                <Folder name="js" sorted="Yes">
+                    <File>PAGS\UPFILE\MultipleFileUploadControl\js\bootstrap-image-gallery.min.js</File>
+                    <File>PAGS\UPFILE\MultipleFileUploadControl\js\bootstrap.min.js</File>
+                    <File>PAGS\UPFILE\MultipleFileUploadControl\js\canvas-to-blob.min.js</File>
+                    <File>PAGS\UPFILE\MultipleFileUploadControl\js\easy-editable-text.js</File>
+                    <File>PAGS\UPFILE\MultipleFileUploadControl\js\html5.js</File>
+                    <File>PAGS\UPFILE\MultipleFileUploadControl\js\jquery.fileupload-fp.js</File>
+                    <File>PAGS\UPFILE\MultipleFileUploadControl\js\jquery.fileupload-ui.js</File>
+                    <File>PAGS\UPFILE\MultipleFileUploadControl\js\jquery.fileupload.js</File>
+                    <File>PAGS\UPFILE\MultipleFileUploadControl\js\jquery.iframe-transport.js</File>
+                    <File>PAGS\UPFILE\MultipleFileUploadControl\js\jquery.min.js</File>
+                    <File>PAGS\UPFILE\MultipleFileUploadControl\js\load-image.min.js</File>
+                    <File>PAGS\UPFILE\MultipleFileUploadControl\js\locale.js</File>
+                    <File>PAGS\UPFILE\MultipleFileUploadControl\js\tmpl.min.js</File>
+                    <Folder name="cors" sorted="Yes">
+                        <File>PAGS\UPFILE\MultipleFileUploadControl\js\cors\jquery.postmessage-transport.js</File>
+                        <File>PAGS\UPFILE\MultipleFileUploadControl\js\cors\jquery.xdr-transport.js</File>
+                    </Folder>
+                    <Folder name="vendor" sorted="Yes">
+                        <File>PAGS\UPFILE\MultipleFileUploadControl\js\vendor\jquery.ui.widget.js</File>
+                    </Folder>
+                </Folder>
+                <Folder name="{!*} MultipleFileUpload" sorted="Yes">
+                    <File>PAGS\UPFILE\MultipleFileUploadControl\MultipleFileUpload.ascx</File>
+                    <File>PAGS\UPFILE\MultipleFileUploadControl\MultipleFileUpload.ascx.cs</File>
+                    <File>PAGS\UPFILE\MultipleFileUploadControl\MultipleFileUpload.ascx.designer.cs</File>
+                </Folder>
+            </Folder>
+            <Folder name="storage2" sorted="Yes">
+                <File>PAGS\UPFILE\storage2\TESTER.pdf</File>
+            </Folder>
+            <Folder name="{!*} Default" sorted="Yes">
+                <File>PAGS\UPFILE\Default.aspx</File>
+                <File>PAGS\UPFILE\Default.aspx.cs</File>
+                <File>PAGS\UPFILE\Default.aspx.designer.cs</File>
+            </Folder>
+        </Folder>
+        <Folder name="{!*} bandejaMensajes_in" sorted="Yes">
+            <File>PAGS\bandejaMensajes_in.aspx</File>
+            <File>PAGS\bandejaMensajes_in.aspx.cs</File>
+            <File>PAGS\bandejaMensajes_in.aspx.designer.cs</File>
+        </Folder>
+        <Folder name="{!*} busquedav2" sorted="Yes">
+            <File>PAGS\busquedav2.aspx</File>
+            <File>PAGS\busquedav2.aspx.cs</File>
+            <File>PAGS\busquedav2.aspx.designer.cs</File>
+        </Folder>
+        <Folder name="{!*} contactosv2" sorted="Yes">
+            <File>PAGS\contactosv2.aspx</File>
+            <File>PAGS\contactosv2.aspx.cs</File>
+            <File>PAGS\contactosv2.aspx.designer.cs</File>
+        </Folder>
+        <Folder name="{!*} correspondenciav2" sorted="Yes">
+            <File>PAGS\correspondenciav2.aspx</File>
+            <File>PAGS\correspondenciav2.aspx.cs</File>
+            <File>PAGS\correspondenciav2.aspx.designer.cs</File>
+        </Folder>
+        <Folder name="{!*} imprimirv2" sorted="Yes">
+            <File>PAGS\imprimirv2.aspx</File>
+            <File>PAGS\imprimirv2.aspx.cs</File>
+            <File>PAGS\imprimirv2.aspx.designer.cs</File>
+        </Folder>
+        <Folder name="{!*} Site1" sorted="Yes">
+            <File>PAGS\Site1.Master</File>
+            <File>PAGS\Site1.Master.cs</File>
+            <File>PAGS\Site1.Master.designer.cs</File>
+        </Folder>
+    </Folder>
+    <Folder name="Properties" sorted="Yes">
+        <File>Properties\AssemblyInfo.cs</File>
+    </Folder>
+    <Folder name="WS" sorted="Yes">
+        <File>WS\ADJUNTOws.asmx</File>
+        <File>WS\ARCHIVOws.asmx</File>
+        <File>WS\BUSCARws.asmx</File>
+        <File>WS\CATALOGOSws.asmx</File>
+        <File>WS\CONTACTOSws.asmx</File>
+        <File>WS\CORRESPONDENCIAws.asmx</File>
+        <File>WS\ENVIADOws.asmx</File>
+        <File>WS\IMPRIMIRws.asmx</File>
+        <File>WS\MARGINADOws.asmx</File>
+        <File>WS\MENSAJE_EXws.asmx</File>
+        <File>WS\MENSAJE_INws.asmx</File>
+        <File>WS\NOTIFICACIONws.asmx</File>
+        <File>WS\REMITIDOws.asmx</File>
+        <File>WS\USUARIOSws.asmx</File>
+        <Folder name="{!^} ADJUNTOws.asmx" sorted="Yes">
+            <File>WS\ADJUNTOws.asmx.cs</File>
+        </Folder>
+        <Folder name="{!^} ARCHIVOws.asmx" sorted="Yes">
+            <File>WS\ARCHIVOws.asmx.cs</File>
+        </Folder>
+        <Folder name="{!^} BUSCARws.asmx" sorted="Yes">
+            <File>WS\BUSCARws.asmx.cs</File>
+        </Folder>
+        <Folder name="{!^} CATALOGOSws.asmx" sorted="Yes">
+            <File>WS\CATALOGOSws.asmx.cs</File>
+        </Folder>
+        <Folder name="{!^} CONTACTOSws.asmx" sorted="Yes">
+            <File>WS\CONTACTOSws.asmx.cs</File>
+        </Folder>
+        <Folder name="{!^} CORRESPONDENCIAws.asmx" sorted="Yes">
+            <File>WS\CORRESPONDENCIAws.asmx.cs</File>
+        </Folder>
+        <Folder name="{!^} ENVIADOws.asmx" sorted="Yes">
+            <File>WS\ENVIADOws.asmx.cs</File>
+        </Folder>
+        <Folder name="{!^} IMPRIMIRws.asmx" sorted="Yes">
+            <File>WS\IMPRIMIRws.asmx.cs</File>
+        </Folder>
+        <Folder name="{!^} MARGINADOws.asmx" sorted="Yes">
+            <File>WS\MARGINADOws.asmx.cs</File>
+        </Folder>
+        <Folder name="{!^} MENSAJE_EXws.asmx" sorted="Yes">
+            <File>WS\MENSAJE_EXws.asmx.cs</File>
+        </Folder>
+        <Folder name="{!^} MENSAJE_INws.asmx" sorted="Yes">
+            <File>WS\MENSAJE_INws.asmx.cs</File>
+        </Folder>
+        <Folder name="{!^} NOTIFICACIONws.asmx" sorted="Yes">
+            <File>WS\NOTIFICACIONws.asmx.cs</File>
+        </Folder>
+        <Folder name="{!^} REMITIDOws.asmx" sorted="Yes">
+            <File>WS\REMITIDOws.asmx.cs</File>
+        </Folder>
+        <Folder name="{!^} USUARIOSws.asmx" sorted="Yes">
+            <File>WS\USUARIOSws.asmx.cs</File>
+        </Folder>
+    </Folder>
+    <Folder name="{!*} index" sorted="Yes">
+        <File>index.aspx</File>
+        <File>index.aspx.cs</File>
+        <File>index.aspx.designer.cs</File>
+    </Folder>
+    <Folder name="{!*} Web" sorted="Yes">
+        <File>Web.config</File>
+        <File>Web.Debug.config</File>
+        <File>Web.Release.config</File>
+    </Folder>
+</Project>

@@ -1,0 +1,108 @@
+<!-- Project file for the Zeus IDE - http://www.zeusedit.com -->
+<Project name="SICOR.BL" sorted="Yes" autosynch="Yes" type="" filename="SICOR.BL.csproj" st_mtime="1423767027">
+    <SccEnable>On</SccEnable>
+    <SccUserID></SccUserID>
+    <SccComment></SccComment>
+    <SccProject></SccProject>
+    <SccAuxPath></SccAuxPath>
+    <SccLocalPath></SccLocalPath>
+    <TagEnable>On</TagEnable>
+    <TagNone>Off</TagNone>
+    <TagBuildNone>Off</TagBuildNone>
+    <TagBuildOnOpen>On</TagBuildOnOpen>
+    <TagBuildOnSave>On</TagBuildOnSave>
+    <TagNoIntellisense>Off</TagNoIntellisense>
+    <TagWorkspace>On</TagWorkspace>
+    <TagOutputDir>$zudzTags</TagOutputDir>
+    <TagInterval>20</TagInterval>
+    <TagBuildTimed></TagBuildTimed>
+    <Tags />
+    <Server></Server>
+    <UserID></UserID>
+    <Password></Password>
+    <LocalDir></LocalDir>
+    <RemoteDir></RemoteDir>
+    <Classes>Classes</Classes>
+    <Enumerations>Enumerations</Enumerations>
+    <Files>Project Files</Files>
+    <Functions>Functions</Functions>
+    <Imports>Imports</Imports>
+    <Interfaces>Interfaces</Interfaces>
+    <Macros>Macros</Macros>
+    <Packages>Packages</Packages>
+    <Prototypes>Prototypes</Prototypes>
+    <References>References</References>
+    <Structures>Structures</Structures>
+    <Typedefs>Typedefs</Typedefs>
+    <Variables>Variables</Variables>
+    <MakeFile>SICOR.BL.csproj</MakeFile>
+    <SearchPath></SearchPath>
+    <RegexFile></RegexFile>
+    <RegexLine></RegexLine>
+    <RegexInfo></RegexInfo>
+    <RegexError></RegexError>
+    <RegexWarning></RegexWarning>
+    <EnvLib></EnvLib>
+    <EnvPath>$MsBuildPath</EnvPath>
+    <EnvInclude></EnvInclude>
+    <EnvClassPath></EnvClassPath>
+    <DoxygenAsJava>On</DoxygenAsJava>
+    <DebugCaptureStdOut>Off</DebugCaptureStdOut>
+    <DebugCaptureStdErr>Off</DebugCaptureStdErr>
+    <DebugExecutable>$pb.exe</DebugExecutable>
+    <DebugArguments></DebugArguments>
+    <DebugDirectory>$pdd\bin\Debug\</DebugDirectory>
+    <DebugDebugger></DebugDebugger>
+    <ReleaseCaptureStdOut>Off</ReleaseCaptureStdOut>
+    <ReleaseCaptureStdErr>Off</ReleaseCaptureStdErr>
+    <ReleaseExecutable>$pb.exe</ReleaseExecutable>
+    <ReleaseArguments></ReleaseArguments>
+    <ReleaseDirectory>$pdd\bin\Release\</ReleaseDirectory>
+    <ReleaseDebugger></ReleaseDebugger>
+    <DebugMake>MsBuild.exe &quot;$PDD$PF&quot; /t:Build /p:Configuration=Debug /p:OutputPath=./bin/Debug/ /v:m</DebugMake>
+    <DebugClean>MsBuild.exe &quot;$PDD$PF&quot; /t:Clean /p:Configuration=Debug /p:OutputPath=./bin/Debug/ /v:m</DebugClean>
+    <DebugCompile>MsBuild.exe &quot;$PDD$PF&quot; /p:SelectedFiles=&quot;$FR&quot; /t:Compile /p:Configuration=Debug /p:OutputPath=./bin/Debug/ /v:m</DebugCompile>
+    <DebugRebuild>MsBuild.exe &quot;$PDD$PF&quot; /t:Rebuild /p:Configuration=Debug /p:OutputPath=./bin/Debug/ /v:m</DebugRebuild>
+    <DebugProjectOutput>Warnings</DebugProjectOutput>
+    <DebugCompilerOutput>Warnings</DebugCompilerOutput>
+    <DebugCompilerStdOut>On</DebugCompilerStdOut>
+    <DebugCompilerStdErr>On</DebugCompilerStdErr>
+    <DebugCompilerSaveAll>Off</DebugCompilerSaveAll>
+    <DebugCompilerReload>Off</DebugCompilerReload>
+    <DebugProjectStdOut>On</DebugProjectStdOut>
+    <DebugProjectStdErr>On</DebugProjectStdErr>
+    <DebugProjectSaveAll>On</DebugProjectSaveAll>
+    <DebugProjectReload>Off</DebugProjectReload>
+    <ReleaseMake>MsBuild.exe &quot;$PDD$PF&quot; /t:Build /p:Configuration=Release /p:OutputPath=./bin/Release/ /v:m</ReleaseMake>
+    <ReleaseClean>MsBuild.exe &quot;$PDD$PF&quot; /t:Clean /p:Configuration=Release /p:OutputPath=./bin/Release/ /v:m</ReleaseClean>
+    <ReleaseCompile>MsBuild.exe &quot;$PDD$PF&quot; /p:SelectedFiles=&quot;$FR&quot; /t:Compile /p:Configuration=Release /p:OutputPath=./bin/Release/ /v:m</ReleaseCompile>
+    <ReleaseRebuild>MsBuild.exe &quot;$PDD$PF&quot; /t:Rebuild /p:Configuration=Release /p:OutputPath=./bin/Release/ /v:m</ReleaseRebuild>
+    <ReleaseProjectOutput>Warnings</ReleaseProjectOutput>
+    <ReleaseCompilerOutput>Warnings</ReleaseCompilerOutput>
+    <ReleaseCompilerStdOut>On</ReleaseCompilerStdOut>
+    <ReleaseCompilerStdErr>On</ReleaseCompilerStdErr>
+    <ReleaseCompilerSaveAll>Off</ReleaseCompilerSaveAll>
+    <ReleaseCompilerReload>Off</ReleaseCompilerReload>
+    <ReleaseProjectStdOut>On</ReleaseProjectStdOut>
+    <ReleaseProjectStdErr>On</ReleaseProjectStdErr>
+    <ReleaseProjectSaveAll>On</ReleaseProjectSaveAll>
+    <ReleaseProjectReload>Off</ReleaseProjectReload>
+    <File>ADJUNTObl.cs</File>
+    <File>ARCHIVObl.cs</File>
+    <File>BUSCARbl.cs</File>
+    <File>CATALOGOSbl.cs</File>
+    <File>CONTACTOSbl.cs</File>
+    <File>CORRESPONDENCIAbl.cs</File>
+    <File>ENVIADObl.cs</File>
+    <File>Funciones.cs</File>
+    <File>IMPRIMIRbl.cs</File>
+    <File>MARGINADObl.cs</File>
+    <File>MENSAJE_EXbl.cs</File>
+    <File>MENSAJE_INbl.cs</File>
+    <File>NOTIFICACIONbl.cs</File>
+    <File>REMITIDObl.cs</File>
+    <File>USUARIOSbl.cs</File>
+    <Folder name="Properties" sorted="Yes">
+        <File>Properties\AssemblyInfo.cs</File>
+    </Folder>
+</Project>

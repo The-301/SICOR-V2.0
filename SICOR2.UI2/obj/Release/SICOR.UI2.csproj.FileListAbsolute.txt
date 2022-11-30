@@ -1,0 +1,351 @@
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\CLASES\CONTACTOS.js
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\CLASES\x_CORRESLISTA.js
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\CLASES\CORRESDETALLE.js
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\CLASES\CORRESLISTA.js
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\CLASES\MARGINADO.js
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\CLASES\USUARIOS.js
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\CLASES\CORRESPONDENCIA.js
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\CLASES\INIT.js
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\CLASES\REMITIR.js
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\CLASES\WS.js
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\images\chosen-sprite.png
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\LightBox\evolution\images\jquery-lightbox-theme.gif
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\LightBox\evolution\images\jquery-lightbox-theme.png
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\LightBox\evolution\images\loading.gif
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\LightBox\evolution\jquery.lightbox.css
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\LightBox\evolution\jquery.lightbox.ie6.css
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\LightBox\jquery.lightbox.js
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\LightBox\jquery.lightbox.min.js
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Msgbox\images\alert.png
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Msgbox\images\background.png
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Msgbox\images\confirm.png
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Msgbox\images\error.png
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Msgbox\images\info.png
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Msgbox\images\question.png
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Msgbox\jquery.msgbox.css
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Msgbox\jquery.msgbox.js
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Msgbox\jquery.msgbox.min.js
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Notification\images\close.png
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Notification\images\download.png
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Notification\images\error.png
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Notification\images\info.png
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Notification\images\message.png
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Notification\images\print.png
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Notification\images\purchase.png
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Notification\images\secure.png
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Notification\images\success.png
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Notification\images\tip.png
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Notification\images\warning.png
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Notification\script.js
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Notification\style.css
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Select3.2\select2.css
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Select3.2\select2.js
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Select3.2\select2.min.js
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Select3.2\select2.png
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Select3.2\select2x2.png
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Select3.2\spinner.gif
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\SETUP.js
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\SETUPAJAX-SIS.js
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\archivoSV.aspx
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\notasSV.aspx
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\marginadoPosSV.aspx
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\remitirConfirSV.aspx
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\corresSV.aspx
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\marginadoSV.aspx
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\remitirSV.aspx
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\respuestaMargiSV.aspx
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\images\chosen-sprite.png
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\UPFILE\MultipleFileUploadControl\cors\postmessage.html
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\UPFILE\MultipleFileUploadControl\cors\result.html
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\UPFILE\MultipleFileUploadControl\css\jquery.fileupload-ui.css
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\WS\ADJUNTOws.asmx
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\WS\ARCHIVOws.asmx
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\WS\CATALOGOSws.asmx
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\WS\CONTACTOSws.asmx
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\WS\CORRESPONDENCIAws.asmx
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\WS\MARGINADOws.asmx
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\WS\REMITIDOws.asmx
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\WS\USUARIOSws.asmx
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Metro\build\fonts\metro.eot
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Metro\build\fonts\metro.svg
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Metro\build\fonts\metro.ttf
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Metro\build\fonts\metro.woff
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Metro\build\fonts\selection.json
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Metro\fonts\metro.ttf
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\JS\Metro\fonts\metro.woff
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\archivoSV.aspx.cs
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\archivoSV.aspx.designer.cs
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\notasSV.aspx.cs
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\notasSV.aspx.designer.cs
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\marginadoPosSV.aspx.cs
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\marginadoPosSV.aspx.designer.cs
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\remitirConfirSV.aspx.cs
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\remitirConfirSV.aspx.designer.cs
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\corresSV.aspx.cs
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\marginadoSV.aspx.cs
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\marginadoSV.aspx.designer.cs
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\remitirSV.aspx.cs
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\remitirSV.aspx.designer.cs
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\respuestaMargiSV.aspx.cs
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\respuestaMargiSV.aspx.designer.cs
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\WS\ADJUNTOws.asmx.cs
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\WS\ARCHIVOws.asmx.cs
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\WS\CATALOGOSws.asmx.cs
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\WS\CONTACTOSws.asmx.cs
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\WS\CORRESPONDENCIAws.asmx.cs
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\WS\MARGINADOws.asmx.cs
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\WS\REMITIDOws.asmx.cs
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\WS\USUARIOSws.asmx.cs
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\AYUDA\SICOR-ManualDeUsuario.pdf
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\UPFILE\storage2\TESTER.pdf
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\SICOR.UI2.dll.config
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\SICOR.UI2.dll
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\SICOR.UI2.pdb
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\EntityFramework.dll
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\SICOR.BL.dll
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\SICOR.EL.dll
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\SICOR.DL.dll
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\SICOR.BL.pdb
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\SICOR.EL.pdb
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\EntityFramework.xml
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\SICOR.DL.pdb
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\bin\SICOR.DL.dll.config
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\obj\Release\SICOR.UI2.csprojAssemblyReference.cache
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\obj\Release\SICOR.UI2.csproj.CoreCompileInputs.cache
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\obj\Release\SICOR.UI2.csproj.CopyComplete
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\obj\Release\SICOR.UI2.dll
+D:\NUEVO DESARROLLO\SICOR\SICOR.UI2\obj\Release\SICOR.UI2.pdb
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\CLASES\CONTACTOS.js
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\CLASES\x_CORRESLISTA.js
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\CLASES\CORRESDETALLE.js
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\CLASES\CORRESLISTA.js
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\CLASES\MARGINADO.js
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\CLASES\USUARIOS.js
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\CLASES\CORRESPONDENCIA.js
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\CLASES\INIT.js
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\CLASES\REMITIR.js
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\CLASES\WS.js
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\images\chosen-sprite.png
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\LightBox\evolution\images\jquery-lightbox-theme.gif
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\LightBox\evolution\images\jquery-lightbox-theme.png
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\LightBox\evolution\images\loading.gif
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\LightBox\evolution\jquery.lightbox.css
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\LightBox\evolution\jquery.lightbox.ie6.css
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\LightBox\jquery.lightbox.js
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\LightBox\jquery.lightbox.min.js
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Msgbox\images\alert.png
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Msgbox\images\background.png
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Msgbox\images\confirm.png
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Msgbox\images\error.png
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Msgbox\images\info.png
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Msgbox\images\question.png
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Msgbox\jquery.msgbox.css
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Msgbox\jquery.msgbox.js
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Msgbox\jquery.msgbox.min.js
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Notification\images\close.png
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Notification\images\download.png
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Notification\images\error.png
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Notification\images\info.png
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Notification\images\message.png
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Notification\images\print.png
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Notification\images\purchase.png
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Notification\images\secure.png
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Notification\images\success.png
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Notification\images\tip.png
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Notification\images\warning.png
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Notification\script.js
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Notification\style.css
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Select3.2\select2.css
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Select3.2\select2.js
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Select3.2\select2.min.js
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Select3.2\select2.png
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Select3.2\select2x2.png
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Select3.2\spinner.gif
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\SETUP.js
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\SETUPAJAX-SIS.js
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\archivoSV.aspx
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\notasSV.aspx
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\marginadoPosSV.aspx
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\remitirConfirSV.aspx
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\corresSV.aspx
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\marginadoSV.aspx
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\remitirSV.aspx
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\respuestaMargiSV.aspx
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\images\chosen-sprite.png
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\UPFILE\MultipleFileUploadControl\cors\postmessage.html
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\UPFILE\MultipleFileUploadControl\cors\result.html
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\UPFILE\MultipleFileUploadControl\css\jquery.fileupload-ui.css
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\WS\ADJUNTOws.asmx
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\WS\ARCHIVOws.asmx
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\WS\CATALOGOSws.asmx
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\WS\CONTACTOSws.asmx
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\WS\CORRESPONDENCIAws.asmx
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\WS\MARGINADOws.asmx
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\WS\REMITIDOws.asmx
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\WS\USUARIOSws.asmx
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Metro\build\fonts\metro.eot
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Metro\build\fonts\metro.svg
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Metro\build\fonts\metro.ttf
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Metro\build\fonts\metro.woff
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Metro\build\fonts\selection.json
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Metro\fonts\metro.ttf
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\JS\Metro\fonts\metro.woff
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\archivoSV.aspx.cs
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\archivoSV.aspx.designer.cs
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\notasSV.aspx.cs
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\notasSV.aspx.designer.cs
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\marginadoPosSV.aspx.cs
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\marginadoPosSV.aspx.designer.cs
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\remitirConfirSV.aspx.cs
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\remitirConfirSV.aspx.designer.cs
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\corresSV.aspx.cs
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\marginadoSV.aspx.cs
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\marginadoSV.aspx.designer.cs
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\remitirSV.aspx.cs
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\remitirSV.aspx.designer.cs
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\respuestaMargiSV.aspx.cs
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\FRMS\respuestaMargiSV.aspx.designer.cs
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\WS\ADJUNTOws.asmx.cs
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\WS\ARCHIVOws.asmx.cs
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\WS\CATALOGOSws.asmx.cs
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\WS\CONTACTOSws.asmx.cs
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\WS\CORRESPONDENCIAws.asmx.cs
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\WS\MARGINADOws.asmx.cs
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\WS\REMITIDOws.asmx.cs
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\WS\USUARIOSws.asmx.cs
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\AYUDA\SICOR-ManualDeUsuario.pdf
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\PAGS\UPFILE\storage2\TESTER.pdf
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\SICOR.UI2.dll.config
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\SICOR.UI2.dll
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\SICOR.UI2.pdb
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\EntityFramework.dll
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\SICOR.BL.dll
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\SICOR.EL.dll
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\SICOR.DL.dll
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\SICOR.BL.pdb
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\SICOR.EL.pdb
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\EntityFramework.xml
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\SICOR.DL.pdb
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\bin\SICOR.DL.dll.config
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\obj\Release\SICOR.UI2.csproj.AssemblyReference.cache
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\obj\Release\SICOR.UI2.csproj.CoreCompileInputs.cache
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\obj\Release\SICOR.UI2.csproj.CopyComplete
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\obj\Release\SICOR.UI2.dll
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.UI2\obj\Release\SICOR.UI2.pdb
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\CLASES\CONTACTOS.js
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\CLASES\x_CORRESLISTA.js
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\CLASES\CORRESDETALLE.js
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\CLASES\CORRESLISTA.js
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\CLASES\MARGINADO.js
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\CLASES\USUARIOS.js
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\CLASES\CORRESPONDENCIA.js
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\CLASES\INIT.js
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\CLASES\REMITIR.js
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\CLASES\WS.js
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\images\chosen-sprite.png
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\LightBox\evolution\images\jquery-lightbox-theme.gif
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\LightBox\evolution\images\jquery-lightbox-theme.png
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\LightBox\evolution\images\loading.gif
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\LightBox\evolution\jquery.lightbox.css
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\LightBox\evolution\jquery.lightbox.ie6.css
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\LightBox\jquery.lightbox.js
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\LightBox\jquery.lightbox.min.js
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Msgbox\images\alert.png
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Msgbox\images\background.png
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Msgbox\images\confirm.png
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Msgbox\images\error.png
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Msgbox\images\info.png
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Msgbox\images\question.png
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Msgbox\jquery.msgbox.css
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Msgbox\jquery.msgbox.js
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Msgbox\jquery.msgbox.min.js
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Notification\images\close.png
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Notification\images\download.png
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Notification\images\error.png
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Notification\images\info.png
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Notification\images\message.png
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Notification\images\print.png
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Notification\images\purchase.png
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Notification\images\secure.png
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Notification\images\success.png
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Notification\images\tip.png
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Notification\images\warning.png
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Notification\script.js
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Notification\style.css
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Select3.2\select2.css
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Select3.2\select2.js
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Select3.2\select2.min.js
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Select3.2\select2.png
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Select3.2\select2x2.png
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Select3.2\spinner.gif
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\SETUP.js
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\SETUPAJAX-SIS.js
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\PAGS\FRMS\archivoSV.aspx
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\PAGS\FRMS\notasSV.aspx
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\PAGS\FRMS\marginadoPosSV.aspx
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\PAGS\FRMS\remitirConfirSV.aspx
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\PAGS\FRMS\corresSV.aspx
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\PAGS\FRMS\marginadoSV.aspx
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\PAGS\FRMS\remitirSV.aspx
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\PAGS\FRMS\respuestaMargiSV.aspx
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\images\chosen-sprite.png
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\PAGS\UPFILE\MultipleFileUploadControl\cors\postmessage.html
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\PAGS\UPFILE\MultipleFileUploadControl\cors\result.html
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\PAGS\UPFILE\MultipleFileUploadControl\css\jquery.fileupload-ui.css
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\WS\ADJUNTOws.asmx
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\WS\ARCHIVOws.asmx
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\WS\CATALOGOSws.asmx
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\WS\CONTACTOSws.asmx
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\WS\CORRESPONDENCIAws.asmx
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\WS\MARGINADOws.asmx
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\WS\REMITIDOws.asmx
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\WS\USUARIOSws.asmx
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Metro\build\fonts\metro.eot
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Metro\build\fonts\metro.svg
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Metro\build\fonts\metro.ttf
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Metro\build\fonts\metro.woff
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Metro\build\fonts\selection.json
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Metro\fonts\metro.ttf
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\JS\Metro\fonts\metro.woff
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\PAGS\FRMS\archivoSV.aspx.cs
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\PAGS\FRMS\archivoSV.aspx.designer.cs
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\PAGS\FRMS\notasSV.aspx.cs
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\PAGS\FRMS\notasSV.aspx.designer.cs
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\PAGS\FRMS\marginadoPosSV.aspx.cs
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\PAGS\FRMS\marginadoPosSV.aspx.designer.cs
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\PAGS\FRMS\remitirConfirSV.aspx.cs
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\PAGS\FRMS\remitirConfirSV.aspx.designer.cs
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\PAGS\FRMS\corresSV.aspx.cs
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\PAGS\FRMS\marginadoSV.aspx.cs
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\PAGS\FRMS\marginadoSV.aspx.designer.cs
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\PAGS\FRMS\remitirSV.aspx.cs
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\PAGS\FRMS\remitirSV.aspx.designer.cs
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\PAGS\FRMS\respuestaMargiSV.aspx.cs
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\PAGS\FRMS\respuestaMargiSV.aspx.designer.cs
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\WS\ADJUNTOws.asmx.cs
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\WS\ARCHIVOws.asmx.cs
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\WS\CATALOGOSws.asmx.cs
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\WS\CONTACTOSws.asmx.cs
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\WS\CORRESPONDENCIAws.asmx.cs
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\WS\MARGINADOws.asmx.cs
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\WS\REMITIDOws.asmx.cs
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\WS\USUARIOSws.asmx.cs
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\AYUDA\SICOR-ManualDeUsuario.pdf
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\PAGS\UPFILE\storage2\TESTER.pdf
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\SICOR.UI2.dll.config
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\SICOR.UI2.dll
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\SICOR.UI2.pdb
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\EntityFramework.dll
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\SICOR.BL.dll
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\SICOR.EL.dll
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\SICOR.DL.dll
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\SICOR.BL.pdb
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\SICOR.EL.pdb
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\EntityFramework.xml
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\SICOR.DL.pdb
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\bin\SICOR.DL.dll.config
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\obj\Release\SICOR.UI2.csproj.AssemblyReference.cache
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\obj\Release\SICOR.UI2.csproj.CoreCompileInputs.cache
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\obj\Release\SICOR.UI2.csproj.CopyComplete
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\obj\Release\SICOR.UI2.dll
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.UI2\obj\Release\SICOR.UI2.pdb

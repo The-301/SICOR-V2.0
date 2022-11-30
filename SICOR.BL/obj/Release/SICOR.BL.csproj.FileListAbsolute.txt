@@ -1,0 +1,42 @@
+D:\NUEVO DESARROLLO\SICOR\SICOR.BL\bin\Release\SICOR.BL.dll
+D:\NUEVO DESARROLLO\SICOR\SICOR.BL\bin\Release\SICOR.BL.pdb
+D:\NUEVO DESARROLLO\SICOR\SICOR.BL\bin\Release\EntityFramework.dll
+D:\NUEVO DESARROLLO\SICOR\SICOR.BL\bin\Release\SICOR.DL.dll
+D:\NUEVO DESARROLLO\SICOR\SICOR.BL\bin\Release\SICOR.EL.dll
+D:\NUEVO DESARROLLO\SICOR\SICOR.BL\bin\Release\SICOR.DL.pdb
+D:\NUEVO DESARROLLO\SICOR\SICOR.BL\bin\Release\SICOR.DL.dll.config
+D:\NUEVO DESARROLLO\SICOR\SICOR.BL\bin\Release\SICOR.EL.pdb
+D:\NUEVO DESARROLLO\SICOR\SICOR.BL\bin\Release\EntityFramework.xml
+D:\NUEVO DESARROLLO\SICOR\SICOR.BL\obj\Release\SICOR.BL.csprojAssemblyReference.cache
+D:\NUEVO DESARROLLO\SICOR\SICOR.BL\obj\Release\SICOR.BL.csproj.CoreCompileInputs.cache
+D:\NUEVO DESARROLLO\SICOR\SICOR.BL\obj\Release\SICOR.BL.csproj.CopyComplete
+D:\NUEVO DESARROLLO\SICOR\SICOR.BL\obj\Release\SICOR.BL.dll
+D:\NUEVO DESARROLLO\SICOR\SICOR.BL\obj\Release\SICOR.BL.pdb
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.BL\bin\Release\SICOR.BL.dll
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.BL\bin\Release\SICOR.BL.pdb
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.BL\bin\Release\EntityFramework.dll
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.BL\bin\Release\SICOR.DL.dll
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.BL\bin\Release\SICOR.EL.dll
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.BL\bin\Release\SICOR.DL.pdb
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.BL\bin\Release\SICOR.DL.dll.config
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.BL\bin\Release\SICOR.EL.pdb
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.BL\bin\Release\EntityFramework.xml
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.BL\obj\Release\SICOR.BL.csproj.AssemblyReference.cache
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.BL\obj\Release\SICOR.BL.csproj.CoreCompileInputs.cache
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.BL\obj\Release\SICOR.BL.csproj.CopyComplete
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.BL\obj\Release\SICOR.BL.dll
+D:\dat53ncr1pt3d\DESARROLLO\SICOR\SICOR.BL\obj\Release\SICOR.BL.pdb
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.BL\bin\Release\SICOR.BL.dll
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.BL\bin\Release\SICOR.BL.pdb
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.BL\bin\Release\EntityFramework.dll
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.BL\bin\Release\SICOR.DL.dll
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.BL\bin\Release\SICOR.EL.dll
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.BL\bin\Release\SICOR.DL.pdb
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.BL\bin\Release\SICOR.DL.dll.config
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.BL\bin\Release\SICOR.EL.pdb
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.BL\bin\Release\EntityFramework.xml
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.BL\obj\Release\SICOR.BL.csproj.AssemblyReference.cache
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.BL\obj\Release\SICOR.BL.csproj.CoreCompileInputs.cache
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.BL\obj\Release\SICOR.BL.csproj.CopyComplete
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.BL\obj\Release\SICOR.BL.dll
+C:\Users\David y Karlita\Desktop\SICOR\SICOR.BL\obj\Release\SICOR.BL.pdb

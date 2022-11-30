@@ -1,0 +1,1358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SICOR_DBModelStoreContainer" CdmEntityContainer="SICOR_DBEntities">
+    <FunctionImportMapping FunctionImportName="sp_cat_categoriaGT" FunctionName="SICOR_DBModel.Store.sp_cat_categoriaGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_cat_categoriaGT_Result">
+          <ScalarProperty Name="CATEGOID" ColumnName="CATEGOID" />
+          <ScalarProperty Name="CATEGONOMBRE" ColumnName="CATEGONOMBRE" />
+          <ScalarProperty Name="CATEGODSC" ColumnName="CATEGODSC" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_cat_claseGT" FunctionName="SICOR_DBModel.Store.sp_cat_claseGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_cat_claseGT_Result">
+          <ScalarProperty Name="CLASEID" ColumnName="CLASEID" />
+          <ScalarProperty Name="CLASENOMBRE" ColumnName="CLASENOMBRE" />
+          <ScalarProperty Name="CLASEDSC" ColumnName="CLASEDSC" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_cat_estadoGT" FunctionName="SICOR_DBModel.Store.sp_cat_estadoGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_cat_estadoGT_Result">
+          <ScalarProperty Name="ESTADOID" ColumnName="ESTADOID" />
+          <ScalarProperty Name="ESTADONOMBRE" ColumnName="ESTADONOMBRE" />
+          <ScalarProperty Name="ESTADODSC" ColumnName="ESTADODSC" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_cat_tipoGT" FunctionName="SICOR_DBModel.Store.sp_cat_tipoGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_cat_tipoGT_Result">
+          <ScalarProperty Name="TIPOID" ColumnName="TIPOID" />
+          <ScalarProperty Name="TIPONOMBRE" ColumnName="TIPONOMBRE" />
+          <ScalarProperty Name="TIPODSC" ColumnName="TIPODSC" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_remitidoGT" FunctionName="SICOR_DBModel.Store.sp_remitidoGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_remitidoGT_Result">
+          <ScalarProperty Name="REMID" ColumnName="REMID" />
+          <ScalarProperty Name="CLM_USRS_ID" ColumnName="CLM_USRS_ID" />
+          <ScalarProperty Name="USRNOM" ColumnName="USRNOM" />
+          <ScalarProperty Name="USRAPE" ColumnName="USRAPE" />
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="REMCFR_RCBD" ColumnName="REMCFR_RCBD" />
+          <ScalarProperty Name="REMFEC" ColumnName="REMFEC" />
+          <ScalarProperty Name="INSERTUSRID" ColumnName="INSERTUSRID" />
+          <ScalarProperty Name="INSERTUSRNOM" ColumnName="INSERTUSRNOM" />
+          <ScalarProperty Name="INSERTUSRAPE" ColumnName="INSERTUSRAPE" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_remitidoSV" FunctionName="SICOR_DBModel.Store.sp_remitidoSV">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_remitidoSV_Result">
+          <ScalarProperty Name="REMID" ColumnName="REMID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_estadoGT" FunctionName="SICOR_DBModel.Store.sp_estadoGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_estadoGT_Result">
+          <ScalarProperty Name="ESTCORRID" ColumnName="ESTCORRID" />
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="ESTADOID" ColumnName="ESTADOID" />
+          <ScalarProperty Name="ESTADONOMBRE" ColumnName="ESTADONOMBRE" />
+          <ScalarProperty Name="ESTADOACTIVO" ColumnName="ESTADOACTIVO" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_estadoSV" FunctionName="SICOR_DBModel.Store.sp_estadoSV">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_estadoSV_Result">
+          <ScalarProperty Name="ESTCORRID" ColumnName="ESTCORRID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_usuariosGT" FunctionName="SICOR_DBModel.Store.sp_usuariosGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_usuariosGT_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOM" ColumnName="NOM" />
+          <ScalarProperty Name="APE" ColumnName="APE" />
+          <ScalarProperty Name="EMEIL" ColumnName="EMEIL" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_usuariosVerifGT" FunctionName="SICOR_DBModel.Store.sp_usuariosVerifGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_usuariosVerifGT_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="NOM" ColumnName="NOM" />
+          <ScalarProperty Name="APE" ColumnName="APE" />
+          <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+          <ScalarProperty Name="GRUPO" ColumnName="GRUPO" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_margiPendienteUpdate" FunctionName="SICOR_DBModel.Store.sp_margiPendienteUpdate">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_margiPendienteUpdate_Result">
+          <ScalarProperty Name="MARGID" ColumnName="MARGID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_archivoGT" FunctionName="SICOR_DBModel.Store.sp_archivoGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_archivoGT_Result">
+          <ScalarProperty Name="ARCHID" ColumnName="ARCHID" />
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="ARCHIVO" ColumnName="ARCHIVO" />
+          <ScalarProperty Name="ARCHIVONOMBRE" ColumnName="ARCHIVONOMBRE" />
+          <ScalarProperty Name="ARCHVOCOD" ColumnName="ARCHVOCOD" />
+          <ScalarProperty Name="ARCHVODSC" ColumnName="ARCHVODSC" />
+          <ScalarProperty Name="TIPOID" ColumnName="TIPOID" />
+          <ScalarProperty Name="TIPONOMBRE" ColumnName="TIPONOMBRE" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_archivoSV" FunctionName="SICOR_DBModel.Store.sp_archivoSV">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_archivoSV_Result">
+          <ScalarProperty Name="ARCHID" ColumnName="ARCHID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_adjuntoGT" FunctionName="SICOR_DBModel.Store.sp_adjuntoGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_adjuntoGT_Result">
+          <ScalarProperty Name="ADJUNTOID" ColumnName="ADJUNTOID" />
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="ADJUNTO_NAME" ColumnName="ADJUNTO_NAME" />
+          <ScalarProperty Name="ADJUNTO_SIZE" ColumnName="ADJUNTO_SIZE" />
+          <ScalarProperty Name="ADJUNTO_TYPE" ColumnName="ADJUNTO_TYPE" />
+          <ScalarProperty Name="ADJUNTO_URLDOWN" ColumnName="ADJUNTO_URLDOWN" />
+          <ScalarProperty Name="ADJUNTO_URLDEL" ColumnName="ADJUNTO_URLDEL" />
+          <ScalarProperty Name="ADJUNTO_TIPO" ColumnName="ADJUNTO_TIPO" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_adjuntoSV" FunctionName="SICOR_DBModel.Store.sp_adjuntoSV">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_adjuntoSV_Result">
+          <ScalarProperty Name="ADJUNTOID" ColumnName="ADJUNTOID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_mensaje_inGT" FunctionName="SICOR_DBModel.Store.sp_mensaje_inGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_mensaje_inGT_Result">
+          <ScalarProperty Name="MSJINID" ColumnName="MSJINID" />
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="CLM_USRS_ID" ColumnName="CLM_USRS_ID" />
+          <ScalarProperty Name="TIPOID" ColumnName="TIPOID" />
+          <ScalarProperty Name="MSJINMENSAJE" ColumnName="MSJINMENSAJE" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_mensaje_inSV" FunctionName="SICOR_DBModel.Store.sp_mensaje_inSV">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_mensaje_inSV_Result">
+          <ScalarProperty Name="MSJINID" ColumnName="MSJINID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_mensajeEnvi_inGT" FunctionName="SICOR_DBModel.Store.sp_mensajeEnvi_inGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_mensajeEnvi_inGT_Result">
+          <ScalarProperty Name="MSJINID" ColumnName="MSJINID" />
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="CLM_USRS_ID" ColumnName="CLM_USRS_ID" />
+          <ScalarProperty Name="USRRECIBE_NOM" ColumnName="USRRECIBE_NOM" />
+          <ScalarProperty Name="USRRECIBE_APE" ColumnName="USRRECIBE_APE" />
+          <ScalarProperty Name="TIPOID" ColumnName="TIPOID" />
+          <ScalarProperty Name="MSJINMENSAJE" ColumnName="MSJINMENSAJE" />
+          <ScalarProperty Name="USRENVIA_NOM" ColumnName="USRENVIA_NOM" />
+          <ScalarProperty Name="USRENVIA_APE" ColumnName="USRENVIA_APE" />
+          <ScalarProperty Name="INSERTFEC" ColumnName="INSERTFEC" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_mensajeRecib_inGT" FunctionName="SICOR_DBModel.Store.sp_mensajeRecib_inGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_mensajeRecib_inGT_Result">
+          <ScalarProperty Name="MSJINID" ColumnName="MSJINID" />
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="CLM_USRS_ID" ColumnName="CLM_USRS_ID" />
+          <ScalarProperty Name="USRRECIBE_NOM" ColumnName="USRRECIBE_NOM" />
+          <ScalarProperty Name="USRRECIBE_APE" ColumnName="USRRECIBE_APE" />
+          <ScalarProperty Name="TIPOID" ColumnName="TIPOID" />
+          <ScalarProperty Name="MSJINMENSAJE" ColumnName="MSJINMENSAJE" />
+          <ScalarProperty Name="MSJINLEIDO" ColumnName="MSJINLEIDO" />
+          <ScalarProperty Name="USRENVIA_NOM" ColumnName="USRENVIA_NOM" />
+          <ScalarProperty Name="USRENVIA_APE" ColumnName="USRENVIA_APE" />
+          <ScalarProperty Name="INSERTFEC" ColumnName="INSERTFEC" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_mensajeRecibNum_inGT" FunctionName="SICOR_DBModel.Store.sp_mensajeRecibNum_inGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_mensajeRecibNum_inGT_Result">
+          <ScalarProperty Name="MSJNOLEIDO_NUM" ColumnName="MSJNOLEIDO_NUM" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_mensajeUpLeido_inGT" FunctionName="SICOR_DBModel.Store.sp_mensajeUpLeido_inGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_mensajeUpLeido_inGT_Result">
+          <ScalarProperty Name="CLM_USRS_ID" ColumnName="CLM_USRS_ID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_mensajeByIdFech_inGT" FunctionName="SICOR_DBModel.Store.sp_mensajeByIdFech_inGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_mensajeByIdFech_inGT_Result">
+          <ScalarProperty Name="MSJINID" ColumnName="MSJINID" />
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="CLM_USRS_ID" ColumnName="CLM_USRS_ID" />
+          <ScalarProperty Name="USRRECIBE_NOM" ColumnName="USRRECIBE_NOM" />
+          <ScalarProperty Name="USRRECIBE_APE" ColumnName="USRRECIBE_APE" />
+          <ScalarProperty Name="TIPOID" ColumnName="TIPOID" />
+          <ScalarProperty Name="MSJINMENSAJE" ColumnName="MSJINMENSAJE" />
+          <ScalarProperty Name="MSJINLEIDO" ColumnName="MSJINLEIDO" />
+          <ScalarProperty Name="USRENVIA_NOM" ColumnName="USRENVIA_NOM" />
+          <ScalarProperty Name="USRENVIA_APE" ColumnName="USRENVIA_APE" />
+          <ScalarProperty Name="INSERTFEC" ColumnName="INSERTFEC" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_mensaje_exSV" FunctionName="SICOR_DBModel.Store.sp_mensaje_exSV">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_mensaje_exSV_Result">
+          <ScalarProperty Name="MSJEXID" ColumnName="MSJEXID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_remiConfirByUsridGT" FunctionName="SICOR_DBModel.Store.sp_remiConfirByUsridGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_remiConfirByUsridGT_Result">
+          <ScalarProperty Name="REMID" ColumnName="REMID" />
+          <ScalarProperty Name="CLM_USRS_ID" ColumnName="CLM_USRS_ID" />
+          <ScalarProperty Name="USRNOM" ColumnName="USRNOM" />
+          <ScalarProperty Name="USRAPE" ColumnName="USRAPE" />
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="REMFEC" ColumnName="REMFEC" />
+          <ScalarProperty Name="INSERTUSRID" ColumnName="INSERTUSRID" />
+          <ScalarProperty Name="INSERTUSRNOM" ColumnName="INSERTUSRNOM" />
+          <ScalarProperty Name="INSERTUSRAPE" ColumnName="INSERTUSRAPE" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_remiConfirSV" FunctionName="SICOR_DBModel.Store.sp_remiConfirSV">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_remiConfirSV_Result">
+          <ScalarProperty Name="REMID" ColumnName="REMID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_usuariosUpPassSV" FunctionName="SICOR_DBModel.Store.sp_usuariosUpPassSV">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_usuariosUpPassSV_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_contactosByInstGT" FunctionName="SICOR_DBModel.Store.sp_contactosByInstGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_contactosByInstGT_Result">
+          <ScalarProperty Name="CONTID" ColumnName="CONTID" />
+          <ScalarProperty Name="CONTNOMBRE" ColumnName="CONTNOMBRE" />
+          <ScalarProperty Name="CONTCARGO" ColumnName="CONTCARGO" />
+          <ScalarProperty Name="CONTINST" ColumnName="CONTINST" />
+          <ScalarProperty Name="CONTUNIDAD" ColumnName="CONTUNIDAD" />
+          <ScalarProperty Name="CONTDSC" ColumnName="CONTDSC" />
+          <ScalarProperty Name="TIPOID" ColumnName="TIPOID" />
+          <ScalarProperty Name="TIPONOMBRE" ColumnName="TIPONOMBRE" />
+          <ScalarProperty Name="CONTEMAIL" ColumnName="CONTEMAIL" />
+          <ScalarProperty Name="CONTTELS" ColumnName="CONTTELS" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_contactosGT" FunctionName="SICOR_DBModel.Store.sp_contactosGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_contactosGT_Result">
+          <ScalarProperty Name="CONTID" ColumnName="CONTID" />
+          <ScalarProperty Name="CONTNOMBRE" ColumnName="CONTNOMBRE" />
+          <ScalarProperty Name="CONTCARGO" ColumnName="CONTCARGO" />
+          <ScalarProperty Name="CONTINST" ColumnName="CONTINST" />
+          <ScalarProperty Name="CONTUNIDAD" ColumnName="CONTUNIDAD" />
+          <ScalarProperty Name="CONTDSC" ColumnName="CONTDSC" />
+          <ScalarProperty Name="TIPOID" ColumnName="TIPOID" />
+          <ScalarProperty Name="TIPONOMBRE" ColumnName="TIPONOMBRE" />
+          <ScalarProperty Name="CONTEMAIL" ColumnName="CONTEMAIL" />
+          <ScalarProperty Name="CONTTELS" ColumnName="CONTTELS" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_contactosInternosGT" FunctionName="SICOR_DBModel.Store.sp_contactosInternosGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_contactosInternosGT_Result">
+          <ScalarProperty Name="CONTID" ColumnName="CONTID" />
+          <ScalarProperty Name="CONTNOMBRE" ColumnName="CONTNOMBRE" />
+          <ScalarProperty Name="CONTCARGO" ColumnName="CONTCARGO" />
+          <ScalarProperty Name="CONTINST" ColumnName="CONTINST" />
+          <ScalarProperty Name="CONTUNIDAD" ColumnName="CONTUNIDAD" />
+          <ScalarProperty Name="CONTDSC" ColumnName="CONTDSC" />
+          <ScalarProperty Name="TIPOID" ColumnName="TIPOID" />
+          <ScalarProperty Name="TIPONOMBRE" ColumnName="TIPONOMBRE" />
+          <ScalarProperty Name="CONTEMAIL" ColumnName="CONTEMAIL" />
+          <ScalarProperty Name="CONTTELS" ColumnName="CONTTELS" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_contactosSV" FunctionName="SICOR_DBModel.Store.sp_contactosSV">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_contactosSV_Result">
+          <ScalarProperty Name="CONTID" ColumnName="CONTID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_contInstGT" FunctionName="SICOR_DBModel.Store.sp_contInstGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_contInstGT_Result">
+          <ScalarProperty Name="CONTINST" ColumnName="CONTINST" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_contUnidadGT" FunctionName="SICOR_DBModel.Store.sp_contUnidadGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_contUnidadGT_Result">
+          <ScalarProperty Name="CONTUNIDAD" ColumnName="CONTUNIDAD" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_detallefullSV" FunctionName="SICOR_DBModel.Store.sp_detallefullSV">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_detallefullSV_Result">
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_detallefullGT" FunctionName="SICOR_DBModel.Store.sp_detallefullGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_detallefullGT_Result2">
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="CORRESCOD" ColumnName="CORRESCOD" />
+          <ScalarProperty Name="CLASEID" ColumnName="CLASEID" />
+          <ScalarProperty Name="CLASENOMBRE" ColumnName="CLASENOMBRE" />
+          <ScalarProperty Name="TIPOID" ColumnName="TIPOID" />
+          <ScalarProperty Name="TIPONOMBRE" ColumnName="TIPONOMBRE" />
+          <ScalarProperty Name="PRIOID" ColumnName="PRIOID" />
+          <ScalarProperty Name="PRIONOMBRE" ColumnName="PRIONOMBRE" />
+          <ScalarProperty Name="CONTID_REMITE" ColumnName="CONTID_REMITE" />
+          <ScalarProperty Name="CONTNOMBRE_REMITE" ColumnName="CONTNOMBRE_REMITE" />
+          <ScalarProperty Name="CONTINST_REMITE" ColumnName="CONTINST_REMITE" />
+          <ScalarProperty Name="CONTUNIDAD_REMITE" ColumnName="CONTUNIDAD_REMITE" />
+          <ScalarProperty Name="CATEGOID" ColumnName="CATEGOID" />
+          <ScalarProperty Name="CATEGONOMBRE" ColumnName="CATEGONOMBRE" />
+          <ScalarProperty Name="ASUNTO" ColumnName="ASUNTO" />
+          <ScalarProperty Name="NOTAELABFEC" ColumnName="NOTAELABFEC" />
+          <ScalarProperty Name="NOTARECIBFEC" ColumnName="NOTARECIBFEC" />
+          <ScalarProperty Name="NOTARECIBHORA" ColumnName="NOTARECIBHORA" />
+          <ScalarProperty Name="REQFIRMA" ColumnName="REQFIRMA" />
+          <ScalarProperty Name="ADJUNTO" ColumnName="ADJUNTO" />
+          <ScalarProperty Name="CONTID_DIRIGIDO" ColumnName="CONTID_DIRIGIDO" />
+          <ScalarProperty Name="CONTNOMBRE_DIRIGIDO" ColumnName="CONTNOMBRE_DIRIGIDO" />
+          <ScalarProperty Name="CONTINST_DIRIGIDO" ColumnName="CONTINST_DIRIGIDO" />
+          <ScalarProperty Name="CONTUNIDAD_DIRIGIDO" ColumnName="CONTUNIDAD_DIRIGIDO" />
+          <ScalarProperty Name="CONTID_ELABORO" ColumnName="CONTID_ELABORO" />
+          <ScalarProperty Name="CONTNOMBRE_ELABORO" ColumnName="CONTNOMBRE_ELABORO" />
+          <ScalarProperty Name="CONTINST_ELABORO" ColumnName="CONTINST_ELABORO" />
+          <ScalarProperty Name="CONTUNIDAD_ELABORO" ColumnName="CONTUNIDAD_ELABORO" />
+          <ScalarProperty Name="CORRESID_CONTESTA" ColumnName="CORRESID_CONTESTA" />
+          <ScalarProperty Name="MARGINAID" ColumnName="MARGINAID" />
+          <ScalarProperty Name="MARGINAFORMARES" ColumnName="MARGINAFORMARES" />
+          <ScalarProperty Name="ACTIVO" ColumnName="ACTIVO" />
+          <ScalarProperty Name="ELIMINADO" ColumnName="ELIMINADO" />
+          <ScalarProperty Name="INSERTUSRID" ColumnName="INSERTUSRID" />
+          <ScalarProperty Name="CORRESDEB" ColumnName="CORRESDEB" />
+          <ScalarProperty Name="INSERTUSRNOM" ColumnName="INSERTUSRNOM" />
+          <ScalarProperty Name="INSERTUSRAPE" ColumnName="INSERTUSRAPE" />
+          <ScalarProperty Name="ESTADONOMBRE" ColumnName="ESTADONOMBRE" />
+          <ScalarProperty Name="ESTADOID" ColumnName="ESTADOID" />
+          <ScalarProperty Name="NOTAINSERT" ColumnName="NOTAINSERT" />
+          <ScalarProperty Name="RESPONSABLEID" ColumnName="RESPONSABLEID" />
+          <ScalarProperty Name="RESPONSABLE" ColumnName="RESPONSABLE" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_detallefullByIdGT" FunctionName="SICOR_DBModel.Store.sp_detallefullByIdGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_detallefullByIdGT_Result">
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="CORRESCOD" ColumnName="CORRESCOD" />
+          <ScalarProperty Name="CLASEID" ColumnName="CLASEID" />
+          <ScalarProperty Name="CLASENOMBRE" ColumnName="CLASENOMBRE" />
+          <ScalarProperty Name="TIPOID" ColumnName="TIPOID" />
+          <ScalarProperty Name="TIPONOMBRE" ColumnName="TIPONOMBRE" />
+          <ScalarProperty Name="PRIOID" ColumnName="PRIOID" />
+          <ScalarProperty Name="PRIONOMBRE" ColumnName="PRIONOMBRE" />
+          <ScalarProperty Name="CONTID_REMITE" ColumnName="CONTID_REMITE" />
+          <ScalarProperty Name="CONTNOMBRE_REMITE" ColumnName="CONTNOMBRE_REMITE" />
+          <ScalarProperty Name="CONTINST_REMITE" ColumnName="CONTINST_REMITE" />
+          <ScalarProperty Name="CONTUNIDAD_REMITE" ColumnName="CONTUNIDAD_REMITE" />
+          <ScalarProperty Name="CATEGOID" ColumnName="CATEGOID" />
+          <ScalarProperty Name="CATEGONOMBRE" ColumnName="CATEGONOMBRE" />
+          <ScalarProperty Name="ASUNTO" ColumnName="ASUNTO" />
+          <ScalarProperty Name="NOTAELABFEC" ColumnName="NOTAELABFEC" />
+          <ScalarProperty Name="NOTARECIBFEC" ColumnName="NOTARECIBFEC" />
+          <ScalarProperty Name="NOTARECIBHORA" ColumnName="NOTARECIBHORA" />
+          <ScalarProperty Name="REQFIRMA" ColumnName="REQFIRMA" />
+          <ScalarProperty Name="ADJUNTO" ColumnName="ADJUNTO" />
+          <ScalarProperty Name="CONTID_DIRIGIDO" ColumnName="CONTID_DIRIGIDO" />
+          <ScalarProperty Name="CONTNOMBRE_DIRIGIDO" ColumnName="CONTNOMBRE_DIRIGIDO" />
+          <ScalarProperty Name="CONTINST_DIRIGIDO" ColumnName="CONTINST_DIRIGIDO" />
+          <ScalarProperty Name="CONTUNIDAD_DIRIGIDO" ColumnName="CONTUNIDAD_DIRIGIDO" />
+          <ScalarProperty Name="CONTID_ELABORO" ColumnName="CONTID_ELABORO" />
+          <ScalarProperty Name="CONTNOMBRE_ELABORO" ColumnName="CONTNOMBRE_ELABORO" />
+          <ScalarProperty Name="CONTINST_ELABORO" ColumnName="CONTINST_ELABORO" />
+          <ScalarProperty Name="CONTUNIDAD_ELABORO" ColumnName="CONTUNIDAD_ELABORO" />
+          <ScalarProperty Name="CORRESID_CONTESTA" ColumnName="CORRESID_CONTESTA" />
+          <ScalarProperty Name="MARGINAID" ColumnName="MARGINAID" />
+          <ScalarProperty Name="MARGINAFORMARES" ColumnName="MARGINAFORMARES" />
+          <ScalarProperty Name="ACTIVO" ColumnName="ACTIVO" />
+          <ScalarProperty Name="ELIMINADO" ColumnName="ELIMINADO" />
+          <ScalarProperty Name="INSERTUSRID" ColumnName="INSERTUSRID" />
+          <ScalarProperty Name="CORRESDEB" ColumnName="CORRESDEB" />
+          <ScalarProperty Name="INSERTUSRNOM" ColumnName="INSERTUSRNOM" />
+          <ScalarProperty Name="INSERTUSRAPE" ColumnName="INSERTUSRAPE" />
+          <ScalarProperty Name="ESTADONOMBRE" ColumnName="ESTADONOMBRE" />
+          <ScalarProperty Name="ESTADOID" ColumnName="ESTADOID" />
+          <ScalarProperty Name="NOTAINSERT" ColumnName="NOTAINSERT" />
+          <ScalarProperty Name="RESPONSABLEID" ColumnName="RESPONSABLEID" />
+          <ScalarProperty Name="RESPONSABLE" ColumnName="RESPONSABLE" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_detallefullByFechaGT" FunctionName="SICOR_DBModel.Store.sp_detallefullByFechaGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_detallefullByFechaGT_Result">
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="CORRESCOD" ColumnName="CORRESCOD" />
+          <ScalarProperty Name="CLASEID" ColumnName="CLASEID" />
+          <ScalarProperty Name="CLASENOMBRE" ColumnName="CLASENOMBRE" />
+          <ScalarProperty Name="TIPOID" ColumnName="TIPOID" />
+          <ScalarProperty Name="TIPONOMBRE" ColumnName="TIPONOMBRE" />
+          <ScalarProperty Name="PRIOID" ColumnName="PRIOID" />
+          <ScalarProperty Name="PRIONOMBRE" ColumnName="PRIONOMBRE" />
+          <ScalarProperty Name="CONTID_REMITE" ColumnName="CONTID_REMITE" />
+          <ScalarProperty Name="CONTNOMBRE_REMITE" ColumnName="CONTNOMBRE_REMITE" />
+          <ScalarProperty Name="CONTINST_REMITE" ColumnName="CONTINST_REMITE" />
+          <ScalarProperty Name="CONTUNIDAD_REMITE" ColumnName="CONTUNIDAD_REMITE" />
+          <ScalarProperty Name="CATEGOID" ColumnName="CATEGOID" />
+          <ScalarProperty Name="CATEGONOMBRE" ColumnName="CATEGONOMBRE" />
+          <ScalarProperty Name="ASUNTO" ColumnName="ASUNTO" />
+          <ScalarProperty Name="NOTAELABFEC" ColumnName="NOTAELABFEC" />
+          <ScalarProperty Name="NOTARECIBFEC" ColumnName="NOTARECIBFEC" />
+          <ScalarProperty Name="NOTARECIBHORA" ColumnName="NOTARECIBHORA" />
+          <ScalarProperty Name="REQFIRMA" ColumnName="REQFIRMA" />
+          <ScalarProperty Name="ADJUNTO" ColumnName="ADJUNTO" />
+          <ScalarProperty Name="CONTID_DIRIGIDO" ColumnName="CONTID_DIRIGIDO" />
+          <ScalarProperty Name="CONTNOMBRE_DIRIGIDO" ColumnName="CONTNOMBRE_DIRIGIDO" />
+          <ScalarProperty Name="CONTINST_DIRIGIDO" ColumnName="CONTINST_DIRIGIDO" />
+          <ScalarProperty Name="CONTUNIDAD_DIRIGIDO" ColumnName="CONTUNIDAD_DIRIGIDO" />
+          <ScalarProperty Name="CONTID_ELABORO" ColumnName="CONTID_ELABORO" />
+          <ScalarProperty Name="CONTNOMBRE_ELABORO" ColumnName="CONTNOMBRE_ELABORO" />
+          <ScalarProperty Name="CONTINST_ELABORO" ColumnName="CONTINST_ELABORO" />
+          <ScalarProperty Name="CONTUNIDAD_ELABORO" ColumnName="CONTUNIDAD_ELABORO" />
+          <ScalarProperty Name="CORRESID_CONTESTA" ColumnName="CORRESID_CONTESTA" />
+          <ScalarProperty Name="MARGINAID" ColumnName="MARGINAID" />
+          <ScalarProperty Name="MARGINAFORMARES" ColumnName="MARGINAFORMARES" />
+          <ScalarProperty Name="ACTIVO" ColumnName="ACTIVO" />
+          <ScalarProperty Name="ELIMINADO" ColumnName="ELIMINADO" />
+          <ScalarProperty Name="INSERTUSRID" ColumnName="INSERTUSRID" />
+          <ScalarProperty Name="CORRESDEB" ColumnName="CORRESDEB" />
+          <ScalarProperty Name="INSERTUSRNOM" ColumnName="INSERTUSRNOM" />
+          <ScalarProperty Name="INSERTUSRAPE" ColumnName="INSERTUSRAPE" />
+          <ScalarProperty Name="ESTADONOMBRE" ColumnName="ESTADONOMBRE" />
+          <ScalarProperty Name="ESTADOID" ColumnName="ESTADOID" />
+          <ScalarProperty Name="NOTAINSERT" ColumnName="NOTAINSERT" />
+          <ScalarProperty Name="RESPONSABLEID" ColumnName="RESPONSABLEID" />
+          <ScalarProperty Name="RESPONSABLE" ColumnName="RESPONSABLE" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_detallefullByContIdPadreGT" FunctionName="SICOR_DBModel.Store.sp_detallefullByContIdPadreGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_detallefullByContIdPadreGT_Result">
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="CORRESCOD" ColumnName="CORRESCOD" />
+          <ScalarProperty Name="CLASEID" ColumnName="CLASEID" />
+          <ScalarProperty Name="CLASENOMBRE" ColumnName="CLASENOMBRE" />
+          <ScalarProperty Name="TIPOID" ColumnName="TIPOID" />
+          <ScalarProperty Name="TIPONOMBRE" ColumnName="TIPONOMBRE" />
+          <ScalarProperty Name="PRIOID" ColumnName="PRIOID" />
+          <ScalarProperty Name="PRIONOMBRE" ColumnName="PRIONOMBRE" />
+          <ScalarProperty Name="CONTID_REMITE" ColumnName="CONTID_REMITE" />
+          <ScalarProperty Name="CONTNOMBRE_REMITE" ColumnName="CONTNOMBRE_REMITE" />
+          <ScalarProperty Name="CONTINST_REMITE" ColumnName="CONTINST_REMITE" />
+          <ScalarProperty Name="CONTUNIDAD_REMITE" ColumnName="CONTUNIDAD_REMITE" />
+          <ScalarProperty Name="CATEGOID" ColumnName="CATEGOID" />
+          <ScalarProperty Name="CATEGONOMBRE" ColumnName="CATEGONOMBRE" />
+          <ScalarProperty Name="ASUNTO" ColumnName="ASUNTO" />
+          <ScalarProperty Name="NOTAELABFEC" ColumnName="NOTAELABFEC" />
+          <ScalarProperty Name="NOTARECIBFEC" ColumnName="NOTARECIBFEC" />
+          <ScalarProperty Name="NOTARECIBHORA" ColumnName="NOTARECIBHORA" />
+          <ScalarProperty Name="REQFIRMA" ColumnName="REQFIRMA" />
+          <ScalarProperty Name="ADJUNTO" ColumnName="ADJUNTO" />
+          <ScalarProperty Name="CONTID_DIRIGIDO" ColumnName="CONTID_DIRIGIDO" />
+          <ScalarProperty Name="CONTNOMBRE_DIRIGIDO" ColumnName="CONTNOMBRE_DIRIGIDO" />
+          <ScalarProperty Name="CONTINST_DIRIGIDO" ColumnName="CONTINST_DIRIGIDO" />
+          <ScalarProperty Name="CONTUNIDAD_DIRIGIDO" ColumnName="CONTUNIDAD_DIRIGIDO" />
+          <ScalarProperty Name="CONTID_ELABORO" ColumnName="CONTID_ELABORO" />
+          <ScalarProperty Name="CONTNOMBRE_ELABORO" ColumnName="CONTNOMBRE_ELABORO" />
+          <ScalarProperty Name="CONTINST_ELABORO" ColumnName="CONTINST_ELABORO" />
+          <ScalarProperty Name="CONTUNIDAD_ELABORO" ColumnName="CONTUNIDAD_ELABORO" />
+          <ScalarProperty Name="CORRESID_CONTESTA" ColumnName="CORRESID_CONTESTA" />
+          <ScalarProperty Name="MARGINAID" ColumnName="MARGINAID" />
+          <ScalarProperty Name="MARGINAFORMARES" ColumnName="MARGINAFORMARES" />
+          <ScalarProperty Name="ACTIVO" ColumnName="ACTIVO" />
+          <ScalarProperty Name="ELIMINADO" ColumnName="ELIMINADO" />
+          <ScalarProperty Name="INSERTUSRID" ColumnName="INSERTUSRID" />
+          <ScalarProperty Name="CORRESDEB" ColumnName="CORRESDEB" />
+          <ScalarProperty Name="INSERTUSRNOM" ColumnName="INSERTUSRNOM" />
+          <ScalarProperty Name="INSERTUSRAPE" ColumnName="INSERTUSRAPE" />
+          <ScalarProperty Name="ESTADONOMBRE" ColumnName="ESTADONOMBRE" />
+          <ScalarProperty Name="ESTADOID" ColumnName="ESTADOID" />
+          <ScalarProperty Name="NOTAINSERT" ColumnName="NOTAINSERT" />
+          <ScalarProperty Name="RESPONSABLEID" ColumnName="RESPONSABLEID" />
+          <ScalarProperty Name="RESPONSABLE" ColumnName="RESPONSABLE" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_detallefullByContestaIdGT" FunctionName="SICOR_DBModel.Store.sp_detallefullByContestaIdGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_detallefullByContestaIdGT_Result">
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="CORRESCOD" ColumnName="CORRESCOD" />
+          <ScalarProperty Name="CLASEID" ColumnName="CLASEID" />
+          <ScalarProperty Name="CLASENOMBRE" ColumnName="CLASENOMBRE" />
+          <ScalarProperty Name="TIPOID" ColumnName="TIPOID" />
+          <ScalarProperty Name="TIPONOMBRE" ColumnName="TIPONOMBRE" />
+          <ScalarProperty Name="PRIOID" ColumnName="PRIOID" />
+          <ScalarProperty Name="PRIONOMBRE" ColumnName="PRIONOMBRE" />
+          <ScalarProperty Name="CONTID_REMITE" ColumnName="CONTID_REMITE" />
+          <ScalarProperty Name="CONTNOMBRE_REMITE" ColumnName="CONTNOMBRE_REMITE" />
+          <ScalarProperty Name="CONTINST_REMITE" ColumnName="CONTINST_REMITE" />
+          <ScalarProperty Name="CONTUNIDAD_REMITE" ColumnName="CONTUNIDAD_REMITE" />
+          <ScalarProperty Name="CATEGOID" ColumnName="CATEGOID" />
+          <ScalarProperty Name="CATEGONOMBRE" ColumnName="CATEGONOMBRE" />
+          <ScalarProperty Name="ASUNTO" ColumnName="ASUNTO" />
+          <ScalarProperty Name="NOTAELABFEC" ColumnName="NOTAELABFEC" />
+          <ScalarProperty Name="NOTARECIBFEC" ColumnName="NOTARECIBFEC" />
+          <ScalarProperty Name="NOTARECIBHORA" ColumnName="NOTARECIBHORA" />
+          <ScalarProperty Name="REQFIRMA" ColumnName="REQFIRMA" />
+          <ScalarProperty Name="ADJUNTO" ColumnName="ADJUNTO" />
+          <ScalarProperty Name="CONTID_DIRIGIDO" ColumnName="CONTID_DIRIGIDO" />
+          <ScalarProperty Name="CONTNOMBRE_DIRIGIDO" ColumnName="CONTNOMBRE_DIRIGIDO" />
+          <ScalarProperty Name="CONTINST_DIRIGIDO" ColumnName="CONTINST_DIRIGIDO" />
+          <ScalarProperty Name="CONTUNIDAD_DIRIGIDO" ColumnName="CONTUNIDAD_DIRIGIDO" />
+          <ScalarProperty Name="CONTID_ELABORO" ColumnName="CONTID_ELABORO" />
+          <ScalarProperty Name="CONTNOMBRE_ELABORO" ColumnName="CONTNOMBRE_ELABORO" />
+          <ScalarProperty Name="CONTINST_ELABORO" ColumnName="CONTINST_ELABORO" />
+          <ScalarProperty Name="CONTUNIDAD_ELABORO" ColumnName="CONTUNIDAD_ELABORO" />
+          <ScalarProperty Name="CORRESID_CONTESTA" ColumnName="CORRESID_CONTESTA" />
+          <ScalarProperty Name="MARGINAID" ColumnName="MARGINAID" />
+          <ScalarProperty Name="MARGINAFORMARES" ColumnName="MARGINAFORMARES" />
+          <ScalarProperty Name="ACTIVO" ColumnName="ACTIVO" />
+          <ScalarProperty Name="ELIMINADO" ColumnName="ELIMINADO" />
+          <ScalarProperty Name="INSERTUSRID" ColumnName="INSERTUSRID" />
+          <ScalarProperty Name="CORRESDEB" ColumnName="CORRESDEB" />
+          <ScalarProperty Name="INSERTUSRNOM" ColumnName="INSERTUSRNOM" />
+          <ScalarProperty Name="INSERTUSRAPE" ColumnName="INSERTUSRAPE" />
+          <ScalarProperty Name="ESTADONOMBRE" ColumnName="ESTADONOMBRE" />
+          <ScalarProperty Name="ESTADOID" ColumnName="ESTADOID" />
+          <ScalarProperty Name="NOTAINSERT" ColumnName="NOTAINSERT" />
+          <ScalarProperty Name="RESPONSABLEID" ColumnName="RESPONSABLEID" />
+          <ScalarProperty Name="RESPONSABLE" ColumnName="RESPONSABLE" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_detallefullByCodGT" FunctionName="SICOR_DBModel.Store.sp_detallefullByCodGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_detallefullByCodGT_Result">
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="CORRESCOD" ColumnName="CORRESCOD" />
+          <ScalarProperty Name="CLASEID" ColumnName="CLASEID" />
+          <ScalarProperty Name="CLASENOMBRE" ColumnName="CLASENOMBRE" />
+          <ScalarProperty Name="TIPOID" ColumnName="TIPOID" />
+          <ScalarProperty Name="TIPONOMBRE" ColumnName="TIPONOMBRE" />
+          <ScalarProperty Name="PRIOID" ColumnName="PRIOID" />
+          <ScalarProperty Name="PRIONOMBRE" ColumnName="PRIONOMBRE" />
+          <ScalarProperty Name="CONTID_REMITE" ColumnName="CONTID_REMITE" />
+          <ScalarProperty Name="CONTNOMBRE_REMITE" ColumnName="CONTNOMBRE_REMITE" />
+          <ScalarProperty Name="CONTINST_REMITE" ColumnName="CONTINST_REMITE" />
+          <ScalarProperty Name="CONTUNIDAD_REMITE" ColumnName="CONTUNIDAD_REMITE" />
+          <ScalarProperty Name="CATEGOID" ColumnName="CATEGOID" />
+          <ScalarProperty Name="CATEGONOMBRE" ColumnName="CATEGONOMBRE" />
+          <ScalarProperty Name="ASUNTO" ColumnName="ASUNTO" />
+          <ScalarProperty Name="NOTAELABFEC" ColumnName="NOTAELABFEC" />
+          <ScalarProperty Name="NOTARECIBFEC" ColumnName="NOTARECIBFEC" />
+          <ScalarProperty Name="NOTARECIBHORA" ColumnName="NOTARECIBHORA" />
+          <ScalarProperty Name="REQFIRMA" ColumnName="REQFIRMA" />
+          <ScalarProperty Name="ADJUNTO" ColumnName="ADJUNTO" />
+          <ScalarProperty Name="CONTID_DIRIGIDO" ColumnName="CONTID_DIRIGIDO" />
+          <ScalarProperty Name="CONTNOMBRE_DIRIGIDO" ColumnName="CONTNOMBRE_DIRIGIDO" />
+          <ScalarProperty Name="CONTINST_DIRIGIDO" ColumnName="CONTINST_DIRIGIDO" />
+          <ScalarProperty Name="CONTUNIDAD_DIRIGIDO" ColumnName="CONTUNIDAD_DIRIGIDO" />
+          <ScalarProperty Name="CONTID_ELABORO" ColumnName="CONTID_ELABORO" />
+          <ScalarProperty Name="CONTNOMBRE_ELABORO" ColumnName="CONTNOMBRE_ELABORO" />
+          <ScalarProperty Name="CONTINST_ELABORO" ColumnName="CONTINST_ELABORO" />
+          <ScalarProperty Name="CONTUNIDAD_ELABORO" ColumnName="CONTUNIDAD_ELABORO" />
+          <ScalarProperty Name="CORRESID_CONTESTA" ColumnName="CORRESID_CONTESTA" />
+          <ScalarProperty Name="MARGINAID" ColumnName="MARGINAID" />
+          <ScalarProperty Name="MARGINAFORMARES" ColumnName="MARGINAFORMARES" />
+          <ScalarProperty Name="ACTIVO" ColumnName="ACTIVO" />
+          <ScalarProperty Name="ELIMINADO" ColumnName="ELIMINADO" />
+          <ScalarProperty Name="INSERTUSRID" ColumnName="INSERTUSRID" />
+          <ScalarProperty Name="CORRESDEB" ColumnName="CORRESDEB" />
+          <ScalarProperty Name="INSERTUSRNOM" ColumnName="INSERTUSRNOM" />
+          <ScalarProperty Name="INSERTUSRAPE" ColumnName="INSERTUSRAPE" />
+          <ScalarProperty Name="ESTADONOMBRE" ColumnName="ESTADONOMBRE" />
+          <ScalarProperty Name="ESTADOID" ColumnName="ESTADOID" />
+          <ScalarProperty Name="NOTAINSERT" ColumnName="NOTAINSERT" />
+          <ScalarProperty Name="RESPONSABLEID" ColumnName="RESPONSABLEID" />
+          <ScalarProperty Name="RESPONSABLE" ColumnName="RESPONSABLE" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_detallefullByAsuntoGT" FunctionName="SICOR_DBModel.Store.sp_detallefullByAsuntoGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_detallefullByAsuntoGT_Result">
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="CORRESCOD" ColumnName="CORRESCOD" />
+          <ScalarProperty Name="CLASEID" ColumnName="CLASEID" />
+          <ScalarProperty Name="CLASENOMBRE" ColumnName="CLASENOMBRE" />
+          <ScalarProperty Name="TIPOID" ColumnName="TIPOID" />
+          <ScalarProperty Name="TIPONOMBRE" ColumnName="TIPONOMBRE" />
+          <ScalarProperty Name="PRIOID" ColumnName="PRIOID" />
+          <ScalarProperty Name="PRIONOMBRE" ColumnName="PRIONOMBRE" />
+          <ScalarProperty Name="CONTID_REMITE" ColumnName="CONTID_REMITE" />
+          <ScalarProperty Name="CONTNOMBRE_REMITE" ColumnName="CONTNOMBRE_REMITE" />
+          <ScalarProperty Name="CONTINST_REMITE" ColumnName="CONTINST_REMITE" />
+          <ScalarProperty Name="CONTUNIDAD_REMITE" ColumnName="CONTUNIDAD_REMITE" />
+          <ScalarProperty Name="CATEGOID" ColumnName="CATEGOID" />
+          <ScalarProperty Name="CATEGONOMBRE" ColumnName="CATEGONOMBRE" />
+          <ScalarProperty Name="ASUNTO" ColumnName="ASUNTO" />
+          <ScalarProperty Name="NOTAELABFEC" ColumnName="NOTAELABFEC" />
+          <ScalarProperty Name="NOTARECIBFEC" ColumnName="NOTARECIBFEC" />
+          <ScalarProperty Name="NOTARECIBHORA" ColumnName="NOTARECIBHORA" />
+          <ScalarProperty Name="REQFIRMA" ColumnName="REQFIRMA" />
+          <ScalarProperty Name="ADJUNTO" ColumnName="ADJUNTO" />
+          <ScalarProperty Name="CONTID_DIRIGIDO" ColumnName="CONTID_DIRIGIDO" />
+          <ScalarProperty Name="CONTNOMBRE_DIRIGIDO" ColumnName="CONTNOMBRE_DIRIGIDO" />
+          <ScalarProperty Name="CONTINST_DIRIGIDO" ColumnName="CONTINST_DIRIGIDO" />
+          <ScalarProperty Name="CONTUNIDAD_DIRIGIDO" ColumnName="CONTUNIDAD_DIRIGIDO" />
+          <ScalarProperty Name="CONTID_ELABORO" ColumnName="CONTID_ELABORO" />
+          <ScalarProperty Name="CONTNOMBRE_ELABORO" ColumnName="CONTNOMBRE_ELABORO" />
+          <ScalarProperty Name="CONTINST_ELABORO" ColumnName="CONTINST_ELABORO" />
+          <ScalarProperty Name="CONTUNIDAD_ELABORO" ColumnName="CONTUNIDAD_ELABORO" />
+          <ScalarProperty Name="CORRESID_CONTESTA" ColumnName="CORRESID_CONTESTA" />
+          <ScalarProperty Name="MARGINAID" ColumnName="MARGINAID" />
+          <ScalarProperty Name="MARGINAFORMARES" ColumnName="MARGINAFORMARES" />
+          <ScalarProperty Name="ACTIVO" ColumnName="ACTIVO" />
+          <ScalarProperty Name="ELIMINADO" ColumnName="ELIMINADO" />
+          <ScalarProperty Name="INSERTUSRID" ColumnName="INSERTUSRID" />
+          <ScalarProperty Name="CORRESDEB" ColumnName="CORRESDEB" />
+          <ScalarProperty Name="INSERTUSRNOM" ColumnName="INSERTUSRNOM" />
+          <ScalarProperty Name="INSERTUSRAPE" ColumnName="INSERTUSRAPE" />
+          <ScalarProperty Name="ESTADONOMBRE" ColumnName="ESTADONOMBRE" />
+          <ScalarProperty Name="ESTADOID" ColumnName="ESTADOID" />
+          <ScalarProperty Name="NOTAINSERT" ColumnName="NOTAINSERT" />
+          <ScalarProperty Name="RESPONSABLEID" ColumnName="RESPONSABLEID" />
+          <ScalarProperty Name="RESPONSABLE" ColumnName="RESPONSABLE" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_corresFimaSV" FunctionName="SICOR_DBModel.Store.sp_corresFimaSV">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_corresFimaSV_Result">
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_corresElimSV" FunctionName="SICOR_DBModel.Store.sp_corresElimSV">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_corresElimSV_Result">
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_corresDebUpSV" FunctionName="SICOR_DBModel.Store.sp_corresDebUpSV">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_corresDebUpSV_Result">
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_corresDebSV" FunctionName="SICOR_DBModel.Store.sp_corresDebSV">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_corresDebSV_Result">
+          <ScalarProperty Name="CORRESDEBID" ColumnName="CORRESDEBID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_corresDebByCorresIdGT" FunctionName="SICOR_DBModel.Store.sp_corresDebByCorresIdGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_corresDebByCorresIdGT_Result">
+          <ScalarProperty Name="CORRESDEBID" ColumnName="CORRESDEBID" />
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="CORRESDEBDSC" ColumnName="CORRESDEBDSC" />
+          <ScalarProperty Name="CORRESDEB_RECIBFEC" ColumnName="CORRESDEB_RECIBFEC" />
+          <ScalarProperty Name="CORRESDEB_RECIBHORA" ColumnName="CORRESDEB_RECIBHORA" />
+          <ScalarProperty Name="CORRESDEBFEC" ColumnName="CORRESDEBFEC" />
+          <ScalarProperty Name="INSERTUSRID" ColumnName="INSERTUSRID" />
+          <ScalarProperty Name="INSERTUSRNOMFULL" ColumnName="INSERTUSRNOMFULL" />
+          <ScalarProperty Name="UPDATEUSRID" ColumnName="UPDATEUSRID" />
+          <ScalarProperty Name="UPDATEUSRNOMFULL" ColumnName="UPDATEUSRNOMFULL" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_corresActivoSV" FunctionName="SICOR_DBModel.Store.sp_corresActivoSV">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_corresActivoSV_Result">
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_margiContSV" FunctionName="SICOR_DBModel.Store.sp_margiContSV">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_margiContSV_Result">
+          <ScalarProperty Name="MARGICONTID" ColumnName="MARGICONTID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_marginadoDL" FunctionName="SICOR_DBModel.Store.sp_marginadoDL">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_marginadoDL_Result">
+          <ScalarProperty Name="MARGID" ColumnName="MARGID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_marginaRecibeUpdateSV" FunctionName="SICOR_DBModel.Store.sp_marginaRecibeUpdateSV">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_marginaRecibeUpdateSV_Result">
+          <ScalarProperty Name="MARGICONTID" ColumnName="MARGICONTID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_margiContGT" FunctionName="SICOR_DBModel.Store.sp_margiContGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_margiContGT_Result">
+          <ScalarProperty Name="MARGICONTID" ColumnName="MARGICONTID" />
+          <ScalarProperty Name="MARGID" ColumnName="MARGID" />
+          <ScalarProperty Name="TIPOID" ColumnName="TIPOID" />
+          <ScalarProperty Name="TIPONOMBRE" ColumnName="TIPONOMBRE" />
+          <ScalarProperty Name="CONTID" ColumnName="CONTID" />
+          <ScalarProperty Name="CONTNOMBRE" ColumnName="CONTNOMBRE" />
+          <ScalarProperty Name="CONTUNIDAD" ColumnName="CONTUNIDAD" />
+          <ScalarProperty Name="CONTINST" ColumnName="CONTINST" />
+          <ScalarProperty Name="CONTEMAIL" ColumnName="CONTEMAIL" />
+          <ScalarProperty Name="MARGRECIBFEC" ColumnName="MARGRECIBFEC" />
+          <ScalarProperty Name="MARGRECIBHORA" ColumnName="MARGRECIBHORA" />
+          <ScalarProperty Name="MARGRECIBNOMBRE" ColumnName="MARGRECIBNOMBRE" />
+          <ScalarProperty Name="ENVIOFISICO" ColumnName="ENVIOFISICO" />
+          <ScalarProperty Name="ENVIODIGITAL" ColumnName="ENVIODIGITAL" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_correspondenciaSV" FunctionName="SICOR_DBModel.Store.sp_correspondenciaSV">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_correspondenciaSV_Result">
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_margiActiveRepGT" FunctionName="SICOR_DBModel.Store.sp_margiActiveRepGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_margiActiveRepGT_Result">
+          <ScalarProperty Name="MARGID" ColumnName="MARGID" />
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="MARGFEC" ColumnName="MARGFEC" />
+          <ScalarProperty Name="MARGTIEMPO" ColumnName="MARGTIEMPO" />
+          <ScalarProperty Name="TIEMPO" ColumnName="TIEMPO" />
+          <ScalarProperty Name="MARGMOTIVO" ColumnName="MARGMOTIVO" />
+          <ScalarProperty Name="MARGINSTRUC" ColumnName="MARGINSTRUC" />
+          <ScalarProperty Name="MARGINSTRUCDSC" ColumnName="MARGINSTRUCDSC" />
+          <ScalarProperty Name="MARGPENDIENTE" ColumnName="MARGPENDIENTE" />
+          <ScalarProperty Name="INSERTUSRID" ColumnName="INSERTUSRID" />
+          <ScalarProperty Name="INSERTUSRNOM" ColumnName="INSERTUSRNOM" />
+          <ScalarProperty Name="INSERTUSRAPE" ColumnName="INSERTUSRAPE" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_marginadoByIdGT" FunctionName="SICOR_DBModel.Store.sp_marginadoByIdGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_marginadoByIdGT_Result">
+          <ScalarProperty Name="MARGID" ColumnName="MARGID" />
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="MARGFEC" ColumnName="MARGFEC" />
+          <ScalarProperty Name="MARGTIEMPO" ColumnName="MARGTIEMPO" />
+          <ScalarProperty Name="TIEMPO" ColumnName="TIEMPO" />
+          <ScalarProperty Name="MARGMOTIVO" ColumnName="MARGMOTIVO" />
+          <ScalarProperty Name="MARGINSTRUC" ColumnName="MARGINSTRUC" />
+          <ScalarProperty Name="MARGINSTRUCDSC" ColumnName="MARGINSTRUCDSC" />
+          <ScalarProperty Name="MARGPENDIENTE" ColumnName="MARGPENDIENTE" />
+          <ScalarProperty Name="INSERTUSRID" ColumnName="INSERTUSRID" />
+          <ScalarProperty Name="INSERTUSRNOM" ColumnName="INSERTUSRNOM" />
+          <ScalarProperty Name="INSERTUSRAPE" ColumnName="INSERTUSRAPE" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_marginadoGT" FunctionName="SICOR_DBModel.Store.sp_marginadoGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_marginadoGT_Result">
+          <ScalarProperty Name="MARGID" ColumnName="MARGID" />
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="MARGFEC" ColumnName="MARGFEC" />
+          <ScalarProperty Name="MARGTIEMPO" ColumnName="MARGTIEMPO" />
+          <ScalarProperty Name="TIEMPO" ColumnName="TIEMPO" />
+          <ScalarProperty Name="MARGMOTIVO" ColumnName="MARGMOTIVO" />
+          <ScalarProperty Name="MARGINSTRUC" ColumnName="MARGINSTRUC" />
+          <ScalarProperty Name="MARGINSTRUCDSC" ColumnName="MARGINSTRUCDSC" />
+          <ScalarProperty Name="MARGPENDIENTE" ColumnName="MARGPENDIENTE" />
+          <ScalarProperty Name="INSERTUSRID" ColumnName="INSERTUSRID" />
+          <ScalarProperty Name="INSERTUSRNOM" ColumnName="INSERTUSRNOM" />
+          <ScalarProperty Name="INSERTUSRAPE" ColumnName="INSERTUSRAPE" />
+          <ScalarProperty Name="MARGINADOPOR" ColumnName="MARGINADOPOR" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_marginadoPendientesByFechaGT" FunctionName="SICOR_DBModel.Store.sp_marginadoPendientesByFechaGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_marginadoPendientesByFechaGT_Result">
+          <ScalarProperty Name="MARGID" ColumnName="MARGID" />
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="MARGFEC" ColumnName="MARGFEC" />
+          <ScalarProperty Name="MARGTIEMPO" ColumnName="MARGTIEMPO" />
+          <ScalarProperty Name="TIEMPO" ColumnName="TIEMPO" />
+          <ScalarProperty Name="MARGMOTIVO" ColumnName="MARGMOTIVO" />
+          <ScalarProperty Name="MARGINSTRUC" ColumnName="MARGINSTRUC" />
+          <ScalarProperty Name="MARGINSTRUCDSC" ColumnName="MARGINSTRUCDSC" />
+          <ScalarProperty Name="MARGPENDIENTE" ColumnName="MARGPENDIENTE" />
+          <ScalarProperty Name="INSERTUSRID" ColumnName="INSERTUSRID" />
+          <ScalarProperty Name="INSERTUSRNOM" ColumnName="INSERTUSRNOM" />
+          <ScalarProperty Name="INSERTUSRAPE" ColumnName="INSERTUSRAPE" />
+          <ScalarProperty Name="CONTNOMBRE" ColumnName="CONTNOMBRE" />
+          <ScalarProperty Name="CONTUNIDAD" ColumnName="CONTUNIDAD" />
+          <ScalarProperty Name="CONTCARGO" ColumnName="CONTCARGO" />
+          <ScalarProperty Name="CONTINST" ColumnName="CONTINST" />
+          <ScalarProperty Name="CONTTIPOROLID" ColumnName="CONTTIPOROLID" />
+          <ScalarProperty Name="CONTROL" ColumnName="CONTROL" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_marginadoSV" FunctionName="SICOR_DBModel.Store.sp_marginadoSV">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_marginadoSV_Result">
+          <ScalarProperty Name="MARGID" ColumnName="MARGID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_margiRepGT" FunctionName="SICOR_DBModel.Store.sp_margiRepGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_margiRepGT_Result">
+          <ScalarProperty Name="MARGID" ColumnName="MARGID" />
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="MARGFEC" ColumnName="MARGFEC" />
+          <ScalarProperty Name="MARGTIEMPO" ColumnName="MARGTIEMPO" />
+          <ScalarProperty Name="TIEMPO" ColumnName="TIEMPO" />
+          <ScalarProperty Name="MARGMOTIVO" ColumnName="MARGMOTIVO" />
+          <ScalarProperty Name="MARGINSTRUC" ColumnName="MARGINSTRUC" />
+          <ScalarProperty Name="MARGINSTRUCDSC" ColumnName="MARGINSTRUCDSC" />
+          <ScalarProperty Name="MARGPENDIENTE" ColumnName="MARGPENDIENTE" />
+          <ScalarProperty Name="INSERTUSRID" ColumnName="INSERTUSRID" />
+          <ScalarProperty Name="INSERTUSRNOM" ColumnName="INSERTUSRNOM" />
+          <ScalarProperty Name="INSERTUSRAPE" ColumnName="INSERTUSRAPE" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_marginadoMarcaDL" FunctionName="SICOR_DBModel.Store.sp_marginadoMarcaDL">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_marginadoMarcaDL_Result">
+          <ScalarProperty Name="MARGID" ColumnName="MARGID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_enviadoGT" FunctionName="SICOR_DBModel.Store.sp_enviadoGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_enviadoGT_Result">
+          <ScalarProperty Name="ENVIAID" ColumnName="ENVIAID" />
+          <ScalarProperty Name="CONTID" ColumnName="CONTID" />
+          <ScalarProperty Name="CONTNOMBRE" ColumnName="CONTNOMBRE" />
+          <ScalarProperty Name="CONTINST" ColumnName="CONTINST" />
+          <ScalarProperty Name="CONTUNIDAD" ColumnName="CONTUNIDAD" />
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="ENVIOFEC" ColumnName="ENVIOFEC" />
+          <ScalarProperty Name="ENVIORECIBFEC" ColumnName="ENVIORECIBFEC" />
+          <ScalarProperty Name="ENVIORECIBHORA" ColumnName="ENVIORECIBHORA" />
+          <ScalarProperty Name="ENVIORECIBNOMBRE" ColumnName="ENVIORECIBNOMBRE" />
+          <ScalarProperty Name="ENVIOINSTRUC" ColumnName="ENVIOINSTRUC" />
+          <ScalarProperty Name="ENVIOINSTRUCDSC" ColumnName="ENVIOINSTRUCDSC" />
+          <ScalarProperty Name="ENVIODIGITAL" ColumnName="ENVIODIGITAL" />
+          <ScalarProperty Name="ENVIOFISICO" ColumnName="ENVIOFISICO" />
+          <ScalarProperty Name="INSERTUSRNOM" ColumnName="INSERTUSRNOM" />
+          <ScalarProperty Name="INSERTUSRAPE" ColumnName="INSERTUSRAPE" />
+          <ScalarProperty Name="INSERTUSRID" ColumnName="INSERTUSRID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_enviadoSinResByFechaGT" FunctionName="SICOR_DBModel.Store.sp_enviadoSinResByFechaGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_enviadoSinResByFechaGT_Result">
+          <ScalarProperty Name="ENVIAID" ColumnName="ENVIAID" />
+          <ScalarProperty Name="CONTID" ColumnName="CONTID" />
+          <ScalarProperty Name="CONTNOMBRE" ColumnName="CONTNOMBRE" />
+          <ScalarProperty Name="CONTINST" ColumnName="CONTINST" />
+          <ScalarProperty Name="CONTUNIDAD" ColumnName="CONTUNIDAD" />
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="ENVIOFEC" ColumnName="ENVIOFEC" />
+          <ScalarProperty Name="ENVIORECIBFEC" ColumnName="ENVIORECIBFEC" />
+          <ScalarProperty Name="ENVIORECIBHORA" ColumnName="ENVIORECIBHORA" />
+          <ScalarProperty Name="ENVIOINSTRUC" ColumnName="ENVIOINSTRUC" />
+          <ScalarProperty Name="ENVIOINSTRUCDSC" ColumnName="ENVIOINSTRUCDSC" />
+          <ScalarProperty Name="ENVIODIGITAL" ColumnName="ENVIODIGITAL" />
+          <ScalarProperty Name="ENVIOFISICO" ColumnName="ENVIOFISICO" />
+          <ScalarProperty Name="INSERTUSRNOM" ColumnName="INSERTUSRNOM" />
+          <ScalarProperty Name="INSERTUSRAPE" ColumnName="INSERTUSRAPE" />
+          <ScalarProperty Name="INSERTUSRID" ColumnName="INSERTUSRID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_enviadoSV" FunctionName="SICOR_DBModel.Store.sp_enviadoSV">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_enviadoSV_Result">
+          <ScalarProperty Name="ENVIAID" ColumnName="ENVIAID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_contactosUpMailSV" FunctionName="SICOR_DBModel.Store.sp_contactosUpMailSV">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_contactosUpMailSV_Result">
+          <ScalarProperty Name="CONTID" ColumnName="CONTID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_enviadoRecibeUpdateSV" FunctionName="SICOR_DBModel.Store.sp_enviadoRecibeUpdateSV">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_enviadoRecibeUpdateSV_Result">
+          <ScalarProperty Name="ENVIAID" ColumnName="ENVIAID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_enviadoMDL" FunctionName="SICOR_DBModel.Store.sp_enviadoMDL">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_enviadoMDL_Result">
+          <ScalarProperty Name="ENVIAID" ColumnName="ENVIAID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_contByNomGT" FunctionName="SICOR_DBModel.Store.sp_contByNomGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_contByNomGT_Result">
+          <ScalarProperty Name="CONTID" ColumnName="CONTID" />
+          <ScalarProperty Name="CONTNOMBRE" ColumnName="CONTNOMBRE" />
+          <ScalarProperty Name="CONTCARGO" ColumnName="CONTCARGO" />
+          <ScalarProperty Name="CONTINST" ColumnName="CONTINST" />
+          <ScalarProperty Name="CONTUNIDAD" ColumnName="CONTUNIDAD" />
+          <ScalarProperty Name="CONTDSC" ColumnName="CONTDSC" />
+          <ScalarProperty Name="TIPOID" ColumnName="TIPOID" />
+          <ScalarProperty Name="TIPONOMBRE" ColumnName="TIPONOMBRE" />
+          <ScalarProperty Name="CONTEMAIL" ColumnName="CONTEMAIL" />
+          <ScalarProperty Name="CONTTELS" ColumnName="CONTTELS" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_margiResByContestaIdGT" FunctionName="SICOR_DBModel.Store.sp_margiResByContestaIdGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_margiResByContestaIdGT_Result">
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="CORRESCOD" ColumnName="CORRESCOD" />
+          <ScalarProperty Name="CLASEID" ColumnName="CLASEID" />
+          <ScalarProperty Name="CLASENOMBRE" ColumnName="CLASENOMBRE" />
+          <ScalarProperty Name="TIPOID" ColumnName="TIPOID" />
+          <ScalarProperty Name="TIPONOMBRE" ColumnName="TIPONOMBRE" />
+          <ScalarProperty Name="PRIOID" ColumnName="PRIOID" />
+          <ScalarProperty Name="PRIONOMBRE" ColumnName="PRIONOMBRE" />
+          <ScalarProperty Name="CONTID_REMITE" ColumnName="CONTID_REMITE" />
+          <ScalarProperty Name="CONTNOMBRE_REMITE" ColumnName="CONTNOMBRE_REMITE" />
+          <ScalarProperty Name="CONTINST_REMITE" ColumnName="CONTINST_REMITE" />
+          <ScalarProperty Name="CONTUNIDAD_REMITE" ColumnName="CONTUNIDAD_REMITE" />
+          <ScalarProperty Name="CATEGOID" ColumnName="CATEGOID" />
+          <ScalarProperty Name="CATEGONOMBRE" ColumnName="CATEGONOMBRE" />
+          <ScalarProperty Name="ASUNTO" ColumnName="ASUNTO" />
+          <ScalarProperty Name="NOTAELABFEC" ColumnName="NOTAELABFEC" />
+          <ScalarProperty Name="NOTARECIBFEC" ColumnName="NOTARECIBFEC" />
+          <ScalarProperty Name="NOTARECIBHORA" ColumnName="NOTARECIBHORA" />
+          <ScalarProperty Name="REQFIRMA" ColumnName="REQFIRMA" />
+          <ScalarProperty Name="ADJUNTO" ColumnName="ADJUNTO" />
+          <ScalarProperty Name="CONTID_DIRIGIDO" ColumnName="CONTID_DIRIGIDO" />
+          <ScalarProperty Name="CONTNOMBRE_DIRIGIDO" ColumnName="CONTNOMBRE_DIRIGIDO" />
+          <ScalarProperty Name="CONTINST_DIRIGIDO" ColumnName="CONTINST_DIRIGIDO" />
+          <ScalarProperty Name="CONTUNIDAD_DIRIGIDO" ColumnName="CONTUNIDAD_DIRIGIDO" />
+          <ScalarProperty Name="CONTID_ELABORO" ColumnName="CONTID_ELABORO" />
+          <ScalarProperty Name="CONTNOMBRE_ELABORO" ColumnName="CONTNOMBRE_ELABORO" />
+          <ScalarProperty Name="CONTINST_ELABORO" ColumnName="CONTINST_ELABORO" />
+          <ScalarProperty Name="CONTUNIDAD_ELABORO" ColumnName="CONTUNIDAD_ELABORO" />
+          <ScalarProperty Name="CORRESID_CONTESTA" ColumnName="CORRESID_CONTESTA" />
+          <ScalarProperty Name="MARGINAID" ColumnName="MARGINAID" />
+          <ScalarProperty Name="MARGINAFORMARES" ColumnName="MARGINAFORMARES" />
+          <ScalarProperty Name="ACTIVO" ColumnName="ACTIVO" />
+          <ScalarProperty Name="ELIMINADO" ColumnName="ELIMINADO" />
+          <ScalarProperty Name="INSERTUSRID" ColumnName="INSERTUSRID" />
+          <ScalarProperty Name="CORRESDEB" ColumnName="CORRESDEB" />
+          <ScalarProperty Name="INSERTUSRNOM" ColumnName="INSERTUSRNOM" />
+          <ScalarProperty Name="INSERTUSRAPE" ColumnName="INSERTUSRAPE" />
+          <ScalarProperty Name="ESTADONOMBRE" ColumnName="ESTADONOMBRE" />
+          <ScalarProperty Name="ESTADOID" ColumnName="ESTADOID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_detallefullByContTIPOGT" FunctionName="SICOR_DBModel.Store.sp_detallefullByContTIPOGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_detallefullByContTIPOGT_Result">
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="CORRESCOD" ColumnName="CORRESCOD" />
+          <ScalarProperty Name="CLASEID" ColumnName="CLASEID" />
+          <ScalarProperty Name="CLASENOMBRE" ColumnName="CLASENOMBRE" />
+          <ScalarProperty Name="TIPOID" ColumnName="TIPOID" />
+          <ScalarProperty Name="TIPONOMBRE" ColumnName="TIPONOMBRE" />
+          <ScalarProperty Name="PRIOID" ColumnName="PRIOID" />
+          <ScalarProperty Name="PRIONOMBRE" ColumnName="PRIONOMBRE" />
+          <ScalarProperty Name="CONTID_REMITE" ColumnName="CONTID_REMITE" />
+          <ScalarProperty Name="CONTNOMBRE_REMITE" ColumnName="CONTNOMBRE_REMITE" />
+          <ScalarProperty Name="CONTINST_REMITE" ColumnName="CONTINST_REMITE" />
+          <ScalarProperty Name="CONTUNIDAD_REMITE" ColumnName="CONTUNIDAD_REMITE" />
+          <ScalarProperty Name="CATEGOID" ColumnName="CATEGOID" />
+          <ScalarProperty Name="CATEGONOMBRE" ColumnName="CATEGONOMBRE" />
+          <ScalarProperty Name="ASUNTO" ColumnName="ASUNTO" />
+          <ScalarProperty Name="NOTAELABFEC" ColumnName="NOTAELABFEC" />
+          <ScalarProperty Name="NOTARECIBFEC" ColumnName="NOTARECIBFEC" />
+          <ScalarProperty Name="NOTARECIBHORA" ColumnName="NOTARECIBHORA" />
+          <ScalarProperty Name="REQFIRMA" ColumnName="REQFIRMA" />
+          <ScalarProperty Name="ADJUNTO" ColumnName="ADJUNTO" />
+          <ScalarProperty Name="CONTID_DIRIGIDO" ColumnName="CONTID_DIRIGIDO" />
+          <ScalarProperty Name="CONTNOMBRE_DIRIGIDO" ColumnName="CONTNOMBRE_DIRIGIDO" />
+          <ScalarProperty Name="CONTINST_DIRIGIDO" ColumnName="CONTINST_DIRIGIDO" />
+          <ScalarProperty Name="CONTUNIDAD_DIRIGIDO" ColumnName="CONTUNIDAD_DIRIGIDO" />
+          <ScalarProperty Name="CONTID_ELABORO" ColumnName="CONTID_ELABORO" />
+          <ScalarProperty Name="CONTNOMBRE_ELABORO" ColumnName="CONTNOMBRE_ELABORO" />
+          <ScalarProperty Name="CONTINST_ELABORO" ColumnName="CONTINST_ELABORO" />
+          <ScalarProperty Name="CONTUNIDAD_ELABORO" ColumnName="CONTUNIDAD_ELABORO" />
+          <ScalarProperty Name="CORRESID_CONTESTA" ColumnName="CORRESID_CONTESTA" />
+          <ScalarProperty Name="MARGINAID" ColumnName="MARGINAID" />
+          <ScalarProperty Name="MARGINAFORMARES" ColumnName="MARGINAFORMARES" />
+          <ScalarProperty Name="ACTIVO" ColumnName="ACTIVO" />
+          <ScalarProperty Name="ELIMINADO" ColumnName="ELIMINADO" />
+          <ScalarProperty Name="INSERTUSRID" ColumnName="INSERTUSRID" />
+          <ScalarProperty Name="CORRESDEB" ColumnName="CORRESDEB" />
+          <ScalarProperty Name="INSERTUSRNOM" ColumnName="INSERTUSRNOM" />
+          <ScalarProperty Name="INSERTUSRAPE" ColumnName="INSERTUSRAPE" />
+          <ScalarProperty Name="ESTADONOMBRE" ColumnName="ESTADONOMBRE" />
+          <ScalarProperty Name="ESTADOID" ColumnName="ESTADOID" />
+          <ScalarProperty Name="NOTAINSERT" ColumnName="NOTAINSERT" />
+          <ScalarProperty Name="RESPONSABLEID" ColumnName="RESPONSABLEID" />
+          <ScalarProperty Name="RESPONSABLE" ColumnName="RESPONSABLE" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_corresFull2GT" FunctionName="SICOR_DBModel.Store.sp_corresFull2GT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_corresFull2GT_Result">
+          <ScalarProperty Name="TIPO" ColumnName="TIPO" />
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="DETALLE" ColumnName="DETALLE" />
+          <ScalarProperty Name="FECHA" ColumnName="FECHA" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_notificacionGT" FunctionName="SICOR_DBModel.Store.sp_notificacionGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_notificacionGT_Result1">
+          <ScalarProperty Name="MENSAJEID" ColumnName="MENSAJEID" />
+          <ScalarProperty Name="MENSAJE" ColumnName="MENSAJE" />
+          <ScalarProperty Name="UPDATEFECHA" ColumnName="UPDATEFECHA" />
+          <ScalarProperty Name="USUARIOID" ColumnName="USUARIOID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_notificacionUP" FunctionName="SICOR_DBModel.Store.sp_notificacionUP" />
+    <FunctionImportMapping FunctionImportName="sp_adjuntoDL" FunctionName="SICOR_DBModel.Store.sp_adjuntoDL">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_adjuntoDL_Result2">
+          <ScalarProperty Name="res" ColumnName="res" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_archivosGT" FunctionName="SICOR_DBModel.Store.sp_archivosGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_archivosGT_Result">
+          <ScalarProperty Name="ADJUNTOID" ColumnName="ADJUNTOID" />
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="ADJUNTO_NAME" ColumnName="ADJUNTO_NAME" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_contactoDL" FunctionName="SICOR_DBModel.Store.sp_contactoDL">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_contactoDL_Result">
+          <ScalarProperty Name="msg" ColumnName="msg" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_detallefullByFechaContIDGT" FunctionName="SICOR_DBModel.Store.sp_detallefullByFechaContIDGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_detallefullByFechaContIDGT_Result">
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="CORRESCOD" ColumnName="CORRESCOD" />
+          <ScalarProperty Name="CLASEID" ColumnName="CLASEID" />
+          <ScalarProperty Name="CLASENOMBRE" ColumnName="CLASENOMBRE" />
+          <ScalarProperty Name="TIPOID" ColumnName="TIPOID" />
+          <ScalarProperty Name="TIPONOMBRE" ColumnName="TIPONOMBRE" />
+          <ScalarProperty Name="PRIOID" ColumnName="PRIOID" />
+          <ScalarProperty Name="PRIONOMBRE" ColumnName="PRIONOMBRE" />
+          <ScalarProperty Name="CONTID_REMITE" ColumnName="CONTID_REMITE" />
+          <ScalarProperty Name="CONTNOMBRE_REMITE" ColumnName="CONTNOMBRE_REMITE" />
+          <ScalarProperty Name="CONTINST_REMITE" ColumnName="CONTINST_REMITE" />
+          <ScalarProperty Name="CONTUNIDAD_REMITE" ColumnName="CONTUNIDAD_REMITE" />
+          <ScalarProperty Name="CATEGOID" ColumnName="CATEGOID" />
+          <ScalarProperty Name="CATEGONOMBRE" ColumnName="CATEGONOMBRE" />
+          <ScalarProperty Name="ASUNTO" ColumnName="ASUNTO" />
+          <ScalarProperty Name="NOTAELABFEC" ColumnName="NOTAELABFEC" />
+          <ScalarProperty Name="NOTARECIBFEC" ColumnName="NOTARECIBFEC" />
+          <ScalarProperty Name="NOTARECIBHORA" ColumnName="NOTARECIBHORA" />
+          <ScalarProperty Name="REQFIRMA" ColumnName="REQFIRMA" />
+          <ScalarProperty Name="ADJUNTO" ColumnName="ADJUNTO" />
+          <ScalarProperty Name="CONTID_DIRIGIDO" ColumnName="CONTID_DIRIGIDO" />
+          <ScalarProperty Name="CONTNOMBRE_DIRIGIDO" ColumnName="CONTNOMBRE_DIRIGIDO" />
+          <ScalarProperty Name="CONTINST_DIRIGIDO" ColumnName="CONTINST_DIRIGIDO" />
+          <ScalarProperty Name="CONTUNIDAD_DIRIGIDO" ColumnName="CONTUNIDAD_DIRIGIDO" />
+          <ScalarProperty Name="CONTID_ELABORO" ColumnName="CONTID_ELABORO" />
+          <ScalarProperty Name="CONTNOMBRE_ELABORO" ColumnName="CONTNOMBRE_ELABORO" />
+          <ScalarProperty Name="CONTINST_ELABORO" ColumnName="CONTINST_ELABORO" />
+          <ScalarProperty Name="CONTUNIDAD_ELABORO" ColumnName="CONTUNIDAD_ELABORO" />
+          <ScalarProperty Name="CORRESID_CONTESTA" ColumnName="CORRESID_CONTESTA" />
+          <ScalarProperty Name="MARGINAID" ColumnName="MARGINAID" />
+          <ScalarProperty Name="MARGINAFORMARES" ColumnName="MARGINAFORMARES" />
+          <ScalarProperty Name="ACTIVO" ColumnName="ACTIVO" />
+          <ScalarProperty Name="ELIMINADO" ColumnName="ELIMINADO" />
+          <ScalarProperty Name="INSERTUSRID" ColumnName="INSERTUSRID" />
+          <ScalarProperty Name="CORRESDEB" ColumnName="CORRESDEB" />
+          <ScalarProperty Name="INSERTUSRNOM" ColumnName="INSERTUSRNOM" />
+          <ScalarProperty Name="INSERTUSRAPE" ColumnName="INSERTUSRAPE" />
+          <ScalarProperty Name="ESTADONOMBRE" ColumnName="ESTADONOMBRE" />
+          <ScalarProperty Name="ESTADOID" ColumnName="ESTADOID" />
+          <ScalarProperty Name="NOTAINSERT" ColumnName="NOTAINSERT" />
+          <ScalarProperty Name="RESPONSABLEID" ColumnName="RESPONSABLEID" />
+          <ScalarProperty Name="RESPONSABLE" ColumnName="RESPONSABLE" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_enviadoSinResByFechaGTV2" FunctionName="SICOR_DBModel.Store.sp_enviadoSinResByFechaGTV2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_enviadoSinResByFechaGTV2_Result">
+          <ScalarProperty Name="ENVIAID" ColumnName="ENVIAID" />
+          <ScalarProperty Name="CONTID" ColumnName="CONTID" />
+          <ScalarProperty Name="CONTNOMBRE" ColumnName="CONTNOMBRE" />
+          <ScalarProperty Name="CONTINST" ColumnName="CONTINST" />
+          <ScalarProperty Name="CONTUNIDAD" ColumnName="CONTUNIDAD" />
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="ENVIOFEC" ColumnName="ENVIOFEC" />
+          <ScalarProperty Name="ENVIORECIBFEC" ColumnName="ENVIORECIBFEC" />
+          <ScalarProperty Name="ENVIORECIBHORA" ColumnName="ENVIORECIBHORA" />
+          <ScalarProperty Name="ENVIOINSTRUC" ColumnName="ENVIOINSTRUC" />
+          <ScalarProperty Name="ENVIOINSTRUCDSC" ColumnName="ENVIOINSTRUCDSC" />
+          <ScalarProperty Name="ENVIODIGITAL" ColumnName="ENVIODIGITAL" />
+          <ScalarProperty Name="ENVIOFISICO" ColumnName="ENVIOFISICO" />
+          <ScalarProperty Name="INSERTUSRNOM" ColumnName="INSERTUSRNOM" />
+          <ScalarProperty Name="INSERTUSRAPE" ColumnName="INSERTUSRAPE" />
+          <ScalarProperty Name="INSERTUSRID" ColumnName="INSERTUSRID" />
+          <ScalarProperty Name="TIPO" ColumnName="TIPO" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_marginadoPendientesByFechaGTV2" FunctionName="SICOR_DBModel.Store.sp_marginadoPendientesByFechaGTV2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_marginadoPendientesByFechaGTV2_Result">
+          <ScalarProperty Name="MARGID" ColumnName="MARGID" />
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="MARGFEC" ColumnName="MARGFEC" />
+          <ScalarProperty Name="MARGTIEMPO" ColumnName="MARGTIEMPO" />
+          <ScalarProperty Name="TIEMPO" ColumnName="TIEMPO" />
+          <ScalarProperty Name="MARGMOTIVO" ColumnName="MARGMOTIVO" />
+          <ScalarProperty Name="MARGINSTRUC" ColumnName="MARGINSTRUC" />
+          <ScalarProperty Name="MARGINSTRUCDSC" ColumnName="MARGINSTRUCDSC" />
+          <ScalarProperty Name="MARGPENDIENTE" ColumnName="MARGPENDIENTE" />
+          <ScalarProperty Name="INSERTUSRID" ColumnName="INSERTUSRID" />
+          <ScalarProperty Name="INSERTUSRNOM" ColumnName="INSERTUSRNOM" />
+          <ScalarProperty Name="INSERTUSRAPE" ColumnName="INSERTUSRAPE" />
+          <ScalarProperty Name="CONTNOMBRE" ColumnName="CONTNOMBRE" />
+          <ScalarProperty Name="CONTUNIDAD" ColumnName="CONTUNIDAD" />
+          <ScalarProperty Name="CONTCARGO" ColumnName="CONTCARGO" />
+          <ScalarProperty Name="CONTINST" ColumnName="CONTINST" />
+          <ScalarProperty Name="CONTTIPOROLID" ColumnName="CONTTIPOROLID" />
+          <ScalarProperty Name="CONTROL" ColumnName="CONTROL" />
+          <ScalarProperty Name="TIPO" ColumnName="TIPO" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_detallefullByFechaGTV2" FunctionName="SICOR_DBModel.Store.sp_detallefullByFechaGTV2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_detallefullByFechaGTV2_Result">
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="CORRESCOD" ColumnName="CORRESCOD" />
+          <ScalarProperty Name="CLASEID" ColumnName="CLASEID" />
+          <ScalarProperty Name="CLASENOMBRE" ColumnName="CLASENOMBRE" />
+          <ScalarProperty Name="TIPOID" ColumnName="TIPOID" />
+          <ScalarProperty Name="TIPONOMBRE" ColumnName="TIPONOMBRE" />
+          <ScalarProperty Name="PRIOID" ColumnName="PRIOID" />
+          <ScalarProperty Name="PRIONOMBRE" ColumnName="PRIONOMBRE" />
+          <ScalarProperty Name="CONTID_REMITE" ColumnName="CONTID_REMITE" />
+          <ScalarProperty Name="CONTNOMBRE_REMITE" ColumnName="CONTNOMBRE_REMITE" />
+          <ScalarProperty Name="CONTINST_REMITE" ColumnName="CONTINST_REMITE" />
+          <ScalarProperty Name="CONTUNIDAD_REMITE" ColumnName="CONTUNIDAD_REMITE" />
+          <ScalarProperty Name="CATEGOID" ColumnName="CATEGOID" />
+          <ScalarProperty Name="CATEGONOMBRE" ColumnName="CATEGONOMBRE" />
+          <ScalarProperty Name="ASUNTO" ColumnName="ASUNTO" />
+          <ScalarProperty Name="NOTAELABFEC" ColumnName="NOTAELABFEC" />
+          <ScalarProperty Name="NOTARECIBFEC" ColumnName="NOTARECIBFEC" />
+          <ScalarProperty Name="NOTARECIBHORA" ColumnName="NOTARECIBHORA" />
+          <ScalarProperty Name="REQFIRMA" ColumnName="REQFIRMA" />
+          <ScalarProperty Name="ADJUNTO" ColumnName="ADJUNTO" />
+          <ScalarProperty Name="CONTID_DIRIGIDO" ColumnName="CONTID_DIRIGIDO" />
+          <ScalarProperty Name="CONTNOMBRE_DIRIGIDO" ColumnName="CONTNOMBRE_DIRIGIDO" />
+          <ScalarProperty Name="CONTINST_DIRIGIDO" ColumnName="CONTINST_DIRIGIDO" />
+          <ScalarProperty Name="CONTUNIDAD_DIRIGIDO" ColumnName="CONTUNIDAD_DIRIGIDO" />
+          <ScalarProperty Name="CONTID_ELABORO" ColumnName="CONTID_ELABORO" />
+          <ScalarProperty Name="CONTNOMBRE_ELABORO" ColumnName="CONTNOMBRE_ELABORO" />
+          <ScalarProperty Name="CONTINST_ELABORO" ColumnName="CONTINST_ELABORO" />
+          <ScalarProperty Name="CONTUNIDAD_ELABORO" ColumnName="CONTUNIDAD_ELABORO" />
+          <ScalarProperty Name="CORRESID_CONTESTA" ColumnName="CORRESID_CONTESTA" />
+          <ScalarProperty Name="MARGINAID" ColumnName="MARGINAID" />
+          <ScalarProperty Name="MARGINAFORMARES" ColumnName="MARGINAFORMARES" />
+          <ScalarProperty Name="ACTIVO" ColumnName="ACTIVO" />
+          <ScalarProperty Name="ELIMINADO" ColumnName="ELIMINADO" />
+          <ScalarProperty Name="INSERTUSRID" ColumnName="INSERTUSRID" />
+          <ScalarProperty Name="CORRESDEB" ColumnName="CORRESDEB" />
+          <ScalarProperty Name="INSERTUSRNOM" ColumnName="INSERTUSRNOM" />
+          <ScalarProperty Name="INSERTUSRAPE" ColumnName="INSERTUSRAPE" />
+          <ScalarProperty Name="ESTADONOMBRE" ColumnName="ESTADONOMBRE" />
+          <ScalarProperty Name="ESTADOID" ColumnName="ESTADOID" />
+          <ScalarProperty Name="NOTAINSERT" ColumnName="NOTAINSERT" />
+          <ScalarProperty Name="RESPONSABLEID" ColumnName="RESPONSABLEID" />
+          <ScalarProperty Name="RESPONSABLE" ColumnName="RESPONSABLE" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_detallefullByFechaContIDGTV2" FunctionName="SICOR_DBModel.Store.sp_detallefullByFechaContIDGTV2">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_detallefullByFechaContIDGTV2_Result">
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="CORRESCOD" ColumnName="CORRESCOD" />
+          <ScalarProperty Name="CLASEID" ColumnName="CLASEID" />
+          <ScalarProperty Name="CLASENOMBRE" ColumnName="CLASENOMBRE" />
+          <ScalarProperty Name="TIPOID" ColumnName="TIPOID" />
+          <ScalarProperty Name="TIPONOMBRE" ColumnName="TIPONOMBRE" />
+          <ScalarProperty Name="PRIOID" ColumnName="PRIOID" />
+          <ScalarProperty Name="PRIONOMBRE" ColumnName="PRIONOMBRE" />
+          <ScalarProperty Name="CONTID_REMITE" ColumnName="CONTID_REMITE" />
+          <ScalarProperty Name="CONTNOMBRE_REMITE" ColumnName="CONTNOMBRE_REMITE" />
+          <ScalarProperty Name="CONTINST_REMITE" ColumnName="CONTINST_REMITE" />
+          <ScalarProperty Name="CONTUNIDAD_REMITE" ColumnName="CONTUNIDAD_REMITE" />
+          <ScalarProperty Name="CATEGOID" ColumnName="CATEGOID" />
+          <ScalarProperty Name="CATEGONOMBRE" ColumnName="CATEGONOMBRE" />
+          <ScalarProperty Name="ASUNTO" ColumnName="ASUNTO" />
+          <ScalarProperty Name="NOTAELABFEC" ColumnName="NOTAELABFEC" />
+          <ScalarProperty Name="NOTARECIBFEC" ColumnName="NOTARECIBFEC" />
+          <ScalarProperty Name="NOTARECIBHORA" ColumnName="NOTARECIBHORA" />
+          <ScalarProperty Name="REQFIRMA" ColumnName="REQFIRMA" />
+          <ScalarProperty Name="ADJUNTO" ColumnName="ADJUNTO" />
+          <ScalarProperty Name="CONTID_DIRIGIDO" ColumnName="CONTID_DIRIGIDO" />
+          <ScalarProperty Name="CONTNOMBRE_DIRIGIDO" ColumnName="CONTNOMBRE_DIRIGIDO" />
+          <ScalarProperty Name="CONTINST_DIRIGIDO" ColumnName="CONTINST_DIRIGIDO" />
+          <ScalarProperty Name="CONTUNIDAD_DIRIGIDO" ColumnName="CONTUNIDAD_DIRIGIDO" />
+          <ScalarProperty Name="CONTID_ELABORO" ColumnName="CONTID_ELABORO" />
+          <ScalarProperty Name="CONTNOMBRE_ELABORO" ColumnName="CONTNOMBRE_ELABORO" />
+          <ScalarProperty Name="CONTINST_ELABORO" ColumnName="CONTINST_ELABORO" />
+          <ScalarProperty Name="CONTUNIDAD_ELABORO" ColumnName="CONTUNIDAD_ELABORO" />
+          <ScalarProperty Name="CORRESID_CONTESTA" ColumnName="CORRESID_CONTESTA" />
+          <ScalarProperty Name="MARGINAID" ColumnName="MARGINAID" />
+          <ScalarProperty Name="MARGINAFORMARES" ColumnName="MARGINAFORMARES" />
+          <ScalarProperty Name="ACTIVO" ColumnName="ACTIVO" />
+          <ScalarProperty Name="ELIMINADO" ColumnName="ELIMINADO" />
+          <ScalarProperty Name="INSERTUSRID" ColumnName="INSERTUSRID" />
+          <ScalarProperty Name="CORRESDEB" ColumnName="CORRESDEB" />
+          <ScalarProperty Name="INSERTUSRNOM" ColumnName="INSERTUSRNOM" />
+          <ScalarProperty Name="INSERTUSRAPE" ColumnName="INSERTUSRAPE" />
+          <ScalarProperty Name="ESTADONOMBRE" ColumnName="ESTADONOMBRE" />
+          <ScalarProperty Name="ESTADOID" ColumnName="ESTADOID" />
+          <ScalarProperty Name="NOTAINSERT" ColumnName="NOTAINSERT" />
+          <ScalarProperty Name="RESPONSABLEID" ColumnName="RESPONSABLEID" />
+          <ScalarProperty Name="RESPONSABLE" ColumnName="RESPONSABLE" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="sp_detallefullByIdsGT" FunctionName="SICOR_DBModel.Store.sp_detallefullByIdsGT">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SICOR_DBModel.sp_detallefullByIdsGT_Result">
+          <ScalarProperty Name="CORRESID" ColumnName="CORRESID" />
+          <ScalarProperty Name="CORRESCOD" ColumnName="CORRESCOD" />
+          <ScalarProperty Name="CLASEID" ColumnName="CLASEID" />
+          <ScalarProperty Name="CLASENOMBRE" ColumnName="CLASENOMBRE" />
+          <ScalarProperty Name="TIPOID" ColumnName="TIPOID" />
+          <ScalarProperty Name="TIPONOMBRE" ColumnName="TIPONOMBRE" />
+          <ScalarProperty Name="PRIOID" ColumnName="PRIOID" />
+          <ScalarProperty Name="PRIONOMBRE" ColumnName="PRIONOMBRE" />
+          <ScalarProperty Name="CONTID_REMITE" ColumnName="CONTID_REMITE" />
+          <ScalarProperty Name="CONTNOMBRE_REMITE" ColumnName="CONTNOMBRE_REMITE" />
+          <ScalarProperty Name="CONTINST_REMITE" ColumnName="CONTINST_REMITE" />
+          <ScalarProperty Name="CONTUNIDAD_REMITE" ColumnName="CONTUNIDAD_REMITE" />
+          <ScalarProperty Name="CATEGOID" ColumnName="CATEGOID" />
+          <ScalarProperty Name="CATEGONOMBRE" ColumnName="CATEGONOMBRE" />
+          <ScalarProperty Name="ASUNTO" ColumnName="ASUNTO" />
+          <ScalarProperty Name="NOTAELABFEC" ColumnName="NOTAELABFEC" />
+          <ScalarProperty Name="NOTARECIBFEC" ColumnName="NOTARECIBFEC" />
+          <ScalarProperty Name="NOTARECIBHORA" ColumnName="NOTARECIBHORA" />
+          <ScalarProperty Name="REQFIRMA" ColumnName="REQFIRMA" />
+          <ScalarProperty Name="ADJUNTO" ColumnName="ADJUNTO" />
+          <ScalarProperty Name="CONTID_DIRIGIDO" ColumnName="CONTID_DIRIGIDO" />
+          <ScalarProperty Name="CONTNOMBRE_DIRIGIDO" ColumnName="CONTNOMBRE_DIRIGIDO" />
+          <ScalarProperty Name="CONTINST_DIRIGIDO" ColumnName="CONTINST_DIRIGIDO" />
+          <ScalarProperty Name="CONTUNIDAD_DIRIGIDO" ColumnName="CONTUNIDAD_DIRIGIDO" />
+          <ScalarProperty Name="CONTID_ELABORO" ColumnName="CONTID_ELABORO" />
+          <ScalarProperty Name="CONTNOMBRE_ELABORO" ColumnName="CONTNOMBRE_ELABORO" />
+          <ScalarProperty Name="CONTINST_ELABORO" ColumnName="CONTINST_ELABORO" />
+          <ScalarProperty Name="CONTUNIDAD_ELABORO" ColumnName="CONTUNIDAD_ELABORO" />
+          <ScalarProperty Name="CORRESID_CONTESTA" ColumnName="CORRESID_CONTESTA" />
+          <ScalarProperty Name="MARGINAID" ColumnName="MARGINAID" />
+          <ScalarProperty Name="MARGINAFORMARES" ColumnName="MARGINAFORMARES" />
+          <ScalarProperty Name="ACTIVO" ColumnName="ACTIVO" />
+          <ScalarProperty Name="ELIMINADO" ColumnName="ELIMINADO" />
+          <ScalarProperty Name="INSERTUSRID" ColumnName="INSERTUSRID" />
+          <ScalarProperty Name="CORRESDEB" ColumnName="CORRESDEB" />
+          <ScalarProperty Name="INSERTUSRNOM" ColumnName="INSERTUSRNOM" />
+          <ScalarProperty Name="INSERTUSRAPE" ColumnName="INSERTUSRAPE" />
+          <ScalarProperty Name="ESTADONOMBRE" ColumnName="ESTADONOMBRE" />
+          <ScalarProperty Name="ESTADOID" ColumnName="ESTADOID" />
+          <ScalarProperty Name="NOTAINSERT" ColumnName="NOTAINSERT" />
+          <ScalarProperty Name="RESPONSABLEID" ColumnName="RESPONSABLEID" />
+          <ScalarProperty Name="RESPONSABLE" ColumnName="RESPONSABLE" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>
